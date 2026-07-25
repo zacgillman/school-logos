@@ -1,6 +1,5 @@
 [
   {
-    "chapter": "Alabama Alpha",
     "official_name": "Auburn University - Auburn",
     "alias": "Auburn",
     "name": "Auburn University",
@@ -12,10 +11,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Alabama Alpha"
   },
   {
-    "chapter": "Alabama Beta",
     "official_name": "The University Of Alabama - Tuscaloosa",
     "alias": "Alabama",
     "name": "University of Alabama",
@@ -27,10 +27,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Alabama Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Alabama Beta - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Alabama Beta"
   },
   {
-    "chapter": "Alabama Delta",
     "official_name": "The University Of Alabama - Birmingham",
     "alias": "Alabama-Birmingham",
     "name": "University of Alabama at Birmingham",
@@ -42,10 +43,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Alabama Delta"
   },
   {
-    "chapter": "Alabama Epsilon",
     "official_name": "Auburn University - Montgomery",
     "alias": "Auburn-Montgomery",
     "name": "Auburn University at Montgomery",
@@ -57,10 +59,11 @@
     "country": "",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Alabama Epsilon"
   },
   {
-    "chapter": "Alabama Eta",
     "official_name": "University Of South Alabama",
     "alias": "South Alabama",
     "name": "University of South Alabama",
@@ -72,10 +75,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Alabama Eta"
   },
   {
-    "chapter": "Alabama Gamma",
     "official_name": "Samford University",
     "alias": "Samford",
     "name": "Samford University",
@@ -87,10 +91,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "id": "Alabama Gamma"
   },
   {
-    "chapter": "Alabama Theta",
     "official_name": "Jacksonville State University",
     "alias": "Jacksonville State",
     "name": "Jacksonville State University",
@@ -102,10 +107,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Conference USA",
+    "id": "Alabama Theta"
   },
   {
-    "chapter": "Alabama Zeta",
     "official_name": "Huntingdon College",
     "alias": "Huntingdon",
     "name": "Huntingdon College",
@@ -117,10 +123,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Alabama Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Alabama Zeta - School Logo Transparent BG.png",
+    "conference": "USA South Athletic Conference \u2014 NCAA D3",
+    "id": "Alabama Zeta"
   },
   {
-    "chapter": "Alaska Alpha",
     "official_name": "University of Alaska - Fairbanks",
     "alias": "Alaska-Fairbanks",
     "name": "University of Alaska Fairbanks",
@@ -132,10 +139,11 @@
     "country": "",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Alaska Alpha"
   },
   {
-    "chapter": "Alaska Beta",
     "official_name": "University Of Alaska - Anchorage",
     "alias": "Alaska-Anchorage",
     "name": "University of Alaska Anchorage",
@@ -147,10 +155,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Alaska Beta"
   },
   {
-    "chapter": "Arizona Alpha",
     "official_name": "Arizona State University - Tempe",
     "alias": "Arizona State",
     "name": "Arizona State University",
@@ -162,10 +171,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big 12 Conference",
+    "id": "Arizona Alpha"
   },
   {
-    "chapter": "Arizona Beta",
     "official_name": "The University Of Arizona",
     "alias": "Arizona",
     "name": "University of Arizona",
@@ -177,10 +187,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Arizona Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Arizona Beta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Arizona Beta"
   },
   {
-    "chapter": "Arizona Gamma",
     "official_name": "Northern Arizona University",
     "alias": "Northern Arizona",
     "name": "Northern Arizona University",
@@ -192,10 +203,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Arizona Gamma"
   },
   {
-    "chapter": "Arkansas Alpha",
     "official_name": "University Of Arkansas - Fayetteville",
     "alias": "Arkansas",
     "name": "University of Arkansas",
@@ -207,10 +219,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Arkansas Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Arkansas Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Arkansas Alpha"
   },
   {
-    "chapter": "Arkansas Beta",
     "official_name": "Henderson State University",
     "alias": "Henderson State",
     "name": "Henderson State University",
@@ -222,10 +235,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Great American Conference (GAC) \u2014 NCAA D2",
+    "id": "Arkansas Beta"
   },
   {
-    "chapter": "Arkansas Delta",
     "official_name": "University Of Arkansas - Little Rock",
     "alias": "Arkansas-Little Rock",
     "name": "University of Arkansas - Little Rock",
@@ -237,10 +251,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Arkansas Delta"
   },
   {
-    "chapter": "Arkansas Epsilon",
     "official_name": "Arkansas Tech University",
     "alias": "Arkansas Tech",
     "name": "Arkansas Tech University",
@@ -252,10 +267,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Arkansas Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Arkansas Epsilon - School Logo Transparent BG.png",
+    "conference": "Great American Conference (GAC) \u2014 NCAA D2",
+    "id": "Arkansas Epsilon"
   },
   {
-    "chapter": "Arkansas Gamma",
     "official_name": "Arkansas State University",
     "alias": "Arkansas State",
     "name": "Arkansas State University",
@@ -267,10 +283,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Arkansas Gamma"
   },
   {
-    "chapter": "Arkansas Zeta",
     "official_name": "University Of Central Arkansas",
     "alias": "Central Arkansas",
     "name": "University of Central Arkansas",
@@ -282,10 +299,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Arkansas Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Arkansas Zeta - School Logo Transparent BG.png",
+    "conference": "United Athletic Conference (UAC) \u2014 FCS",
+    "id": "Arkansas Zeta"
   },
   {
-    "chapter": "California Alpha",
     "official_name": "University Of California - Berkeley",
     "alias": "California-Berkeley",
     "name": "University of California, Berkeley",
@@ -297,10 +315,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "California Alpha"
   },
   {
-    "chapter": "California Beta",
     "official_name": "University Of Southern California",
     "alias": "Southern California",
     "name": "University of Southern California",
@@ -312,10 +331,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "California Beta"
   },
   {
-    "chapter": "California Beta Alpha",
     "official_name": "University Of California - Irvine",
     "alias": "California-Irvine",
     "name": "University of California, Irvine",
@@ -327,10 +347,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Beta Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Beta Alpha - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Beta Alpha"
   },
   {
-    "chapter": "California Beta Beta",
     "official_name": "University Of San Diego",
     "alias": "San Diego",
     "name": "University of San Diego",
@@ -342,10 +363,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Beta Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Beta Beta - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "California Beta Beta"
   },
   {
-    "chapter": "California Beta Gamma",
     "official_name": "University Of California - Riverside",
     "alias": "California-Riverside",
     "name": "University of California, Riverside",
@@ -357,10 +379,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Beta Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Beta Gamma - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Beta Gamma"
   },
   {
-    "chapter": "California Chi",
     "official_name": "Loyola Marymount University",
     "alias": "Loyola Marymount",
     "name": "Loyola Marymount University",
@@ -372,10 +395,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Chi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Chi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Chi"
   },
   {
-    "chapter": "California Delta",
     "official_name": "San Diego State University",
     "alias": "San Diego State",
     "name": "San Diego State University",
@@ -387,10 +411,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Delta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Delta"
   },
   {
-    "chapter": "California Epsilon",
     "official_name": "San Jose State University",
     "alias": "San Jose State",
     "name": "San Jose State University",
@@ -402,10 +427,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mountain West Conference",
+    "id": "California Epsilon"
   },
   {
-    "chapter": "California Eta",
     "official_name": "University Of California - Davis",
     "alias": "California-Davis",
     "name": "University of California, Davis",
@@ -417,10 +443,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Eta - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "California Eta"
   },
   {
-    "chapter": "California Gamma",
     "official_name": "University Of California - Santa Barbara",
     "alias": "California-Santa Barbara",
     "name": "University of California, Santa Barbara",
@@ -432,10 +459,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Gamma - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Gamma"
   },
   {
-    "chapter": "California Iota",
     "official_name": "California State University - Chico",
     "alias": "Cal State-Chico",
     "name": "California State University, Chico",
@@ -447,10 +475,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Iota"
   },
   {
-    "chapter": "California Kappa",
     "official_name": "Northrop University",
     "alias": "Northrop",
     "federal_id": "",
@@ -461,10 +490,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Kappa"
   },
   {
-    "chapter": "California Lambda",
     "official_name": "Santa Clara University",
     "alias": "Santa Clara",
     "name": "Santa Clara University",
@@ -476,10 +506,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Lambda"
   },
   {
-    "chapter": "California Mu",
     "official_name": "California Polytechnic State University - Pomona",
     "alias": "Cal Poly-Pomona",
     "name": "California State Polytechnic University, Pomona",
@@ -491,10 +522,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Mu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Mu - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Mu"
   },
   {
-    "chapter": "California Nu",
     "official_name": "Chapman University",
     "alias": "Chapman",
     "name": "Chapman University",
@@ -506,10 +538,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "SCIAC \u2014 NCAA D3",
+    "id": "California Nu"
   },
   {
-    "chapter": "California Omega",
     "official_name": "California State University - Fullerton",
     "alias": "Cal State-Fullerton",
     "name": "California State University, Fullerton",
@@ -521,10 +554,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Omega"
   },
   {
-    "chapter": "California Omicron",
     "official_name": "University Of California - Los Angeles",
     "alias": "UCLA",
     "name": "University of California, Los Angeles",
@@ -536,10 +570,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Omicron - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Omicron - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "California Omicron"
   },
   {
-    "chapter": "California Phi",
     "official_name": "California State University - Fresno",
     "alias": "Fresno State",
     "name": "California State University, Fresno",
@@ -551,10 +586,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Phi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Phi - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "California Phi"
   },
   {
-    "chapter": "California Pi",
     "official_name": "Stanford University",
     "alias": "Stanford",
     "name": "Stanford University",
@@ -566,10 +602,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Pi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Pi - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "California Pi"
   },
   {
-    "chapter": "California Psi",
     "official_name": "Pepperdine University",
     "alias": "Pepperdine",
     "name": "Pepperdine University",
@@ -581,10 +618,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Psi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Psi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Psi"
   },
   {
-    "chapter": "California Rho",
     "official_name": "University Of California - San Diego",
     "alias": "California-San Diego",
     "name": "University of California, San Diego",
@@ -596,10 +634,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Rho - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Rho - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Rho"
   },
   {
-    "chapter": "California Sigma",
     "official_name": "California State University - Northridge",
     "alias": "Cal State-Northridge",
     "name": "California State University, Northridge",
@@ -611,10 +650,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Sigma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Sigma - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Sigma"
   },
   {
-    "chapter": "California Tau",
     "official_name": "California Polytechnic State University - San Luis Obispo",
     "alias": "Cal Poly-SLO",
     "name": "California Polytechnic State University, San Luis Obispo",
@@ -626,10 +666,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Tau - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Tau - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "California Tau"
   },
   {
-    "chapter": "California Theta",
     "official_name": "California State University - Sacramento",
     "alias": "Sacramento State",
     "name": "California State University, Sacramento",
@@ -641,10 +682,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Theta - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "California Theta"
   },
   {
-    "chapter": "California Upsilon",
     "official_name": "California State University - San Bernardino",
     "alias": "Cal State-San Bernardino",
     "name": "California State University, San Bernardino",
@@ -656,10 +698,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "California Upsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "California Upsilon - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "California Upsilon"
   },
   {
-    "chapter": "California Xi",
     "official_name": "San Francisco State University",
     "alias": "San Francisco State",
     "name": "San Francisco State University",
@@ -671,10 +714,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Xi"
   },
   {
-    "chapter": "California Zeta",
     "official_name": "California State University - Long Beach",
     "alias": "Cal State-Long Beach",
     "name": "California State University, Long Beach",
@@ -686,10 +730,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "California Zeta"
   },
   {
-    "chapter": "Colorado Alpha",
     "official_name": "University Of Colorado - Boulder",
     "alias": "Colorado",
     "name": "University of Colorado Boulder",
@@ -701,10 +746,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Colorado Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Colorado Alpha - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Colorado Alpha"
   },
   {
-    "chapter": "Colorado Beta",
     "official_name": "University Of Denver",
     "alias": "Denver",
     "name": "University of Denver",
@@ -716,10 +762,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Colorado Beta"
   },
   {
-    "chapter": "Colorado Delta",
     "official_name": "Colorado School Of Mines",
     "alias": "Colorado School of Mines",
     "name": "Colorado School of Mines",
@@ -731,10 +778,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Colorado Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Colorado Delta - School Logo Transparent BG.png",
+    "conference": "Rocky Mountain Athletic Conference (RMAC) \u2014 NCAA D2",
+    "id": "Colorado Delta"
   },
   {
-    "chapter": "Colorado Epsilon",
     "official_name": "University Of Northern Colorado",
     "alias": "Northern Colorado",
     "name": "University of Northern Colorado",
@@ -746,10 +794,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Colorado Epsilon"
   },
   {
-    "chapter": "Colorado Gamma",
     "official_name": "Colorado State University - Fort Collins",
     "alias": "Colorado State",
     "name": "Colorado State University",
@@ -761,10 +810,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Colorado Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Colorado Gamma - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "Colorado Gamma"
   },
   {
-    "chapter": "Connecticut Alpha",
     "official_name": "University Of Connecticut - Storrs",
     "alias": "Connecticut",
     "name": "University of Connecticut",
@@ -776,10 +826,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Connecticut Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Connecticut Alpha - School Logo Transparent BG.png",
+    "conference": "Independent (FBS)",
+    "id": "Connecticut Alpha"
   },
   {
-    "chapter": "Connecticut Beta",
     "official_name": "University Of Hartford",
     "alias": "Hartford",
     "name": "University of Hartford",
@@ -791,10 +842,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Connecticut Beta"
   },
   {
-    "chapter": "Connecticut Delta",
     "official_name": "Yale University",
     "alias": "Yale",
     "name": "Yale University",
@@ -806,10 +858,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Connecticut Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Connecticut Delta - School Logo Transparent BG.png",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "Connecticut Delta"
   },
   {
-    "chapter": "Connecticut Epsilon",
     "official_name": "Quinnipiac University",
     "alias": "Quinnipiac",
     "name": "Quinnipiac University",
@@ -821,10 +874,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Connecticut Epsilon"
   },
   {
-    "chapter": "Connecticut Gamma",
     "official_name": "Eastern Connecticut State University",
     "alias": "Eastern Connecticut",
     "name": "Eastern Connecticut State University",
@@ -836,10 +890,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Connecticut Gamma"
   },
   {
-    "chapter": "D.C. Alpha",
     "official_name": "The George Washington University",
     "alias": "George Washington",
     "name": "George Washington University",
@@ -851,10 +906,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "D.C. Alpha"
   },
   {
-    "chapter": "D.C. Beta",
     "official_name": "Gallaudet University",
     "alias": "Gallaudet",
     "name": "Gallaudet University",
@@ -866,10 +922,11 @@
     "country": "",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "id": "D.C. Beta"
   },
   {
-    "chapter": "D.C. Delta",
     "official_name": "American University",
     "alias": "American",
     "name": "American University",
@@ -881,10 +938,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "D.C. Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "D.C. Delta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "D.C. Delta"
   },
   {
-    "chapter": "D.C. Gamma",
     "official_name": "Georgetown University",
     "alias": "Georgetown",
     "name": "Georgetown University",
@@ -896,10 +954,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "D.C. Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "D.C. Gamma - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "D.C. Gamma"
   },
   {
-    "chapter": "Delaware Alpha",
     "official_name": "University Of Delaware",
     "alias": "Delaware",
     "name": "University of Delaware",
@@ -911,10 +970,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Delaware Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Delaware Alpha - School Logo Transparent BG.png",
+    "conference": "Conference USA",
+    "id": "Delaware Alpha"
   },
   {
-    "chapter": "Florida Alpha",
     "official_name": "University Of Florida",
     "alias": "Florida",
     "name": "University of Florida",
@@ -926,10 +986,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Florida Alpha"
   },
   {
-    "chapter": "Florida Beta",
     "official_name": "Stetson University",
     "alias": "Stetson",
     "name": "Stetson University",
@@ -941,10 +1002,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Beta - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "Florida Beta"
   },
   {
-    "chapter": "Florida Delta",
     "official_name": "Florida Southern College",
     "alias": "Florida Southern",
     "name": "Florida Southern College",
@@ -956,10 +1018,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Delta"
   },
   {
-    "chapter": "Florida Epsilon",
     "official_name": "Florida State University",
     "alias": "Florida State",
     "name": "Florida State University",
@@ -971,10 +1034,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Epsilon - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Florida Epsilon"
   },
   {
-    "chapter": "Florida Eta",
     "official_name": "Rollins College",
     "alias": "Rollins",
     "name": "Rollins College",
@@ -986,10 +1050,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Eta"
   },
   {
-    "chapter": "Florida Gamma",
     "official_name": "University Of Miami",
     "alias": "Miami (Florida)",
     "name": "University of Miami",
@@ -1001,10 +1066,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Gamma - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Florida Gamma"
   },
   {
-    "chapter": "Florida Iota",
     "official_name": "University Of South Florida",
     "alias": "South Florida",
     "name": "University of South Florida",
@@ -1016,10 +1082,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Iota - School Logo Transparent BG.png",
+    "conference": "American Athletic Conference",
+    "id": "Florida Iota"
   },
   {
-    "chapter": "Florida Kappa",
     "official_name": "Miami Dade Community College",
     "alias": "Miami Dade Community",
     "federal_id": "",
@@ -1030,10 +1097,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Kappa"
   },
   {
-    "chapter": "Florida Lambda",
     "official_name": "St. Leo University",
     "alias": "St. Leo",
     "name": "Saint Leo University",
@@ -1045,10 +1113,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Lambda"
   },
   {
-    "chapter": "Florida Mu",
     "official_name": "University Of Central Florida",
     "alias": "Central Florida",
     "name": "University of Central Florida",
@@ -1060,10 +1129,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big 12 Conference",
+    "id": "Florida Mu"
   },
   {
-    "chapter": "Florida Nu",
     "official_name": "Florida International University",
     "alias": "Florida International",
     "name": "Florida International University",
@@ -1075,10 +1145,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Nu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Nu - School Logo Transparent BG.png",
+    "conference": "Conference USA",
+    "id": "Florida Nu"
   },
   {
-    "chapter": "Florida Omicron",
     "official_name": "Florida Gulf Coast University",
     "alias": "Florida Gulf Coast",
     "name": "Florida Gulf Coast University",
@@ -1090,10 +1161,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Omicron - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Omicron - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Florida Omicron"
   },
   {
-    "chapter": "Florida Theta",
     "official_name": "Jacksonville University",
     "alias": "Jacksonville",
     "name": "Jacksonville University",
@@ -1105,10 +1177,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Theta"
   },
   {
-    "chapter": "Florida Xi",
     "official_name": "Florida Atlantic University",
     "alias": "Florida Atlantic",
     "name": "Florida Atlantic University",
@@ -1120,10 +1193,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Florida Xi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Florida Xi - School Logo Transparent BG.png",
+    "conference": "American Athletic Conference",
+    "id": "Florida Xi"
   },
   {
-    "chapter": "Florida Zeta",
     "official_name": "The University of Tampa",
     "alias": "Tampa",
     "name": "University of Tampa",
@@ -1135,10 +1209,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Florida Zeta"
   },
   {
-    "chapter": "Georgia Alpha",
     "official_name": "Georgia Institute Of Technology",
     "alias": "Georgia Tech",
     "name": "Georgia Institute of Technology",
@@ -1150,10 +1225,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Georgia Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Georgia Alpha - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Georgia Alpha"
   },
   {
-    "chapter": "Georgia Beta",
     "official_name": "Georgia State University",
     "alias": "Georgia State",
     "name": "Georgia State University",
@@ -1165,10 +1241,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Georgia Beta"
   },
   {
-    "chapter": "Georgia Delta",
     "official_name": "The University Of Georgia",
     "alias": "Georgia",
     "name": "University of Georgia",
@@ -1180,10 +1257,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Georgia Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Georgia Delta - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Georgia Delta"
   },
   {
-    "chapter": "Georgia Epsilon",
     "official_name": "Georgia Southern University - Statesboro",
     "alias": "Georgia Southern",
     "name": "Georgia Southern University",
@@ -1195,10 +1273,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Georgia Epsilon"
   },
   {
-    "chapter": "Georgia Eta",
     "official_name": "Southern Polytechnic State University",
     "alias": "Southern Polytechnic State",
     "federal_id": "",
@@ -1209,10 +1288,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Georgia Eta"
   },
   {
-    "chapter": "Georgia Gamma",
     "official_name": "Valdosta State University",
     "alias": "Valdosta State",
     "name": "Valdosta State University",
@@ -1224,10 +1304,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Gulf South Conference (GSC) \u2014 NCAA D2",
+    "id": "Georgia Gamma"
   },
   {
-    "chapter": "Georgia Theta",
     "official_name": "Emory University",
     "alias": "Emory",
     "name": "Emory University",
@@ -1239,10 +1320,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Georgia Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Georgia Theta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Georgia Theta"
   },
   {
-    "chapter": "Georgia Zeta",
     "official_name": "University Of North Georgia",
     "alias": "North Georgia",
     "name": "University of North Georgia",
@@ -1254,10 +1336,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Georgia Zeta"
   },
   {
-    "chapter": "Hawaii Alpha",
     "official_name": "University Of Hawaii",
     "alias": "Hawaii",
     "name": "University of Hawaii at Manoa",
@@ -1269,10 +1352,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mountain West Conference",
+    "id": "Hawaii Alpha"
   },
   {
-    "chapter": "Idaho Alpha",
     "official_name": "Idaho State University",
     "alias": "Idaho State",
     "name": "Idaho State University",
@@ -1284,10 +1368,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Idaho Alpha"
   },
   {
-    "chapter": "Idaho Beta",
     "official_name": "Boise State University",
     "alias": "Boise State",
     "name": "Boise State University",
@@ -1299,10 +1384,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Idaho Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Idaho Beta - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "Idaho Beta"
   },
   {
-    "chapter": "Idaho Gamma",
     "official_name": "University Of Idaho",
     "alias": "Idaho",
     "name": "University of Idaho",
@@ -1314,10 +1400,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Idaho Gamma"
   },
   {
-    "chapter": "Illinois Alpha",
     "official_name": "University Of Illinois At Urbana-Champaign",
     "alias": "Illinois",
     "name": "University of Illinois at Urbana-Champaign",
@@ -1329,10 +1416,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Alpha - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Illinois Alpha"
   },
   {
-    "chapter": "Illinois Beta",
     "official_name": "Illinois Institute Of Technology",
     "alias": "IIT",
     "name": "Illinois Institute of Technology",
@@ -1344,10 +1432,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Beta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Illinois Beta"
   },
   {
-    "chapter": "Illinois Delta",
     "official_name": "Bradley University",
     "alias": "Bradley",
     "name": "Bradley University",
@@ -1359,10 +1448,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Delta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Illinois Delta"
   },
   {
-    "chapter": "Illinois Epsilon",
     "official_name": "Northern Illinois University",
     "alias": "Northern Illinois",
     "name": "Northern Illinois University",
@@ -1374,10 +1464,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Epsilon - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Illinois Epsilon"
   },
   {
-    "chapter": "Illinois Eta",
     "official_name": "Southern Illinois University - Edwardsville",
     "alias": "SIU-Edwardsville",
     "name": "Southern Illinois University Edwardsville",
@@ -1389,10 +1480,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Eta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Illinois Eta"
   },
   {
-    "chapter": "Illinois Gamma",
     "official_name": "Monmouth College",
     "alias": "Monmouth",
     "name": "Monmouth College",
@@ -1404,10 +1496,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Gamma - School Logo Transparent BG.png",
+    "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "id": "Illinois Gamma"
   },
   {
-    "chapter": "Illinois Iota",
     "official_name": "Lewis University",
     "alias": "Lewis",
     "federal_id": "",
@@ -1418,10 +1511,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Illinois Iota"
   },
   {
-    "chapter": "Illinois Kappa",
     "official_name": "Southern Illinois University - Carbondale",
     "alias": "SIU-Carbondale",
     "name": "Southern Illinois University Carbondale",
@@ -1433,10 +1527,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Illinois Kappa"
   },
   {
-    "chapter": "Illinois Lambda",
     "official_name": "Northwestern University",
     "alias": "Northwestern",
     "name": "Northwestern University",
@@ -1448,10 +1543,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Lambda - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Lambda - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Illinois Lambda"
   },
   {
-    "chapter": "Illinois Mu",
     "official_name": "The University Of Chicago",
     "alias": "Chicago",
     "name": "University of Chicago",
@@ -1463,10 +1559,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "id": "Illinois Mu"
   },
   {
-    "chapter": "Illinois Nu",
     "official_name": "Eastern Illinois University",
     "alias": "Eastern Illinois",
     "name": "Eastern Illinois University",
@@ -1478,10 +1575,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Nu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Nu - School Logo Transparent BG.png",
+    "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "id": "Illinois Nu"
   },
   {
-    "chapter": "Illinois Theta",
     "official_name": "Western Illinois University",
     "alias": "Western Illinois",
     "name": "Western Illinois University",
@@ -1493,10 +1591,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "id": "Illinois Theta"
   },
   {
-    "chapter": "Illinois Xi",
     "official_name": "DePaul University",
     "alias": "DePaul",
     "name": "DePaul University",
@@ -1508,10 +1607,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Illinois Xi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Illinois Xi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Illinois Xi"
   },
   {
-    "chapter": "Illinois Zeta",
     "official_name": "Illinois State University",
     "alias": "Illinois State",
     "name": "Illinois State University",
@@ -1523,10 +1623,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Illinois Zeta"
   },
   {
-    "chapter": "Indiana Alpha",
     "official_name": "Purdue University",
     "alias": "Purdue",
     "name": "Purdue University",
@@ -1538,10 +1639,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Alpha - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Indiana Alpha"
   },
   {
-    "chapter": "Indiana Beta",
     "official_name": "Indiana University - Bloomington",
     "alias": "Indiana",
     "name": "Indiana University",
@@ -1553,10 +1655,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Indiana Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Beta - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Indiana Beta"
   },
   {
-    "chapter": "Indiana Delta",
     "official_name": "Indiana State University",
     "alias": "Indiana State",
     "name": "Indiana State University",
@@ -1568,10 +1671,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Delta - School Logo Transparent BG.png",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Indiana Delta"
   },
   {
-    "chapter": "Indiana Epsilon",
     "official_name": "University Of Evansville",
     "alias": "Evansville",
     "name": "University of Evansville",
@@ -1583,10 +1687,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Epsilon - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Indiana Epsilon"
   },
   {
-    "chapter": "Indiana Eta",
     "official_name": "Indiana Institute of Technology",
     "alias": "Indiana Tech",
     "name": "Indiana Institute of Technology",
@@ -1598,10 +1703,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Eta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Indiana Eta"
   },
   {
-    "chapter": "Indiana Gamma",
     "official_name": "Ball State University",
     "alias": "Ball State",
     "name": "Ball State University",
@@ -1613,10 +1719,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Gamma - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Indiana Gamma"
   },
   {
-    "chapter": "Indiana Iota",
     "official_name": "Vincennes University",
     "alias": "Vincennes University",
     "name": "Vincennes University",
@@ -1628,10 +1735,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Indiana Iota"
   },
   {
-    "chapter": "Indiana Kappa",
     "official_name": "Purdue University Fort Wayne",
     "alias": "Purdue-Fort Wayne",
     "name": "Purdue University Fort Wayne",
@@ -1643,10 +1751,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Indiana Kappa"
   },
   {
-    "chapter": "Indiana Theta",
     "official_name": "Trine University",
     "alias": "Trine",
     "name": "Trine University",
@@ -1658,10 +1767,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Theta - School Logo Transparent BG.png",
+    "conference": "MIAA (Michigan Intercollegiate Athletic Association) \u2014 NCAA D3",
+    "id": "Indiana Theta"
   },
   {
-    "chapter": "Indiana Zeta",
     "official_name": "Valparaiso University",
     "alias": "Valparaiso",
     "name": "Valparaiso University",
@@ -1673,10 +1783,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Indiana Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Indiana Zeta - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "Indiana Zeta"
   },
   {
-    "chapter": "Iowa Alpha",
     "official_name": "Iowa Wesleyan College",
     "alias": "Iowa Wesleyan",
     "federal_id": "",
@@ -1687,10 +1798,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Iowa Alpha"
   },
   {
-    "chapter": "Iowa Beta",
     "official_name": "Iowa State University",
     "alias": "Iowa State",
     "name": "Iowa State University",
@@ -1702,10 +1814,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Iowa Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Iowa Beta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Iowa Beta"
   },
   {
-    "chapter": "Iowa Delta",
     "official_name": "Drake University",
     "alias": "Drake",
     "name": "Drake University",
@@ -1717,10 +1830,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Iowa Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Iowa Delta - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "Iowa Delta"
   },
   {
-    "chapter": "Iowa Epsilon",
     "official_name": "Morningside College",
     "alias": "Morningside",
     "name": "Morningside University",
@@ -1732,10 +1846,11 @@
     "country": "",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Great Plains Athletic Conference (GPAC) \u2014 NAIA",
+    "id": "Iowa Epsilon"
   },
   {
-    "chapter": "Iowa Eta",
     "official_name": "Loras College",
     "alias": "Loras",
     "federal_id": "",
@@ -1746,10 +1861,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "Iowa Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Iowa Eta - School Logo Transparent BG.png",
+    "conference": "American Rivers Conference (ARC) \u2014 NCAA D3",
+    "id": "Iowa Eta"
   },
   {
-    "chapter": "Iowa Gamma",
     "official_name": "The University Of Iowa",
     "alias": "Iowa",
     "name": "University of Iowa",
@@ -1761,10 +1877,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Iowa Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Iowa Gamma - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Iowa Gamma"
   },
   {
-    "chapter": "Iowa Theta",
     "official_name": "University Of Northern Iowa",
     "alias": "Northern Iowa",
     "name": "University of Northern Iowa",
@@ -1776,10 +1893,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Iowa Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Iowa Theta - School Logo Transparent BG.png",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Iowa Theta"
   },
   {
-    "chapter": "Iowa Zeta",
     "official_name": "Parsons College: Iowa",
     "alias": "Parsons",
     "federal_id": "",
@@ -1790,10 +1908,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Iowa Zeta"
   },
   {
-    "chapter": "Kansas Alpha",
     "official_name": "Baker University",
     "alias": "Baker",
     "name": "Baker University",
@@ -1805,10 +1924,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Alpha - School Logo Transparent BG.png",
+    "conference": "Heart of America Athletic Conference \u2014 NAIA",
+    "id": "Kansas Alpha"
   },
   {
-    "chapter": "Kansas Beta",
     "official_name": "Kansas State University",
     "alias": "Kansas State",
     "name": "Kansas State University",
@@ -1820,10 +1940,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Beta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Kansas Beta"
   },
   {
-    "chapter": "Kansas Delta",
     "official_name": "Washburn University",
     "alias": "Washburn",
     "name": "Washburn University",
@@ -1835,10 +1956,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Delta - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Kansas Delta"
   },
   {
-    "chapter": "Kansas Epsilon",
     "official_name": "Emporia State University",
     "alias": "Emporia State",
     "name": "Emporia State University",
@@ -1850,10 +1972,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Epsilon - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Kansas Epsilon"
   },
   {
-    "chapter": "Kansas Eta",
     "official_name": "Wichita State University",
     "alias": "Wichita State",
     "name": "Wichita State University",
@@ -1865,10 +1988,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Eta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Kansas Eta"
   },
   {
-    "chapter": "Kansas Gamma",
     "official_name": "The University Of Kansas",
     "alias": "Kansas",
     "name": "University of Kansas",
@@ -1880,10 +2004,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Gamma - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Kansas Gamma"
   },
   {
-    "chapter": "Kansas Theta",
     "official_name": "Pittsburg State University",
     "alias": "Pittsburg State",
     "name": "Pittsburg State University",
@@ -1895,10 +2020,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Theta - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Kansas Theta"
   },
   {
-    "chapter": "Kansas Zeta",
     "official_name": "Fort Hays State University",
     "alias": "Fort Hays State",
     "name": "Fort Hays State University",
@@ -1910,10 +2036,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kansas Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kansas Zeta - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Kansas Zeta"
   },
   {
-    "chapter": "Kentucky Alpha",
     "official_name": "University Of Kentucky",
     "alias": "Kentucky",
     "name": "University of Kentucky",
@@ -1925,10 +2052,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Kentucky Alpha"
   },
   {
-    "chapter": "Kentucky Beta",
     "official_name": "University Of Louisville",
     "alias": "Louisville",
     "name": "University of Louisville",
@@ -1940,10 +2068,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Beta - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Kentucky Beta"
   },
   {
-    "chapter": "Kentucky Delta",
     "official_name": "Western Kentucky University",
     "alias": "Western Kentucky",
     "name": "Western Kentucky University",
@@ -1955,10 +2084,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Delta - School Logo Transparent BG.png",
+    "conference": "Conference USA",
+    "id": "Kentucky Delta"
   },
   {
-    "chapter": "Kentucky Epsilon",
     "official_name": "Murray State University",
     "alias": "Murray State",
     "name": "Murray State University",
@@ -1970,10 +2100,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Epsilon - School Logo Transparent BG.png",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Kentucky Epsilon"
   },
   {
-    "chapter": "Kentucky Eta",
     "official_name": "Northern Kentucky University",
     "alias": "Northern Kentucky",
     "name": "Northern Kentucky University",
@@ -1985,10 +2116,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Eta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Kentucky Eta"
   },
   {
-    "chapter": "Kentucky Gamma",
     "official_name": "Kentucky Wesleyan College",
     "alias": "Kentucky Wesleyan",
     "name": "Kentucky Wesleyan College",
@@ -2000,10 +2132,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Gamma - School Logo Transparent BG.png",
+    "conference": "Great Midwest Athletic Conference (G-MAC) \u2014 NCAA D2",
+    "id": "Kentucky Gamma"
   },
   {
-    "chapter": "Kentucky Zeta",
     "official_name": "Morehead State University",
     "alias": "Morehead State",
     "name": "Morehead State University",
@@ -2015,10 +2148,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Kentucky Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Kentucky Zeta - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "Kentucky Zeta"
   },
   {
-    "chapter": "Louisiana Alpha",
     "official_name": "Tulane University",
     "alias": "Tulane",
     "name": "Tulane University",
@@ -2030,10 +2164,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Louisiana Alpha"
   },
   {
-    "chapter": "Louisiana Beta",
     "official_name": "Louisiana State University - Baton Rouge",
     "alias": "Louisiana State",
     "name": "Louisiana State University",
@@ -2045,10 +2180,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Louisiana Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Louisiana Beta - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Louisiana Beta"
   },
   {
-    "chapter": "Louisiana Delta",
     "official_name": "University Of Louisiana - Monroe",
     "alias": "Louisiana-Monroe",
     "name": "University of Louisiana at Monroe",
@@ -2060,10 +2196,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Louisiana Delta"
   },
   {
-    "chapter": "Louisiana Gamma",
     "official_name": "Loyola University New Orleans",
     "alias": "Loyola",
     "name": "Loyola University New Orleans",
@@ -2075,10 +2212,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Louisiana Gamma"
   },
   {
-    "chapter": "Louisiana - University of New Orleans SEC",
     "official_name": "The University Of New Orleans",
     "alias": "Loyola",
     "name": "University of New Orleans",
@@ -2090,10 +2228,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Louisiana - University of New Orleans SEC"
   },
   {
-    "chapter": "Maine Alpha",
     "official_name": "The University Of Maine",
     "alias": "Maine",
     "name": "University of Maine",
@@ -2105,10 +2244,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Maine Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Maine Alpha - School Logo Transparent BG.png",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "Maine Alpha"
   },
   {
-    "chapter": "Maryland Alpha",
     "official_name": "The Johns Hopkins University",
     "alias": "Johns Hopkins",
     "name": "Johns Hopkins University",
@@ -2120,10 +2260,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Maryland Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Maryland Alpha - School Logo Transparent BG.png",
+    "conference": "Centennial Conference \u2014 NCAA D3",
+    "id": "Maryland Alpha"
   },
   {
-    "chapter": "Maryland Beta",
     "official_name": "University Of Maryland - College Park",
     "alias": "Maryland-College Park",
     "name": "University of Maryland, College Park",
@@ -2135,10 +2276,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Maryland Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Maryland Beta - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Maryland Beta"
   },
   {
-    "chapter": "Maryland Delta",
     "official_name": "McDaniel College",
     "alias": "McDaniel",
     "name": "McDaniel College",
@@ -2150,10 +2292,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Centennial Conference \u2014 NCAA D3",
+    "id": "Maryland Delta"
   },
   {
-    "chapter": "Maryland Epsilon",
     "official_name": "University Of Maryland - Baltimore",
     "alias": "Maryland-Baltimore",
     "name": "University of Maryland, Baltimore County",
@@ -2165,10 +2308,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Maryland Epsilon"
   },
   {
-    "chapter": "Maryland Gamma",
     "official_name": "Towson University",
     "alias": "Towson State",
     "name": "Towson University",
@@ -2180,10 +2324,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "Maryland Gamma"
   },
   {
-    "chapter": "Maryland Zeta",
     "official_name": "Salisbury University",
     "alias": "Salisbury",
     "name": "Salisbury University",
@@ -2195,10 +2340,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Maryland Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Maryland Zeta - School Logo Transparent BG.png",
+    "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "id": "Maryland Zeta"
   },
   {
-    "chapter": "Massachusetts Alpha",
     "official_name": "University Of Massachusetts - Amherst",
     "alias": "Massachusetts",
     "name": "University of Massachusetts Amherst",
@@ -2210,10 +2356,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Alpha - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Massachusetts Alpha"
   },
   {
-    "chapter": "Massachusetts Beta",
     "official_name": "Worcester Polytechnic Institute",
     "alias": "WPI",
     "name": "Worcester Polytechnic Institute",
@@ -2225,10 +2372,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Beta - School Logo Transparent BG.png",
+    "conference": "NEWMAC \u2014 NCAA D3",
+    "id": "Massachusetts Beta"
   },
   {
-    "chapter": "Massachusetts Delta",
     "official_name": "Massachusetts Institute Of Technology",
     "alias": "MIT",
     "name": "Massachusetts Institute of Technology",
@@ -2240,10 +2388,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Delta - School Logo Transparent BG.png",
+    "conference": "NEWMAC \u2014 NCAA D3",
+    "id": "Massachusetts Delta"
   },
   {
-    "chapter": "Massachusetts Epsilon",
     "official_name": "Bentley University",
     "alias": "Bentley",
     "name": "Bentley University",
@@ -2255,10 +2404,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Northeast-10 Conference (NE-10) \u2014 NCAA D2",
+    "id": "Massachusetts Epsilon"
   },
   {
-    "chapter": "Massachusetts Eta",
     "official_name": "Northeastern University",
     "alias": "Northeastern",
     "name": "Northeastern University",
@@ -2270,10 +2420,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Eta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Massachusetts Eta"
   },
   {
-    "chapter": "Massachusetts Gamma",
     "official_name": "Boston University",
     "alias": "Boston University",
     "name": "Boston University",
@@ -2285,10 +2436,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Massachusetts Gamma"
   },
   {
-    "chapter": "Massachusetts - Harvard University SEC",
     "official_name": "Harvard University",
     "alias": "Harvard",
     "name": "Harvard University",
@@ -2300,10 +2452,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "Massachusetts - Harvard University SEC"
   },
   {
-    "chapter": "Massachusetts Iota",
     "official_name": "Boston College",
     "alias": "Boston C",
     "name": "Boston College",
@@ -2315,10 +2468,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Iota - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Massachusetts Iota"
   },
   {
-    "chapter": "Massachusetts Theta",
     "official_name": "Babson College",
     "alias": "Babson",
     "name": "Babson College",
@@ -2330,10 +2484,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Massachusetts Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Massachusetts Theta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Massachusetts Theta"
   },
   {
-    "chapter": "Massachusetts - University of Massachusetts-Lowell SEC",
     "official_name": "University Of Massachusetts - Lowell",
     "alias": "Massachusetts-Lowell",
     "name": "University of Massachusetts Lowell",
@@ -2345,10 +2500,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Massachusetts - University of Massachusetts-Lowell SEC"
   },
   {
-    "chapter": "Massachusetts Zeta",
     "official_name": "Tufts University",
     "alias": "Tufts",
     "name": "Tufts University",
@@ -2360,10 +2516,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "NESCAC \u2014 NCAA D3",
+    "id": "Massachusetts Zeta"
   },
   {
-    "chapter": "Michigan Alpha",
     "official_name": "University Of Michigan - Ann Arbor",
     "alias": "Michigan",
     "name": "University of Michigan",
@@ -2375,10 +2532,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Michigan Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "Michigan Alpha"
   },
   {
-    "chapter": "Michigan Beta",
     "official_name": "Western Michigan University",
     "alias": "Western Michigan",
     "name": "Western Michigan University",
@@ -2390,10 +2548,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Michigan Beta"
   },
   {
-    "chapter": "Michigan Delta",
     "official_name": "University Of Detroit Mercy",
     "alias": "Detroit",
     "name": "University of Detroit Mercy",
@@ -2405,10 +2564,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Michigan Delta"
   },
   {
-    "chapter": "Michigan Epsilon",
     "official_name": "Michigan State University",
     "alias": "Michigan State",
     "name": "Michigan State University",
@@ -2420,10 +2580,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "Michigan Epsilon"
   },
   {
-    "chapter": "Michigan Eta",
     "official_name": "Michigan Technological University",
     "alias": "Michigan Tech",
     "name": "Michigan Technological University",
@@ -2435,10 +2596,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Michigan Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Michigan Eta - School Logo Transparent BG.png",
+    "conference": "GLIAC \u2014 NCAA D2",
+    "id": "Michigan Eta"
   },
   {
-    "chapter": "Michigan Gamma",
     "official_name": "Central Michigan University",
     "alias": "Central Michigan",
     "name": "Central Michigan University",
@@ -2450,10 +2612,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Michigan Gamma"
   },
   {
-    "chapter": "Michigan Iota",
     "official_name": "Northwood University",
     "alias": "Northwood",
     "name": "Northwood University",
@@ -2465,10 +2628,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Great Midwest Athletic Conference (G-MAC) \u2014 NCAA D2",
+    "id": "Michigan Iota"
   },
   {
-    "chapter": "Michigan Kappa",
     "official_name": "Grand Valley State University",
     "alias": "Grand Valley State",
     "name": "Grand Valley State University",
@@ -2480,10 +2644,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "GLIAC \u2014 NCAA D2",
+    "id": "Michigan Kappa"
   },
   {
-    "chapter": "Michigan Lambda",
     "official_name": "Eastern Michigan University",
     "alias": "Eastern Michigan",
     "name": "Eastern Michigan University",
@@ -2495,10 +2660,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Michigan Lambda"
   },
   {
-    "chapter": "Michigan Theta",
     "official_name": "Lawrence Technological University",
     "alias": "Lawrence Tech",
     "name": "Lawrence Technological University",
@@ -2510,10 +2676,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Michigan Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Michigan Theta - School Logo Transparent BG.png",
+    "conference": "Wolverine-Hoosier Athletic Conference (WHAC) \u2014 NAIA",
+    "id": "Michigan Theta"
   },
   {
-    "chapter": "Michigan Zeta",
     "official_name": "Ferris State University",
     "alias": "Ferris State",
     "name": "Ferris State University",
@@ -2525,10 +2692,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Michigan Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Michigan Zeta - School Logo Transparent BG.png",
+    "conference": "GLIAC \u2014 NCAA D2",
+    "id": "Michigan Zeta"
   },
   {
-    "chapter": "Minnesota Alpha",
     "official_name": "University Of Minnesota - Twin Cities",
     "alias": "Minnesota",
     "name": "University of Minnesota",
@@ -2540,10 +2708,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Minnesota Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Minnesota Alpha - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Minnesota Alpha"
   },
   {
-    "chapter": "Minnesota-Mankato State University-SEC",
     "official_name": "Minnesota State University - Mankato",
     "alias": "Mankato State",
     "name": "Minnesota State University Mankato",
@@ -2555,10 +2724,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Northern Sun Intercollegiate Conference (NSIC) \u2014 NCAA D2",
+    "id": "Minnesota-Mankato State University-SEC"
   },
   {
-    "chapter": "Mississippi Alpha",
     "official_name": "The University Of Mississippi",
     "alias": "Mississippi",
     "name": "University of Mississippi",
@@ -2570,10 +2740,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Mississippi Alpha"
   },
   {
-    "chapter": "Mississippi Beta",
     "official_name": "Mississippi State University",
     "alias": "Mississippi State",
     "name": "Mississippi State University",
@@ -2585,10 +2756,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Mississippi Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Mississippi Beta - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Mississippi Beta"
   },
   {
-    "chapter": "Mississippi Gamma",
     "official_name": "The University Of Southern Mississippi",
     "alias": "Southern Mississippi",
     "name": "University of Southern Mississippi",
@@ -2600,10 +2772,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Mississippi Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Mississippi Gamma - School Logo Transparent BG.png",
+    "conference": "Sun Belt Conference",
+    "id": "Mississippi Gamma"
   },
   {
-    "chapter": "Missouri Alpha",
     "official_name": "University Of Missouri - Columbia",
     "alias": "Missouri",
     "name": "University of Missouri",
@@ -2615,10 +2788,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Missouri Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Missouri Alpha"
   },
   {
-    "chapter": "Missouri Beta",
     "official_name": "Washington University - St. Louis",
     "alias": "Washington-St. Louis",
     "name": "Washington University in St. Louis",
@@ -2630,10 +2804,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Beta - School Logo Transparent BG.png",
+    "conference": "CCIW \u2014 NCAA D3",
+    "id": "Missouri Beta"
   },
   {
-    "chapter": "Missouri Delta",
     "official_name": "Drury University",
     "alias": "Drury",
     "name": "Drury University",
@@ -2645,10 +2820,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Missouri Delta"
   },
   {
-    "chapter": "Missouri Epsilon",
     "official_name": "Culver-Stockton College",
     "alias": "Culver-Stockton",
     "name": "Culver-Stockton College",
@@ -2660,10 +2836,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Heart of America Athletic Conference \u2014 NAIA",
+    "id": "Missouri Epsilon"
   },
   {
-    "chapter": "Missouri Eta",
     "official_name": "Missouri State University",
     "alias": "Missouri State",
     "name": "Missouri State University",
@@ -2675,10 +2852,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Eta - School Logo Transparent BG.png",
+    "conference": "Conference USA",
+    "id": "Missouri Eta"
   },
   {
-    "chapter": "Missouri Gamma",
     "official_name": "Missouri University Of Science And Technology",
     "alias": "Missouri S&T",
     "name": "Missouri University of Science and Technology",
@@ -2690,10 +2868,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Gamma - School Logo Transparent BG.png",
+    "conference": "Great Lakes Valley Conference (GLVC) \u2014 NCAA D2",
+    "id": "Missouri Gamma"
   },
   {
-    "chapter": "Missouri Iota",
     "official_name": "Missouri Western State University",
     "alias": "Missouri Western",
     "name": "Missouri Western State University",
@@ -2705,10 +2884,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Missouri Iota"
   },
   {
-    "chapter": "Missouri Kappa",
     "official_name": "University Of Missouri - Kansas City",
     "alias": "Missouri-Kansas City",
     "name": "University of Missouri - Kansas City",
@@ -2720,10 +2900,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Kappa - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Kappa - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Missouri Kappa"
   },
   {
-    "chapter": "Missouri Lambda",
     "official_name": "Northwest Missouri State University",
     "alias": "Northwest Missouri",
     "name": "Northwest Missouri State University",
@@ -2735,10 +2916,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Lambda - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Lambda - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Missouri Lambda"
   },
   {
-    "chapter": "Missouri Mu",
     "official_name": "Truman State University",
     "alias": "Truman State",
     "name": "Truman State University",
@@ -2750,10 +2932,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Mu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Mu - School Logo Transparent BG.png",
+    "conference": "Great Lakes Valley Conference (GLVC) \u2014 NCAA D2",
+    "id": "Missouri Mu"
   },
   {
-    "chapter": "Missouri Nu",
     "official_name": "Saint Louis University",
     "alias": "Saint Louis",
     "name": "Saint Louis University",
@@ -2765,10 +2948,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Missouri Nu"
   },
   {
-    "chapter": "Missouri Theta",
     "official_name": "University Of Central Missouri",
     "alias": "Central Missouri",
     "name": "University of Central Missouri",
@@ -2780,10 +2964,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Theta - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Missouri Theta"
   },
   {
-    "chapter": "Missouri Zeta",
     "official_name": "Southeast Missouri State University",
     "alias": "Southeast Missouri State",
     "name": "Southeast Missouri State University",
@@ -2795,10 +2980,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Missouri Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Missouri Zeta - School Logo Transparent BG.png",
+    "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "id": "Missouri Zeta"
   },
   {
-    "chapter": "Montana Alpha",
     "official_name": "The University Of Montana",
     "alias": "Montana",
     "name": "University of Montana",
@@ -2810,10 +2996,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Montana Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Montana Alpha - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Montana Alpha"
   },
   {
-    "chapter": "Montana Beta",
     "official_name": "Montana State University",
     "alias": "Montana State",
     "name": "Montana State University",
@@ -2825,10 +3012,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Montana Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Montana Beta - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Montana Beta"
   },
   {
-    "chapter": "Nebraska Alpha",
     "official_name": "University Of Nebraska - Lincoln",
     "alias": "Nebraska",
     "name": "University of Nebraska - Lincoln",
@@ -2840,10 +3028,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Nebraksa Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Nebraksa Alpha - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Nebraska Alpha"
   },
   {
-    "chapter": "Nebraska Beta",
     "official_name": "University Of Nebraska - Omaha",
     "alias": "Nebraska-Omaha",
     "name": "University of Nebraska at Omaha",
@@ -2855,10 +3044,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Nebrasaka Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Nebraska Beta"
   },
   {
-    "chapter": "Nebraska Delta",
     "official_name": "Creighton University",
     "alias": "Creighton",
     "name": "Creighton University",
@@ -2870,10 +3060,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Nebraska Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Nebraska Delta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Nebraska Delta"
   },
   {
-    "chapter": "Nebraska Gamma",
     "official_name": "University Of Nebraska - Kearney",
     "alias": "Nebraska-Kearney",
     "name": "University of Nebraska at Kearney",
@@ -2885,10 +3076,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Nebrasaka Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Nebrasaka Gamma - School Logo Transparent BG.png",
+    "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "id": "Nebraska Gamma"
   },
   {
-    "chapter": "Nevada Alpha",
     "official_name": "University Of Nevada - Reno",
     "alias": "Nevada-Reno",
     "name": "University of Nevada, Reno",
@@ -2900,10 +3092,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Nevada Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Nevada Alpha - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "Nevada Alpha"
   },
   {
-    "chapter": "Nevada Beta",
     "official_name": "University Of Nevada - Las Vegas",
     "alias": "Nevada-Las Vegas",
     "name": "University of Nevada, Las Vegas",
@@ -2915,10 +3108,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mountain West Conference",
+    "id": "Nevada Beta"
   },
   {
-    "chapter": "New Hampshire Alpha",
     "official_name": "Dartmouth College",
     "alias": "Dartmouth",
     "name": "Dartmouth College",
@@ -2930,10 +3124,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "New Hampshire Alpha"
   },
   {
-    "chapter": "New Hampshire Beta",
     "official_name": "New England College",
     "alias": "New England",
     "federal_id": "",
@@ -2944,10 +3139,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Conference of New England (CNE) \u2014 NCAA D3",
+    "id": "New Hampshire Beta"
   },
   {
-    "chapter": "New Hampshire Delta",
     "official_name": "Plymouth State University",
     "alias": "Plymouth State",
     "name": "Plymouth State University",
@@ -2959,10 +3155,11 @@
     "country": "",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "MASCAC \u2014 NCAA D3",
+    "id": "New Hampshire Delta"
   },
   {
-    "chapter": "New Hampshire Gamma",
     "official_name": "University Of New Hampshire",
     "alias": "New Hampshire",
     "name": "University of New Hampshire",
@@ -2974,10 +3171,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "New Hampshire Gamma"
   },
   {
-    "chapter": "New Jersey Alpha",
     "official_name": "Stevens Institute Of Technology",
     "alias": "Stevens",
     "name": "Stevens Institute of Technology",
@@ -2989,10 +3187,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New Jersey Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New Jersey Alpha - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New Jersey Alpha"
   },
   {
-    "chapter": "New Jersey Beta",
     "official_name": "Rutgers University - New Brunswick",
     "alias": "Rutgers",
     "name": "Rutgers University",
@@ -3004,10 +3203,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "New Jersey Beta"
   },
   {
-    "chapter": "New Jersey Delta",
     "official_name": "Fairleigh Dickinson University - Madison",
     "alias": "Fairleigh Dickinson",
     "name": "Fairleigh Dickinson University",
@@ -3019,10 +3219,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Middle Atlantic Conference \u2014 NCAA D3",
+    "id": "New Jersey Delta"
   },
   {
-    "chapter": "New Jersey Epsilon",
     "official_name": "Rowan University",
     "alias": "Rowan",
     "name": "Rowan University",
@@ -3034,10 +3235,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "id": "New Jersey Epsilon"
   },
   {
-    "chapter": "New Jersey Gamma",
     "official_name": "Seton Hall University",
     "alias": "Seton Hall",
     "name": "Seton Hall University",
@@ -3049,10 +3251,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New Jersey Gamma"
   },
   {
-    "chapter": "New Jersey Zeta",
     "official_name": "Rider University",
     "alias": "Rider",
     "name": "Rider University",
@@ -3064,10 +3267,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New Jersey Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New Jersey Zeta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New Jersey Zeta"
   },
   {
-    "chapter": "New Mexico Alpha",
     "official_name": "The University Of New Mexico",
     "alias": "New Mexico",
     "name": "University of New Mexico",
@@ -3079,10 +3283,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New Mexico Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mountain West Conference",
+    "id": "New Mexico Alpha"
   },
   {
-    "chapter": "New Mexico Beta",
     "official_name": "New Mexico State University",
     "alias": "New Mexico State",
     "name": "New Mexico State University",
@@ -3094,10 +3299,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Conference USA",
+    "id": "New Mexico Beta"
   },
   {
-    "chapter": "New York Alpha",
     "official_name": "Syracuse University",
     "alias": "Syracuse",
     "name": "Syracuse University",
@@ -3109,10 +3315,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Alpha - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "New York Alpha"
   },
   {
-    "chapter": "New York Beta",
     "official_name": "Cornell University",
     "alias": "Cornell",
     "name": "Cornell University",
@@ -3124,10 +3331,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "New York Beta"
   },
   {
-    "chapter": "New York Chi",
     "official_name": "Clarkson University",
     "alias": "Clarkson",
     "name": "Clarkson University",
@@ -3139,10 +3347,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Chi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Chi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New York Chi"
   },
   {
-    "chapter": "New York Delta",
     "official_name": "Rensselaer Polytechnic Institute",
     "alias": "Rensselaer",
     "name": "Rensselaer Polytechnic Institute",
@@ -3154,10 +3363,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Delta - School Logo Transparent BG.png",
+    "conference": "Liberty League \u2014 NCAA D3",
+    "id": "New York Delta"
   },
   {
-    "chapter": "New York Epsilon",
     "official_name": "State University Of New York At Buffalo",
     "alias": "SUNY-Buffalo",
     "name": "State University of New York at Buffalo",
@@ -3169,10 +3379,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "New York Epsilon"
   },
   {
-    "chapter": "New York Eta",
     "official_name": "State University Of New York College At Buffalo",
     "alias": "Buffalo State",
     "name": "State University of New York at Buffalo",
@@ -3184,10 +3395,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Liberty League \u2014 NCAA D3",
+    "id": "New York Eta"
   },
   {
-    "chapter": "New York Gamma",
     "official_name": "New York University",
     "alias": "NYU",
     "name": "New York University",
@@ -3199,10 +3411,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Gamma - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New York Gamma"
   },
   {
-    "chapter": "New York Iota",
     "official_name": "State University Of New York At Fredonia",
     "alias": "SUNY-Fredonia",
     "federal_id": "",
@@ -3213,10 +3426,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "New York Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Iota - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New York Iota"
   },
   {
-    "chapter": "New York Kappa",
     "official_name": "Daemen College",
     "alias": "Daemen",
     "federal_id": "",
@@ -3227,10 +3441,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Kappa"
   },
   {
-    "chapter": "New York Lambda",
     "official_name": "Canisius College",
     "alias": "Canisius",
     "name": "Canisius College",
@@ -3242,10 +3457,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Lambda - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Lambda - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "New York Lambda"
   },
   {
-    "chapter": "New York Mu",
     "official_name": "State University Of New York College At Cortland",
     "alias": "SUNY-Cortland",
     "name": "SUNY Cortland",
@@ -3257,10 +3473,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Empire 8 \u2014 NCAA D3",
+    "id": "New York Mu"
   },
   {
-    "chapter": "New York Nu",
     "official_name": "Binghamton University Of The State University Of New York",
     "alias": "SUNY-Binghamton",
     "name": "Binghamton University",
@@ -3272,10 +3489,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Nu"
   },
   {
-    "chapter": "New York Omicron",
     "official_name": "State University Of New York At Albany",
     "alias": "SUNY-Albany",
     "name": "State University of New York at Albany",
@@ -3287,10 +3505,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "New York Omicron"
   },
   {
-    "chapter": "New York Phi",
     "official_name": "Columbia University",
     "alias": "Columbia",
     "name": "Columbia University",
@@ -3302,10 +3521,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Phi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Phi - School Logo Transparent BG.png",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "New York Phi"
   },
   {
-    "chapter": "New York Pi",
     "official_name": "State University Of New York College At Oswego",
     "alias": "SUNY-Oswego",
     "name": "SUNY Oswego",
@@ -3317,10 +3537,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Pi"
   },
   {
-    "chapter": "New York Rho",
     "official_name": "St. John's University - Jamaica Campus",
     "alias": "St. John's",
     "name": "St. John's University",
@@ -3332,10 +3553,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Rho"
   },
   {
-    "chapter": "New York Sigma",
     "official_name": "Ithaca College",
     "alias": "Ithaca",
     "federal_id": "",
@@ -3346,10 +3568,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Liberty League \u2014 NCAA D3",
+    "id": "New York Sigma"
   },
   {
-    "chapter": "New York Tau",
     "official_name": "Hofstra University",
     "alias": "Hofstra",
     "name": "Hofstra University",
@@ -3361,10 +3584,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Tau"
   },
   {
-    "chapter": "New York Theta",
     "official_name": "State University Of New York College At Geneseo",
     "alias": "SUNY-Geneseo",
     "name": "SUNY Geneseo",
@@ -3376,10 +3600,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Theta"
   },
   {
-    "chapter": "New York Upsilon",
     "official_name": "Adelphi University",
     "alias": "Adelphi",
     "name": "Adelphi University",
@@ -3391,10 +3616,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "New York Upsilon"
   },
   {
-    "chapter": "New York Xi",
     "official_name": "University Of Rochester",
     "alias": "Rochester",
     "name": "University of Rochester",
@@ -3406,10 +3632,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "New York Xi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "New York Xi - School Logo Transparent BG.png",
+    "conference": "Liberty League \u2014 NCAA D3",
+    "id": "New York Xi"
   },
   {
-    "chapter": "New York Zeta",
     "official_name": "Marist College",
     "alias": "Marist",
     "name": "Marist College",
@@ -3421,10 +3648,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "New York Zeta"
   },
   {
-    "chapter": "North Carolina Beta",
     "official_name": "North Carolina State University",
     "alias": "North Carolina State",
     "name": "North Carolina State University",
@@ -3436,10 +3664,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Beta - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "North Carolina Beta"
   },
   {
-    "chapter": "North Carolina Delta",
     "official_name": "The University Of North Carolina - Chapel Hill",
     "alias": "North Carolina",
     "name": "University of North Carolina at Chapel Hill",
@@ -3451,10 +3680,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "North Carolina Delta"
   },
   {
-    "chapter": "North Carolina Epsilon",
     "official_name": "Davidson College",
     "alias": "Davidson",
     "name": "Davidson College",
@@ -3466,10 +3696,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Epsilon - School Logo Transparent BG.png",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "North Carolina Epsilon"
   },
   {
-    "chapter": "North Carolina Eta",
     "official_name": "High Point University",
     "alias": "High Point",
     "name": "High Point University",
@@ -3481,10 +3712,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "North Carolina Eta"
   },
   {
-    "chapter": "North Carolina Gamma",
     "official_name": "Duke University",
     "alias": "Duke",
     "name": "Duke University",
@@ -3496,10 +3728,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Gamma - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "North Carolina Gamma"
   },
   {
-    "chapter": "North Carolina Iota",
     "official_name": "Barton College",
     "alias": "Barton",
     "name": "Barton College",
@@ -3511,10 +3744,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Iota - School Logo Transparent BG.png",
+    "conference": "Conference Carolinas \u2014 NCAA D2",
+    "id": "North Carolina Iota"
   },
   {
-    "chapter": "North Carolina Kappa",
     "official_name": "East Carolina University",
     "alias": "East Carolina",
     "name": "East Carolina University",
@@ -3526,10 +3760,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "North Carolina Kappa"
   },
   {
-    "chapter": "North Carolina Lambda",
     "official_name": "Belmont Abbey College",
     "alias": "Belmont Abbey",
     "federal_id": "",
@@ -3540,10 +3775,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "North Carolina Lambda"
   },
   {
-    "chapter": "North Carolina Mu",
     "official_name": "Elon University",
     "alias": "Elon",
     "name": "Elon University",
@@ -3555,10 +3791,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Mu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Mu - School Logo Transparent BG.png",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "North Carolina Mu"
   },
   {
-    "chapter": "North Carolina Nu",
     "official_name": "The University Of North Carolina - Charlotte",
     "alias": "North Carolina-Charlotte",
     "name": "University of North Carolina at Charlotte",
@@ -3570,10 +3807,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "North Carolina Nu"
   },
   {
-    "chapter": "North Carolina Omicron",
     "official_name": "The University Of North Carolina - Greensboro",
     "alias": "North Carolina-Greensboro",
     "name": "University of North Carolina at Greensboro",
@@ -3585,10 +3823,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Omicron - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Omicron - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "North Carolina Omicron"
   },
   {
-    "chapter": "North Carolina Pi",
     "official_name": "Western Carolina University",
     "alias": "Western Carolina",
     "name": "Western Carolina University",
@@ -3600,10 +3839,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Carolina Pi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Carolina Pi - School Logo Transparent BG.png",
+    "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "id": "North Carolina Pi"
   },
   {
-    "chapter": "North Carolina Rho",
     "official_name": "The University Of North Carolina - Wilmington",
     "alias": "UNC-Wilmington",
     "name": "University of North Carolina Wilmington",
@@ -3615,10 +3855,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "North Carolina Rho"
   },
   {
-    "chapter": "North Carolina Theta",
     "official_name": "Lenoir-Rhyne University",
     "alias": "Lenoir Rhyne",
     "name": "Lenoir-Rhyne University",
@@ -3630,10 +3871,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "South Atlantic Conference (SAC) \u2014 NCAA D2",
+    "id": "North Carolina Theta"
   },
   {
-    "chapter": "North Carolina Xi",
     "official_name": "Appalachian State University",
     "alias": "Appalachian State",
     "name": "Appalachian State University",
@@ -3645,10 +3887,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "North Carolina Xi"
   },
   {
-    "chapter": "North Carolina Zeta",
     "official_name": "Wake Forest University",
     "alias": "Wake Forest",
     "name": "Wake Forest University",
@@ -3660,10 +3903,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "North Carolina Zeta"
   },
   {
-    "chapter": "North Dakota Alpha",
     "official_name": "The University Of North Dakota",
     "alias": "North Dakota",
     "name": "University of North Dakota",
@@ -3675,10 +3919,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "North Dakota Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "North Dakota Alpha - School Logo Transparent BG.png",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "North Dakota Alpha"
   },
   {
-    "chapter": "Northeast Wesleyan University",
     "official_name": "Nebraska Wesleyan University",
     "alias": "Northeast Wesleyan",
     "name": "Nebraska Wesleyan University",
@@ -3690,10 +3935,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Rivers Conference (ARC) \u2014 NCAA D3",
+    "id": "Northeast Wesleyan University"
   },
   {
-    "chapter": "Ohio Alpha",
     "official_name": "Ohio Northern University",
     "alias": "Ohio Northern",
     "name": "Ohio Northern University",
@@ -3705,10 +3951,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Alpha - School Logo Transparent BG.png",
+    "conference": "Ohio Athletic Conference (OAC) \u2014 NCAA D3",
+    "id": "Ohio Alpha"
   },
   {
-    "chapter": "Ohio Beta",
     "official_name": "Wittenberg University",
     "alias": "Wittenberg",
     "name": "Wittenberg University",
@@ -3720,10 +3967,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "id": "Ohio Beta"
   },
   {
-    "chapter": "Ohio Delta",
     "official_name": "College of Wooster",
     "alias": "Wooster",
     "federal_id": "",
@@ -3734,10 +3982,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "id": "Ohio Delta"
   },
   {
-    "chapter": "Ohio Epsilon",
     "official_name": "Ohio Wesleyan University",
     "alias": "Ohio Wesleyan",
     "name": "Ohio Wesleyan University",
@@ -3749,10 +3998,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Epsilon - School Logo Transparent BG.png",
+    "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "id": "Ohio Epsilon"
   },
   {
-    "chapter": "Ohio Eta",
     "official_name": "Miami University",
     "alias": "Miami (Ohio)",
     "name": "Miami University",
@@ -3764,10 +4014,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Eta - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Ohio Eta"
   },
   {
-    "chapter": "Ohio Gamma",
     "official_name": "The Ohio State University",
     "alias": "Ohio State",
     "name": "The Ohio State University",
@@ -3779,10 +4030,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Gamma - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Ohio Gamma"
   },
   {
-    "chapter": "Ohio Iota",
     "official_name": "The University Of Toledo",
     "alias": "Toledo",
     "name": "University of Toledo",
@@ -3794,10 +4046,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Iota - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Ohio Iota"
   },
   {
-    "chapter": "Ohio Kappa",
     "official_name": "Bowling Green State University",
     "alias": "Bowling Green State",
     "name": "Bowling Green State University",
@@ -3809,10 +4062,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Kappa - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Kappa - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Ohio Kappa"
   },
   {
-    "chapter": "Ohio Lambda",
     "official_name": "Kent State University",
     "alias": "Kent State",
     "name": "Kent State University",
@@ -3824,10 +4078,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Lambda - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Lambda - School Logo Transparent BG.png",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Ohio Lambda"
   },
   {
-    "chapter": "Ohio Mu",
     "official_name": "Youngstown State University",
     "alias": "Youngstown State",
     "name": "Youngstown State University",
@@ -3839,10 +4094,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "Ohio Mu"
   },
   {
-    "chapter": "Ohio Nu",
     "official_name": "Cleveland State University",
     "alias": "Cleveland State",
     "name": "Cleveland State University",
@@ -3854,10 +4110,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Nu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Nu - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Ohio Nu"
   },
   {
-    "chapter": "Ohio Omicron",
     "official_name": "Defiance College",
     "alias": "Defiance",
     "federal_id": "",
@@ -3868,10 +4125,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Wolverine-Hoosier Athletic Conference (WHAC) \u2014 NAIA",
+    "id": "Ohio Omicron"
   },
   {
-    "chapter": "Ohio Pi",
     "official_name": "Wright State University",
     "alias": "Wright State",
     "name": "Wright State University",
@@ -3883,10 +4141,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Pi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Pi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Ohio Pi"
   },
   {
-    "chapter": "Ohio Rho",
     "official_name": "University Of Dayton",
     "alias": "Dayton",
     "name": "University of Dayton",
@@ -3898,10 +4157,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "id": "Ohio Rho"
   },
   {
-    "chapter": "Ohio Sigma",
     "official_name": "Case Western Reserve University",
     "alias": "Case Western",
     "name": "Case Western Reserve University",
@@ -3913,10 +4173,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Sigma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Sigma - School Logo Transparent BG.png",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "Ohio Sigma"
   },
   {
-    "chapter": "Ohio Tau",
     "official_name": "Denison University",
     "alias": "Denison",
     "name": "Denison University",
@@ -3928,10 +4189,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "id": "Ohio Tau"
   },
   {
-    "chapter": "Ohio Theta",
     "official_name": "University Of Cincinnati",
     "alias": "Cincinnati",
     "name": "University of Cincinnati",
@@ -3943,10 +4205,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Theta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Ohio Theta"
   },
   {
-    "chapter": "Ohio Upsilon",
     "official_name": "John Carroll University",
     "alias": "John Carroll",
     "name": "John Carroll University",
@@ -3958,10 +4221,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Upsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Upsilon - School Logo Transparent BG.png",
+    "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "id": "Ohio Upsilon"
   },
   {
-    "chapter": "Ohio Xi",
     "official_name": "Ohio University",
     "alias": "Ohio",
     "name": "Ohio University",
@@ -3973,10 +4237,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mid-American Conference (MAC)",
+    "id": "Ohio Xi"
   },
   {
-    "chapter": "Ohio Zeta",
     "official_name": "Baldwin-Wallace University",
     "alias": "Baldwin Wallace",
     "name": "Baldwin Wallace University",
@@ -3988,10 +4253,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Ohio Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Ohio Zeta - School Logo Transparent BG.png",
+    "conference": "Ohio Athletic Conference (OAC) \u2014 NCAA D3",
+    "id": "Ohio Zeta"
   },
   {
-    "chapter": "Oklahoma Alpha",
     "official_name": "Oklahoma State University",
     "alias": "Oklahoma State",
     "name": "Oklahoma State University",
@@ -4003,10 +4269,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Oklahoma Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Oklahoma Alpha - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Oklahoma Alpha"
   },
   {
-    "chapter": "Oklahoma Beta",
     "official_name": "The University Of Oklahoma",
     "alias": "Oklahoma",
     "name": "University of Oklahoma",
@@ -4018,10 +4285,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Oklahoma Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Oklahoma Beta - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Oklahoma Beta"
   },
   {
-    "chapter": "Oklahoma Delta",
     "official_name": "Oklahoma City University",
     "alias": "Oklahoma City",
     "name": "Oklahoma City University",
@@ -4033,10 +4301,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Oklahoma Delta"
   },
   {
-    "chapter": "Oklahoma Gamma",
     "official_name": "The University Of Tulsa",
     "alias": "Tulsa",
     "name": "University of Tulsa",
@@ -4048,10 +4317,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Oklahoma Gamma"
   },
   {
-    "chapter": "Oregon Alpha",
     "official_name": "Oregon State University",
     "alias": "Oregon State",
     "name": "Oregon State University",
@@ -4063,10 +4333,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Oregon Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Oregon Alpha - School Logo Transparent BG.png",
+    "conference": "Pac-12 Conference",
+    "id": "Oregon Alpha"
   },
   {
-    "chapter": "Oregon Beta",
     "official_name": "University Of Oregon",
     "alias": "Oregon",
     "name": "University of Oregon",
@@ -4078,10 +4349,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "Oregon Beta"
   },
   {
-    "chapter": "Oregon Gamma",
     "official_name": "Lewis & Clark College",
     "alias": "Lewis & Clark",
     "federal_id": "",
@@ -4092,10 +4364,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Northwest Conference (NWC) \u2014 NCAA D3",
+    "id": "Oregon Gamma"
   },
   {
-    "chapter": "Pennsylvania Alpha",
     "official_name": "Washington & Jefferson College",
     "alias": "Washington & Jefferson",
     "name": "Washington & Jefferson College",
@@ -4107,10 +4380,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "Pennsylvania Alpha"
   },
   {
-    "chapter": "Pennsylvania Beta",
     "official_name": "Jefferson University",
     "alias": "Jefferson Medical",
     "name": "Thomas Jefferson University",
@@ -4122,10 +4396,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Pennsylvania Beta"
   },
   {
-    "chapter": "Pennsylvania Beta Alpha",
     "official_name": "Moravian University",
     "alias": "Moravian",
     "name": "Moravian University",
@@ -4137,10 +4412,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Beta Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Beta Alpha - School Logo Transparent BG.png",
+    "conference": "Landmark Conference \u2014 NCAA D3",
+    "id": "Pennsylvania Beta Alpha"
   },
   {
-    "chapter": "Pennsylvania Beta Beta",
     "official_name": "Drexel University",
     "alias": "Drexel",
     "name": "Drexel University",
@@ -4152,10 +4428,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Beta Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Beta Beta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Pennsylvania Beta Beta"
   },
   {
-    "chapter": "Pennsylvania Chi",
     "official_name": "Albright College",
     "alias": "Albright",
     "name": "Albright College",
@@ -4167,10 +4444,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Middle Atlantic Conference \u2014 NCAA D3",
+    "id": "Pennsylvania Chi"
   },
   {
-    "chapter": "Pennsylvania Delta",
     "official_name": "University Of Pennsylvania",
     "alias": "Pennsylvania",
     "name": "University of Pennsylvania",
@@ -4182,10 +4460,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Delta - School Logo Transparent BG.png",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "Pennsylvania Delta"
   },
   {
-    "chapter": "Pennsylvania Epsilon",
     "official_name": "Lehigh University",
     "alias": "Lehigh",
     "name": "Lehigh University",
@@ -4197,10 +4476,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Epsilon - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "Pennsylvania Epsilon"
   },
   {
-    "chapter": "Pennsylvania Eta",
     "official_name": "Pennsylvania State University - University Park",
     "alias": "Pennsylvania State",
     "name": "Pennsylvania State University",
@@ -4212,10 +4492,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Pennsylvania Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Eta - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Pennsylvania Eta"
   },
   {
-    "chapter": "Pennsylvania Gamma",
     "official_name": "University Of Pittsburgh - Pittsburgh",
     "alias": "Pittsburgh",
     "name": "University of Pittsburgh",
@@ -4227,10 +4508,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Pennsylvania Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Gamma - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Pennsylvania Gamma"
   },
   {
-    "chapter": "Pennsylvania Iota",
     "official_name": "Muhlenberg College",
     "alias": "Muhlenberg",
     "name": "Muhlenberg College",
@@ -4242,10 +4524,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Centennial Conference \u2014 NCAA D3",
+    "id": "Pennsylvania Iota"
   },
   {
-    "chapter": "Pennsylvania Kappa",
     "official_name": "Bucknell University",
     "alias": "Bucknell",
     "name": "Bucknell University",
@@ -4257,10 +4540,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Kappa - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Kappa - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "Pennsylvania Kappa"
   },
   {
-    "chapter": "Pennsylvania Lambda",
     "official_name": "Westminster College (Pennsylvania)",
     "alias": "Westminster",
     "name": "Westminster College",
@@ -4272,10 +4556,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Pennsylvania Lambda - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Lambda - School Logo Transparent BG.png",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "Pennsylvania Lambda"
   },
   {
-    "chapter": "Pennsylvania Mu",
     "official_name": "Temple University",
     "alias": "Temple",
     "name": "Temple University",
@@ -4287,10 +4572,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Pennsylvania Mu"
   },
   {
-    "chapter": "Pennsylvania Nu",
     "official_name": "Thiel College",
     "alias": "Thiel",
     "name": "Thiel College",
@@ -4302,10 +4588,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Nu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Nu - School Logo Transparent BG.png",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "Pennsylvania Nu"
   },
   {
-    "chapter": "Pennsylvania Omega",
     "official_name": "La Salle University",
     "alias": "La Salle",
     "name": "La Salle University",
@@ -4317,10 +4604,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Omega - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Omega - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Pennsylvania Omega"
   },
   {
-    "chapter": "Pennsylvania Omicron",
     "official_name": "Philadelphia University",
     "alias": "Philadelphia",
     "federal_id": "",
@@ -4331,10 +4619,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Pennsylvania Omicron"
   },
   {
-    "chapter": "Pennsylvania Phi",
     "official_name": "Susquehanna University",
     "alias": "Susquehanna",
     "name": "Susquehanna University",
@@ -4346,10 +4635,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Landmark Conference \u2014 NCAA D3",
+    "id": "Pennsylvania Phi"
   },
   {
-    "chapter": "Pennsylvania Pi",
     "official_name": "Duquesne University",
     "alias": "Duquesne",
     "name": "Duquesne University",
@@ -4361,10 +4651,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Northeast Conference (NEC) \u2014 FCS",
+    "id": "Pennsylvania Pi"
   },
   {
-    "chapter": "Pennsylvania Psi",
     "official_name": "St. Joseph's University",
     "alias": "St Joseph's",
     "name": "Saint Joseph's University",
@@ -4376,10 +4667,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Psi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Psi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Pennsylvania Psi"
   },
   {
-    "chapter": "Pennsylvania Rho",
     "official_name": "Villanova University",
     "alias": "Villanova",
     "name": "Villanova University",
@@ -4391,10 +4683,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Rho - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Rho - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "Pennsylvania Rho"
   },
   {
-    "chapter": "Pennsylvania Sigma",
     "official_name": "York College Of Pennsylvania",
     "alias": "York",
     "name": "York College of Pennsylvania",
@@ -4406,10 +4699,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Pennsylvania Sigma"
   },
   {
-    "chapter": "Pennsylvania Tau",
     "official_name": "West Chester University Of Pennsylvania",
     "alias": "West Chester",
     "name": "West Chester University",
@@ -4421,10 +4715,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Pennsylvania Tau - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Tau - School Logo Transparent BG.png",
+    "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "id": "Pennsylvania Tau"
   },
   {
-    "chapter": "Pennsylvania Theta",
     "official_name": "Carnegie Mellon University",
     "alias": "Carnegie Mellon",
     "name": "Carnegie Mellon University",
@@ -4436,10 +4731,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Theta - School Logo Transparent BG.png",
+    "conference": "Centennial Conference \u2014 NCAA D3",
+    "id": "Pennsylvania Theta"
   },
   {
-    "chapter": "Pennsylvania Upsilon",
     "official_name": "Pennsylvania Western University - Clarion",
     "alias": "PennWest",
     "name": "Pennsylvania Western University",
@@ -4451,10 +4747,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Pennsylvania Upsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Pennsylvania Upsilon - School Logo Transparent BG.png",
+    "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "id": "Pennsylvania Upsilon"
   },
   {
-    "chapter": "Pennsylvania Xi",
     "official_name": "Indiana University Of Pennsylvania",
     "alias": "Indiana of Pennsylvania",
     "name": "Indiana University of Pennsylvania",
@@ -4466,10 +4763,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "id": "Pennsylvania Xi"
   },
   {
-    "chapter": "Pennsylvania Zeta",
     "official_name": "Allegheny College",
     "alias": "Allegheny",
     "name": "Allegheny College",
@@ -4481,10 +4779,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "Pennsylvania Zeta"
   },
   {
-    "chapter": "Rhode Island Alpha",
     "official_name": "Brown University",
     "alias": "Brown",
     "name": "Brown University",
@@ -4496,10 +4795,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Ivy League \u2014 FCS",
+    "id": "Rhode Island Alpha"
   },
   {
-    "chapter": "Rhode Island Beta",
     "official_name": "University Of Rhode Island",
     "alias": "Rhode Island",
     "name": "University of Rhode Island",
@@ -4511,10 +4811,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "Rhode Island Beta"
   },
   {
-    "chapter": "Rhode Island Gamma",
     "official_name": "Bryant University",
     "alias": "Bryant",
     "name": "Bryant University",
@@ -4526,10 +4827,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "Rhode Island Gamma"
   },
   {
-    "chapter": "South Carolina Alpha",
     "official_name": "University Of South Carolina - Columbia",
     "alias": "South Carolina",
     "name": "University of South Carolina",
@@ -4541,10 +4843,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "South Carolina Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "South Carolina Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "South Carolina Alpha"
   },
   {
-    "chapter": "South Carolina Beta",
     "official_name": "Clemson University",
     "alias": "Clemson",
     "name": "Clemson University",
@@ -4556,10 +4859,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "South Carolina Beta"
   },
   {
-    "chapter": "South Carolina Delta",
     "official_name": "Winthrop University",
     "alias": "Winthrop",
     "name": "Winthrop University",
@@ -4571,10 +4875,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "South Carolina Delta"
   },
   {
-    "chapter": "South Carolina Epsilon",
     "official_name": "Coastal Carolina University",
     "alias": "Coastal Carolina",
     "name": "Coastal Carolina University",
@@ -4586,10 +4891,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "South Carolina Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "South Carolina Epsilon - School Logo Transparent BG.png",
+    "conference": "Sun Belt Conference",
+    "id": "South Carolina Epsilon"
   },
   {
-    "chapter": "South Carolina Gamma",
     "official_name": "Francis Marion University",
     "alias": "Francis Marion",
     "name": "Francis Marion University",
@@ -4601,10 +4907,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "South Carolina Gamma"
   },
   {
-    "chapter": "South Carolina Zeta",
     "official_name": "College Of Charleston",
     "alias": "Charleston (South Carolina)",
     "name": "College of Charleston",
@@ -4616,10 +4923,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "South Carolina Zeta"
   },
   {
-    "chapter": "South Dakota Alpha",
     "official_name": "South Dakota State University",
     "alias": "South Dakota State",
     "name": "South Dakota State University",
@@ -4631,10 +4939,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "South Dakota Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "South Dakota Alpha - School Logo Transparent BG.png",
+    "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "id": "South Dakota Alpha"
   },
   {
-    "chapter": "State University of New York-Stonybrook",
     "official_name": "State University Of New York At Stony Brook",
     "alias": "SUNY-Stonybrook",
     "name": "Stony Brook University",
@@ -4646,10 +4955,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CAA Football \u2014 FCS",
+    "id": "State University of New York-Stonybrook"
   },
   {
-    "chapter": "Tennessee Alpha",
     "official_name": "The University Of Tennessee - Knoxville",
     "alias": "Tennessee",
     "name": "University of Tennessee",
@@ -4661,10 +4971,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Tennessee Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Tennessee Alpha"
   },
   {
-    "chapter": "Tennessee Beta",
     "official_name": "The University Of Memphis",
     "alias": "Memphis",
     "name": "University of Memphis",
@@ -4676,10 +4987,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Tennessee Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Beta - School Logo Transparent BG.png",
+    "conference": "American Athletic Conference",
+    "id": "Tennessee Beta"
   },
   {
-    "chapter": "Tennessee Delta",
     "official_name": "Tennessee Wesleyan College",
     "alias": "Tennessee Wesleyan",
     "federal_id": "",
@@ -4690,10 +5002,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Appalachian Athletic Conference (AAC) \u2014 NAIA",
+    "id": "Tennessee Delta"
   },
   {
-    "chapter": "Tennessee Epsilon",
     "official_name": "Tennessee Technological University",
     "alias": "Tennessee Tech",
     "name": "Tennessee Technological University",
@@ -4705,10 +5018,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Tennessee Epsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Epsilon - School Logo Transparent BG.png",
+    "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "id": "Tennessee Epsilon"
   },
   {
-    "chapter": "Tennessee Eta",
     "official_name": "Austin Peay State University",
     "alias": "Austin Peay State",
     "name": "Austin Peay State University",
@@ -4720,10 +5034,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Tennessee Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Eta - School Logo Transparent BG.png",
+    "conference": "United Athletic Conference (UAC) \u2014 FCS",
+    "id": "Tennessee Eta"
   },
   {
-    "chapter": "Tennessee Gamma",
     "official_name": "East Tennessee State University",
     "alias": "East Tennessee State",
     "name": "East Tennessee State University",
@@ -4735,10 +5050,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Tennessee Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Gamma - School Logo Transparent BG.png",
+    "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "id": "Tennessee Gamma"
   },
   {
-    "chapter": "Tennessee Iota",
     "official_name": "Lincoln Memorial University",
     "alias": "Lincoln Memorial",
     "federal_id": "",
@@ -4749,10 +5065,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Tennessee Iota"
   },
   {
-    "chapter": "Tennessee Kappa",
     "official_name": "The University Of Tennessee - Martin",
     "alias": "Tennessee-Martin",
     "name": "University of Tennessee at Martin",
@@ -4764,10 +5081,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Tennessee Kappa - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Tennessee Kappa - School Logo Transparent BG.png",
+    "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "id": "Tennessee Kappa"
   },
   {
-    "chapter": "Tennessee Theta",
     "official_name": "Middle Tennessee State University",
     "alias": "Middle Tennessee State",
     "name": "Middle Tennessee State University",
@@ -4779,10 +5097,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Conference USA",
+    "id": "Tennessee Theta"
   },
   {
-    "chapter": "Tennessee-Vanderbilt University SEC",
     "official_name": "Vanderbilt University",
     "alias": "Vanderbilt",
     "name": "Vanderbilt University",
@@ -4794,10 +5113,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Tennessee-Vanderbilt University SEC"
   },
   {
-    "chapter": "Tennessee Zeta",
     "official_name": "The University Of Memphis- Lambuth",
     "alias": "Memphis-Lambuth",
     "name": "University of Memphis",
@@ -4809,10 +5129,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Tennessee Zeta"
   },
   {
-    "chapter": "Texas Alpha",
     "official_name": "The University Of Texas At Austin",
     "alias": "Texas-Austin",
     "name": "University of Texas at Austin",
@@ -4824,10 +5145,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Alpha - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Texas Alpha"
   },
   {
-    "chapter": "Texas Beta",
     "official_name": "University Of North Texas",
     "alias": "North Texas",
     "name": "University of North Texas",
@@ -4839,10 +5161,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Beta - School Logo Transparent BG.png",
+    "conference": "American Athletic Conference",
+    "id": "Texas Beta"
   },
   {
-    "chapter": "Texas Chi",
     "official_name": "Texas A&M University - Corpus Christi",
     "alias": "Texas A&M-Corpus Christi",
     "name": "Texas A&M University - Corpus Christi",
@@ -4854,10 +5177,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Chi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Chi - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Texas Chi"
   },
   {
-    "chapter": "Texas Delta",
     "official_name": "University Of Houston",
     "alias": "Houston",
     "name": "University of Houston",
@@ -4869,10 +5193,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Delta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Texas Delta"
   },
   {
-    "chapter": "Texas Epsilon",
     "official_name": "Lamar University",
     "alias": "Lamar",
     "name": "Lamar University",
@@ -4884,10 +5209,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southland Conference \u2014 FCS",
+    "id": "Texas Epsilon"
   },
   {
-    "chapter": "Texas Eta",
     "official_name": "Sam Houston State University",
     "alias": "Sam Houston State",
     "name": "Sam Houston State University",
@@ -4899,10 +5225,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Eta - School Logo Transparent BG.png",
+    "conference": "Conference USA",
+    "id": "Texas Eta"
   },
   {
-    "chapter": "Texas Gamma",
     "official_name": "Texas Christian University",
     "alias": "Texas Christian",
     "name": "Texas Christian University",
@@ -4914,10 +5241,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Gamma - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Texas Gamma"
   },
   {
-    "chapter": "Texas Iota",
     "official_name": "Texas Tech University",
     "alias": "Texas Tech",
     "name": "Texas Tech University",
@@ -4929,10 +5257,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Iota - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Texas Iota"
   },
   {
-    "chapter": "Texas Kappa",
     "official_name": "The University Of Texas At Arlington",
     "alias": "Texas-Arlington",
     "name": "University of Texas at Arlington",
@@ -4944,10 +5273,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Texas Kappa"
   },
   {
-    "chapter": "Texas Lambda",
     "official_name": "Tyler Junior College",
     "alias": "Tyler Junior",
     "federal_id": "",
@@ -4958,10 +5288,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "NJCAA",
+    "id": "Texas Lambda"
   },
   {
-    "chapter": "Texas Mu",
     "official_name": "Texas A & M University",
     "alias": "Texas A&M",
     "name": "Texas A&M University",
@@ -4973,10 +5304,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Mu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Mu - School Logo Transparent BG.png",
+    "conference": "Southeastern Conference (SEC)",
+    "id": "Texas Mu"
   },
   {
-    "chapter": "Texas Nu",
     "official_name": "Texas Wesleyan University",
     "alias": "Texas Wesleyan",
     "name": "Texas Wesleyan University",
@@ -4988,10 +5320,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sooner Athletic Conference \u2014 NAIA",
+    "id": "Texas Nu"
   },
   {
-    "chapter": "Texas Omicron",
     "official_name": "Angelo State University",
     "alias": "Angelo State",
     "name": "Angelo State University",
@@ -5003,10 +5336,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Lone Star Conference (LSC) \u2014 NCAA D2",
+    "id": "Texas Omicron"
   },
   {
-    "chapter": "Texas Phi",
     "official_name": "The University Of Texas At El Paso",
     "alias": "Texas-El Paso",
     "name": "University of Texas at El Paso",
@@ -5018,10 +5352,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Conference USA",
+    "id": "Texas Phi"
   },
   {
-    "chapter": "Texas Pi",
     "official_name": "Stephen F. Austin State University",
     "alias": "Stephen F. Austin",
     "name": "Stephen F. Austin State University",
@@ -5033,10 +5368,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southland Conference \u2014 FCS",
+    "id": "Texas Pi"
   },
   {
-    "chapter": "Texas Rho",
     "official_name": "Baylor University",
     "alias": "Baylor",
     "name": "Baylor University",
@@ -5048,10 +5384,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Rho - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Rho - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Texas Rho"
   },
   {
-    "chapter": "Texas Sigma",
     "official_name": "The University Of Texas At San Antonio",
     "alias": "Texas-San Antonio",
     "name": "University of Texas at San Antonio",
@@ -5063,10 +5400,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "American Athletic Conference",
+    "id": "Texas Sigma"
   },
   {
-    "chapter": "Texas Tau",
     "official_name": "Texas State University",
     "alias": "Texas State",
     "name": "Texas State University",
@@ -5078,10 +5416,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Sun Belt Conference",
+    "id": "Texas Tau"
   },
   {
-    "chapter": "Texas Theta",
     "official_name": "St. Mary's University",
     "alias": "St Mary's",
     "name": "St. Mary's University",
@@ -5093,10 +5432,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Theta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Texas Theta"
   },
   {
-    "chapter": "Texas Upsilon",
     "official_name": "Southern Methodist University",
     "alias": "Southern Methodist",
     "name": "Southern Methodist University",
@@ -5108,10 +5448,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Texas Upsilon - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Texas Upsilon - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Texas Upsilon"
   },
   {
-    "chapter": "Texas Xi",
     "official_name": "West Texas A & M University",
     "alias": "West Texas State",
     "name": "West Texas A&M University",
@@ -5123,10 +5464,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Lone Star Conference (LSC) \u2014 NCAA D2",
+    "id": "Texas Xi"
   },
   {
-    "chapter": "Texas Zeta",
     "official_name": "Texas A & M University - Commerce",
     "alias": "Texas A & M - Commerce",
     "name": "Texas A&M University - Commerce",
@@ -5138,10 +5480,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southland Conference \u2014 FCS",
+    "id": "Texas Zeta"
   },
   {
-    "chapter": "University of Michigan--Dearborn",
     "official_name": "University Of Michigan - Dearborn",
     "alias": "Michigan-Dearborn",
     "name": "University of Michigan - Dearborn",
@@ -5153,10 +5496,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "University of Michigan--Dearborn"
   },
   {
-    "chapter": "Utah Alpha",
     "official_name": "Utah State University",
     "alias": "Utah State",
     "name": "Utah State University",
@@ -5168,10 +5512,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Utah Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Utah Alpha - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "Utah Alpha"
   },
   {
-    "chapter": "Utah Beta",
     "official_name": "The University Of Utah",
     "alias": "Utah",
     "name": "University of Utah",
@@ -5183,10 +5528,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Utah Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Utah Beta - School Logo Transparent BG.png",
+    "conference": "Big 12 Conference",
+    "id": "Utah Beta"
   },
   {
-    "chapter": "Utah - Weber State University SEC",
     "official_name": "Weber State University",
     "alias": "Weber State",
     "federal_id": "",
@@ -5197,10 +5543,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Utah - Weber State University SEC"
   },
   {
-    "chapter": "Vermont Alpha",
     "official_name": "Norwich University",
     "alias": "Norwich",
     "federal_id": "",
@@ -5211,10 +5558,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "NEWMAC \u2014 NCAA D3",
+    "id": "Vermont Alpha"
   },
   {
-    "chapter": "Vermont Beta",
     "official_name": "Middlebury College",
     "alias": "Middlebury",
     "federal_id": "",
@@ -5225,10 +5573,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "NESCAC \u2014 NCAA D3",
+    "id": "Vermont Beta"
   },
   {
-    "chapter": "Vermont Gamma",
     "official_name": "The University Of Vermont",
     "alias": "Vermont",
     "name": "University of Vermont",
@@ -5240,10 +5589,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Vermont Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Vermont Gamma - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Vermont Gamma"
   },
   {
-    "chapter": "Virginia Alpha",
     "official_name": "University Of Richmond",
     "alias": "Richmond",
     "name": "University of Richmond",
@@ -5255,10 +5605,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Alpha - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "Virginia Alpha"
   },
   {
-    "chapter": "Virginia Beta",
     "official_name": "Virginia Commonwealth University",
     "alias": "Virginia Commonwealth",
     "name": "Virginia Commonwealth University",
@@ -5270,10 +5621,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Beta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Virginia Beta"
   },
   {
-    "chapter": "Virginia Delta",
     "official_name": "William & Mary",
     "alias": "William & Mary",
     "name": "College of William & Mary",
@@ -5285,10 +5637,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Virginia Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Delta - School Logo Transparent BG.png",
+    "conference": "Patriot League \u2014 FCS",
+    "id": "Virginia Delta"
   },
   {
-    "chapter": "Virginia Epsilon",
     "official_name": "Washington & Lee University",
     "alias": "Washington & Lee",
     "name": "Washington & Lee University",
@@ -5300,10 +5653,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "id": "Virginia Epsilon"
   },
   {
-    "chapter": "Virginia Eta",
     "official_name": "University Of Virginia",
     "alias": "Virginia",
     "name": "University of Virginia",
@@ -5315,10 +5669,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Eta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Eta - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Virginia Eta"
   },
   {
-    "chapter": "Virginia Gamma",
     "official_name": "Roanoke College",
     "alias": "Roanoke",
     "name": "Roanoke College",
@@ -5330,10 +5685,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "id": "Virginia Gamma"
   },
   {
-    "chapter": "Virginia Iota",
     "official_name": "James Madison University",
     "alias": "James Madison",
     "name": "James Madison University",
@@ -5345,10 +5701,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Iota - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Iota - School Logo Transparent BG.png",
+    "conference": "Sun Belt Conference",
+    "id": "Virginia Iota"
   },
   {
-    "chapter": "Virginia Kappa",
     "official_name": "Virginia Polytechnic Institute And State University",
     "alias": "Virginia Tech",
     "name": "Virginia Tech",
@@ -5360,10 +5717,11 @@
     "country": "United States",
     "match_source": "override",
     "logo_white": "Virginia Kappa - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Kappa - School Logo Transparent BG.png",
+    "conference": "Atlantic Coast Conference (ACC)",
+    "id": "Virginia Kappa"
   },
   {
-    "chapter": "Virginia Lambda",
     "official_name": "Longwood University",
     "alias": "Longwood",
     "name": "Longwood University",
@@ -5375,10 +5733,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Virginia Lambda"
   },
   {
-    "chapter": "Virginia Mu",
     "official_name": "George Mason University",
     "alias": "George Mason",
     "name": "George Mason University",
@@ -5390,10 +5749,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Mu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Mu - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Virginia Mu"
   },
   {
-    "chapter": "Virginia Nu",
     "official_name": "Radford University",
     "alias": "Radford",
     "name": "Radford University",
@@ -5405,10 +5765,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Nu - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Nu - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Virginia Nu"
   },
   {
-    "chapter": "Virginia Omicron",
     "official_name": "University of Lynchburg",
     "alias": "Lynchburg",
     "name": "University of Lynchburg",
@@ -5420,10 +5781,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Omicron - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Omicron - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Virginia Omicron"
   },
   {
-    "chapter": "Virginia Pi",
     "official_name": "Christopher Newport University",
     "alias": "Christopher Newport",
     "name": "Christopher Newport University",
@@ -5435,10 +5797,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Pi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Pi - School Logo Transparent BG.png",
+    "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "id": "Virginia Pi"
   },
   {
-    "chapter": "Virginia Theta",
     "official_name": "Virginia Military Institute",
     "alias": "VMI",
     "federal_id": "",
@@ -5449,10 +5812,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "id": "Virginia Theta"
   },
   {
-    "chapter": "Virginia Xi",
     "official_name": "Old Dominion University",
     "alias": "Old Dominion",
     "name": "Old Dominion University",
@@ -5464,10 +5828,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Xi - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Xi - School Logo Transparent BG.png",
+    "conference": "Sun Belt Conference",
+    "id": "Virginia Xi"
   },
   {
-    "chapter": "Virginia Zeta",
     "official_name": "Randolph Macon College",
     "alias": "Randolph-Macon",
     "name": "Randolph-Macon College",
@@ -5479,10 +5844,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Virginia Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Virginia Zeta - School Logo Transparent BG.png",
+    "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "id": "Virginia Zeta"
   },
   {
-    "chapter": "Washingon - Gonzaga University SEC",
     "official_name": "Gonzaga University",
     "alias": "Gonzaga",
     "name": "Gonzaga University",
@@ -5494,10 +5860,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "Washingon - Gonzaga University SEC"
   },
   {
-    "chapter": "Washington Alpha",
     "official_name": "Washington State University",
     "alias": "Washington State",
     "name": "Washington State University",
@@ -5509,10 +5876,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Washington Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Washington Alpha - School Logo Transparent BG.png",
+    "conference": "Pac-12 Conference",
+    "id": "Washington Alpha"
   },
   {
-    "chapter": "Washington Beta",
     "official_name": "University Of Washington",
     "alias": "Washington",
     "name": "University of Washington",
@@ -5524,10 +5892,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Washington Beta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Washington Beta - School Logo Transparent BG.png",
+    "conference": "Big Ten Conference",
+    "id": "Washington Beta"
   },
   {
-    "chapter": "Washington Gamma",
     "official_name": "Eastern Washington University",
     "alias": "Eastern Washington",
     "name": "Eastern Washington University",
@@ -5539,10 +5908,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Washington Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Washington Gamma - School Logo Transparent BG.png",
+    "conference": "Big Sky Conference \u2014 FCS",
+    "id": "Washington Gamma"
   },
   {
-    "chapter": "West Georgia College",
     "official_name": "University Of West Georgia",
     "alias": "West Georgia",
     "name": "University of West Georgia",
@@ -5554,10 +5924,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "West Georgia College"
   },
   {
-    "chapter": "West Virginia Alpha",
     "official_name": "Bethany College",
     "alias": "Bethany",
     "name": "Bethany College",
@@ -5569,10 +5940,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "id": "West Virginia Alpha"
   },
   {
-    "chapter": "West Virginia Beta",
     "official_name": "West Virginia University",
     "alias": "West Virginia",
     "name": "West Virginia University",
@@ -5584,10 +5956,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big 12 Conference",
+    "id": "West Virginia Beta"
   },
   {
-    "chapter": "West Virginia Delta",
     "official_name": "Davis & Elkins College",
     "alias": "Davis & Elkins",
     "name": "Davis & Elkins College",
@@ -5599,10 +5972,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "West Virginia Delta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "West Virginia Delta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "West Virginia Delta"
   },
   {
-    "chapter": "West Virginia Epsilon",
     "official_name": "West Virginia Institute Of Technology",
     "alias": "West Virginia Tech",
     "federal_id": "",
@@ -5613,10 +5987,11 @@
     "country": "",
     "match_source": "none",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "No football program",
+    "id": "West Virginia Epsilon"
   },
   {
-    "chapter": "West Virginia Gamma",
     "official_name": "Marshall University",
     "alias": "Marshall",
     "name": "Marshall University",
@@ -5628,10 +6003,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "West Virginia Gamma - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "West Virginia Gamma - School Logo Transparent BG.png",
+    "conference": "Sun Belt Conference",
+    "id": "West Virginia Gamma"
   },
   {
-    "chapter": "West Virginia Zeta",
     "official_name": "University of Charleston",
     "alias": "Charleston (West Virginia)",
     "name": "University of Charleston",
@@ -5643,10 +6019,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Mountain East Conference (MEC) \u2014 NCAA D2",
+    "id": "West Virginia Zeta"
   },
   {
-    "chapter": "Wisconsin Alpha",
     "official_name": "Lawrence University",
     "alias": "Lawrence",
     "name": "Lawrence University",
@@ -5658,10 +6035,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Wisconsin Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Wisconsin Alpha - School Logo Transparent BG.png",
+    "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "id": "Wisconsin Alpha"
   },
   {
-    "chapter": "Wisconsin Beta",
     "official_name": "University Of Wisconsin - Madison",
     "alias": "Wisconsin",
     "name": "University of Wisconsin - Madison",
@@ -5673,10 +6051,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "Big Ten Conference",
+    "id": "Wisconsin Beta"
   },
   {
-    "chapter": "Wisconsin Delta",
     "official_name": "University Of Wisconsin - Stevens Point",
     "alias": "University Of Wisconsin - Stevens Point",
     "name": "University of Wisconsin - Stevens Point",
@@ -5688,10 +6067,11 @@
     "country": "",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "WIAC \u2014 NCAA D3",
+    "id": "Wisconsin Delta"
   },
   {
-    "chapter": "Wisconsin Epsilon",
     "official_name": "University Of Wisconsin - Oshkosh",
     "alias": "Wisconsin-Oshkosh",
     "name": "University of Wisconsin - Oshkosh",
@@ -5703,10 +6083,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "WIAC \u2014 NCAA D3",
+    "id": "Wisconsin Epsilon"
   },
   {
-    "chapter": "Wisconsin Eta",
     "official_name": "University Of Wisconsin - Stout",
     "alias": "Wisconsin-Stout",
     "name": "University of Wisconsin - Stout",
@@ -5718,10 +6099,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "WIAC \u2014 NCAA D3",
+    "id": "Wisconsin Eta"
   },
   {
-    "chapter": "Wisconsin Gamma",
     "official_name": "Carroll University",
     "alias": "Carroll",
     "name": "Carroll University",
@@ -5733,10 +6115,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "",
-    "logo_transparent": ""
+    "logo_transparent": "",
+    "conference": "CCIW \u2014 NCAA D3",
+    "id": "Wisconsin Gamma"
   },
   {
-    "chapter": "Wisconsin Theta",
     "official_name": "University Of Wisconsin - Platteville",
     "alias": "Wisconsin-Platteville",
     "name": "University of Wisconsin - Platteville",
@@ -5748,10 +6131,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Wisconsin Theta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Wisconsin Theta - School Logo Transparent BG.png",
+    "conference": "WIAC \u2014 NCAA D3",
+    "id": "Wisconsin Theta"
   },
   {
-    "chapter": "Wisconsin Zeta",
     "official_name": "Marquette University",
     "alias": "Marquette",
     "name": "Marquette University",
@@ -5763,10 +6147,11 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Wisconsin Zeta - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Wisconsin Zeta - School Logo Transparent BG.png",
+    "conference": "No football program",
+    "id": "Wisconsin Zeta"
   },
   {
-    "chapter": "Wyoming Alpha",
     "official_name": "University Of Wyoming",
     "alias": "Wyoming",
     "name": "University of Wyoming",
@@ -5778,6 +6163,8 @@
     "country": "United States",
     "match_source": "auto",
     "logo_white": "Wyoming Alpha - School Logo White BG.png",
-    "logo_transparent": ""
+    "logo_transparent": "Wyoming Alpha - School Logo Transparent BG.png",
+    "conference": "Mountain West Conference",
+    "id": "Wyoming Alpha"
   }
 ]
