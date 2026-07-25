@@ -163,11 +163,11 @@
     border: none;
     border-radius: 12px;
     padding: 0;
-    max-width: 420px;
+    max-width: 440px;
     width: 90%;
   }
   dialog::backdrop { background: rgba(0,0,0,0.4); }
-  .dialog-inner { padding: 22px 24px; }
+  .dialog-inner { padding: 22px 24px; max-height: 80vh; overflow-y: auto; }
   .dialog-inner h2 { margin-top: 0; font-size: 17px; }
   .dialog-inner label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
   .dialog-inner select, .dialog-inner input[type="text"] {
@@ -177,6 +177,11 @@
     border-radius: 8px;
     font-size: 14px;
   }
+  .dialog-inner .hint {
+    font-size: 11px;
+    color: #888;
+    margin-top: 4px;
+  }
   .dialog-inner .preview {
     margin-top: 8px;
     font-size: 12px;
@@ -185,6 +190,11 @@
     padding: 8px 10px;
     border-radius: 6px;
     word-break: break-all;
+  }
+  #customNamingFields {
+    border-left: 3px solid var(--border);
+    padding-left: 12px;
+    margin-top: 10px;
   }
   .dialog-actions {
     margin-top: 20px;
@@ -255,8 +265,27 @@
       <option value="school">Official school name (e.g. "The Ohio State University.png")</option>
       <option value="alias">Short name (e.g. "Ohio State.png")</option>
       <option value="federal_id">Federal school code</option>
+      <option value="school_federal">School name + Federal ID</option>
       <option value="original">Keep original filename</option>
+      <option value="custom">Custom (add your own text, mix and match)</option>
     </select>
+
+    <div id="customNamingFields" style="display:none;">
+      <label for="customBaseSelect">Base the filename on</label>
+      <select id="customBaseSelect">
+        <option value="school">Official school name</option>
+        <option value="alias">Short name</option>
+        <option value="federal_id">Federal school code</option>
+        <option value="school_federal">School name + Federal ID</option>
+      </select>
+
+      <label for="prefixInput">Text to add before (optional)</label>
+      <input type="text" id="prefixInput" placeholder='e.g. "Logo - "'>
+
+      <label for="suffixInput">Text to add after (optional)</label>
+      <input type="text" id="suffixInput" placeholder='e.g. " - Final"'>
+      <div class="hint">Both fields are inserted exactly as typed, right before the file extension.</div>
+    </div>
 
     <div class="preview" id="namePreview"></div>
 
@@ -271,6 +300,18 @@
 // ---- Configuration ----
 const REPORT_EMAIL = "zacgillman@gmail.com";
 
+const STATE_NAMES = {
+  AL:"Alabama", AK:"Alaska", AZ:"Arizona", AR:"Arkansas", CA:"California", CO:"Colorado",
+  CT:"Connecticut", DE:"Delaware", DC:"District of Columbia", FL:"Florida", GA:"Georgia",
+  HI:"Hawaii", ID:"Idaho", IL:"Illinois", IN:"Indiana", IA:"Iowa", KS:"Kansas", KY:"Kentucky",
+  LA:"Louisiana", ME:"Maine", MD:"Maryland", MA:"Massachusetts", MI:"Michigan", MN:"Minnesota",
+  MS:"Mississippi", MO:"Missouri", MT:"Montana", NE:"Nebraska", NV:"Nevada", NH:"New Hampshire",
+  NJ:"New Jersey", NM:"New Mexico", NY:"New York", NC:"North Carolina", ND:"North Dakota",
+  OH:"Ohio", OK:"Oklahoma", OR:"Oregon", PA:"Pennsylvania", RI:"Rhode Island",
+  SC:"South Carolina", SD:"South Dakota", TN:"Tennessee", TX:"Texas", UT:"Utah", VT:"Vermont",
+  VA:"Virginia", WA:"Washington", WV:"West Virginia", WI:"Wisconsin", WY:"Wyoming"
+};
+
 let DATA = [];
 let selected = new Set(); // set of internal ids
 
@@ -282,7 +323,9 @@ const countPill = document.getElementById('countPill');
 const downloadBtn = document.getElementById('downloadBtn');
 const emptyState = document.getElementById('emptyState');
 
-fetch('data/master.json')
+// Cache-bust the data file so an updated master.json is never masked by a
+// stale cached copy (browsers and some static hosts cache fetch() requests).
+fetch('data/master.json?v=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
     DATA = data;
@@ -300,14 +343,19 @@ fetch('data/master.json')
     render();
   })
   .catch(err => {
+    console.error(err);
     grid.innerHTML = '<div class="empty-state">Could not load data/master.json. Make sure this page is served from the folder containing that file (not opened via double-click / file://).</div>';
   });
 
-function keyOf(row) { return row.id; }
+// row.id should always be unique, but fall back to official_name defensively
+// so a bad/missing id in the data never causes every row to collapse into one.
+function keyOf(row) { return row.id || row.official_name; }
 
 function matchesSearch(row, q) {
   if (!q) return true;
-  const hay = [row.official_name, row.alias, row.city, row.state, row.federal_id, row.conference]
+  const stateAbbrev = (row.state || '').toUpperCase();
+  const stateFullName = STATE_NAMES[stateAbbrev] || '';
+  const hay = [row.official_name, row.alias, row.city, row.state, stateFullName, row.federal_id, row.conference]
     .join(' ').toLowerCase();
   return hay.includes(q.toLowerCase());
 }
@@ -422,27 +470,41 @@ const namingSelect = document.getElementById('namingSelect');
 const logoVersionSelect = document.getElementById('logoVersionSelect');
 const namePreview = document.getElementById('namePreview');
 const dialogTitle = document.getElementById('dialogTitle');
+const customNamingFields = document.getElementById('customNamingFields');
+const customBaseSelect = document.getElementById('customBaseSelect');
+const prefixInput = document.getElementById('prefixInput');
+const suffixInput = document.getElementById('suffixInput');
 
 function sanitize(name) {
   return name.replace(/[\/\\?%*:|"<>]/g, '-').trim();
 }
 
-function buildFilename(row, convention, ext) {
-  let base;
-  switch (convention) {
-    case 'school': base = row.official_name; break;
-    case 'alias': base = row.alias || row.official_name; break;
-    case 'federal_id': base = row.federal_id || row.official_name; break;
-    case 'original':
-    default:
-      base = null;
+function baseValue(row, baseKind) {
+  switch (baseKind) {
+    case 'alias': return row.alias || row.official_name;
+    case 'federal_id': return row.federal_id || row.official_name;
+    case 'school_federal': return `${row.official_name}${row.federal_id ? ' - ' + row.federal_id : ''}`;
+    case 'school':
+    default: return row.official_name;
   }
-  if (base === null) return null; // signal: use original filename
-  return sanitize(base) + ext;
+}
+
+function buildFilename(row, convention, ext) {
+  if (convention === 'original') return null; // signal: use original filename
+  if (convention === 'custom') {
+    const base = baseValue(row, customBaseSelect.value);
+    const named = `${prefixInput.value || ''}${base}${suffixInput.value || ''}`;
+    return sanitize(named) + ext;
+  }
+  return sanitize(baseValue(row, convention)) + ext;
 }
 
 function currentSelectionRows() {
   return DATA.filter(r => selected.has(keyOf(r)));
+}
+
+function updateCustomFieldsVisibility() {
+  customNamingFields.style.display = namingSelect.value === 'custom' ? 'block' : 'none';
 }
 
 function updatePreview() {
@@ -462,12 +524,16 @@ function updatePreview() {
     : `Example (1 of ${rows.length}): ${name}`;
 }
 
-namingSelect.addEventListener('change', updatePreview);
+namingSelect.addEventListener('change', () => { updateCustomFieldsVisibility(); updatePreview(); });
 logoVersionSelect.addEventListener('change', updatePreview);
+customBaseSelect.addEventListener('change', updatePreview);
+prefixInput.addEventListener('input', updatePreview);
+suffixInput.addEventListener('input', updatePreview);
 
 downloadBtn.addEventListener('click', () => {
   const rows = currentSelectionRows();
   dialogTitle.textContent = rows.length === 1 ? 'Download logo' : `Download ${rows.length} logos`;
+  updateCustomFieldsVisibility();
   updatePreview();
   dialog.showModal();
 });
