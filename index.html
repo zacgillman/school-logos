@@ -4,7 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>University Logo Finder</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <style>
   :root {
     --accent: #2b5b8c;
@@ -84,22 +89,34 @@
     cursor: not-allowed;
   }
 
-  /* Filter (funnel) button + popover */
-  .filter-wrap { position: relative; }
-  #filterBtn {
+  /* View toggle (list / map icons) */
+  .view-toggle {
+    display: flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .view-toggle button {
+    border: none;
+    border-radius: 0;
+    background: white;
+    padding: 8px 11px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 6px;
-    cursor: pointer;
-    position: relative;
+    color: #666;
   }
+  .view-toggle button + button { border-left: 1px solid var(--border); }
+  .view-toggle button svg { width: 18px; height: 18px; }
+  .view-toggle button.active { background: var(--accent); color: white; }
+
+  /* Filter (funnel) button + popover */
+  .filter-wrap { position: relative; }
+  #filterBtn { display: flex; align-items: center; gap: 6px; cursor: pointer; position: relative; }
   #filterBtn svg { width: 16px; height: 16px; }
   #filterBtn .active-dot {
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--accent);
-    display: none;
+    width: 7px; height: 7px; border-radius: 50%;
+    background: var(--accent); display: none;
   }
   #filterBtn.has-active .active-dot { display: inline-block; }
   #filterPanel {
@@ -116,40 +133,13 @@
     z-index: 20;
   }
   #filterPanel.open { display: block; }
-  #filterPanel label {
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    color: #555;
-    margin: 12px 0 5px;
-  }
+  #filterPanel label { display: block; font-size: 12px; font-weight: 600; color: #555; margin: 12px 0 5px; }
   #filterPanel label:first-child { margin-top: 0; }
-  #filterPanel select {
-    width: 100%;
-  }
-  #filterPanel .panel-footer {
-    margin-top: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #filterPanel .clear-filters-link {
-    font-size: 12px;
-    color: var(--accent);
-    cursor: pointer;
-    background: none;
-    border: none;
-    padding: 0;
-  }
+  #filterPanel select { width: 100%; }
+  #filterPanel .panel-footer { margin-top: 14px; display: flex; justify-content: space-between; align-items: center; }
+  #filterPanel .clear-filters-link { font-size: 12px; color: var(--accent); cursor: pointer; background: none; border: none; padding: 0; }
 
-  .select-all-wrap {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 13px;
-    color: #333;
-    white-space: nowrap;
-  }
+  .select-all-wrap { display: flex; align-items: center; gap: 7px; font-size: 13px; color: #333; white-space: nowrap; }
   .select-all-wrap input[type="checkbox"] { width: 16px; height: 16px; }
 
   .count-pill { font-size: 13px; color: #555; white-space: nowrap; }
@@ -171,19 +161,11 @@
     gap: 8px;
     position: relative;
   }
-  .card.selected {
-    border-color: var(--accent);
-    box-shadow: 0 0 0 2px rgba(43,91,140,0.2);
-  }
+  .card.selected { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(43,91,140,0.2); }
   .card .thumb {
     height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-    border: 1px solid #ececef;
-    border-radius: 6px;
-    overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+    background: #ffffff; border: 1px solid #ececef; border-radius: 6px; overflow: hidden;
   }
   .card .thumb img { max-width: 100%; max-height: 100%; }
   .card .thumb.missing { color: #999; font-size: 12px; text-align: center; padding: 8px; }
@@ -197,44 +179,56 @@
 
   .empty-state { text-align: center; color: #777; padding: 60px 20px; }
 
-  dialog {
-    border: none;
-    border-radius: 12px;
-    padding: 0;
-    max-width: 440px;
-    width: 90%;
+  /* Map view */
+  #mapContainer {
+    display: none;
+    height: 72vh;
+    min-height: 420px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
   }
+  #mapView { width: 100%; height: 100%; }
+  .map-popup { min-width: 190px; }
+  .map-popup .thumb {
+    height: 90px;
+    display: flex; align-items: center; justify-content: center;
+    background: #fff; border: 1px solid #ececef; border-radius: 6px; overflow: hidden; margin-bottom: 8px;
+  }
+  .map-popup .thumb img { max-width: 100%; max-height: 100%; }
+  .map-popup .school { font-weight: 700; font-size: 13px; color: var(--accent-dark); margin-bottom: 2px; }
+  .map-popup .alias { font-size: 12px; color: #555; margin-bottom: 4px; }
+  .map-popup .meta { font-size: 11px; color: #777; margin-bottom: 8px; line-height: 1.4; }
+  .map-popup label { display: flex; align-items: center; gap: 6px; font-size: 12px; margin-bottom: 6px; cursor: pointer; }
+  .map-popup .report-link { font-size: 11px; color: var(--accent); text-decoration: none; }
+  .map-popup .report-link:hover { text-decoration: underline; }
+  .marker-pin {
+    width: 26px; height: 26px; border-radius: 50% 50% 50% 0;
+    background: var(--accent); border: 2px solid white;
+    transform: rotate(-45deg);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .marker-pin.is-selected { background: #d3902b; }
+  .marker-cluster-university { background: rgba(43,91,140,0.35); }
+  .marker-cluster-university div { background: rgba(43,91,140,0.75); color: white; }
+
+  dialog { border: none; border-radius: 12px; padding: 0; max-width: 440px; width: 90%; }
   dialog::backdrop { background: rgba(0,0,0,0.4); }
   .dialog-inner { padding: 22px 24px; max-height: 80vh; overflow-y: auto; }
   .dialog-inner h2 { margin-top: 0; font-size: 17px; }
   .dialog-inner label { display: block; font-size: 13px; font-weight: 600; margin: 14px 0 6px; }
   .dialog-inner select, .dialog-inner input[type="text"] {
-    width: 100%;
-    padding: 8px 10px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    font-size: 14px;
+    width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 14px;
   }
   .dialog-inner .hint { font-size: 11px; color: #888; margin-top: 4px; }
   .dialog-inner .preview {
-    margin-top: 8px;
-    font-size: 12px;
-    color: #666;
-    background: #f5f5f7;
-    padding: 8px 10px;
-    border-radius: 6px;
-    word-break: break-all;
+    margin-top: 8px; font-size: 12px; color: #666; background: #f5f5f7;
+    padding: 8px 10px; border-radius: 6px; word-break: break-all;
   }
   #customNamingFields { border-left: 3px solid var(--border); padding-left: 12px; margin-top: 10px; }
   .dialog-actions { margin-top: 20px; display: flex; justify-content: flex-end; gap: 10px; }
-  .dialog-actions button {
-    padding: 9px 16px;
-    border-radius: 8px;
-    font-size: 14px;
-    cursor: pointer;
-    border: 1px solid var(--border);
-    background: white;
-  }
+  .dialog-actions button { padding: 9px 16px; border-radius: 8px; font-size: 14px; cursor: pointer; border: 1px solid var(--border); background: white; }
   .dialog-actions button.primary { background: var(--accent); color: white; border-color: var(--accent); }
 </style>
 </head>
@@ -268,19 +262,24 @@
       </select>
 
       <label for="stateFilter">State</label>
-      <select id="stateFilter">
-        <option value="">Any state</option>
-      </select>
+      <select id="stateFilter"><option value="">Any state</option></select>
 
       <label for="conferenceFilter">Football conference</label>
-      <select id="conferenceFilter">
-        <option value="">Any football conference</option>
-      </select>
+      <select id="conferenceFilter"><option value="">Any football conference</option></select>
 
       <div class="panel-footer">
         <button type="button" class="clear-filters-link" id="clearFiltersBtn">Clear all filters</button>
       </div>
     </div>
+  </div>
+
+  <div class="view-toggle">
+    <button id="listViewBtn" class="active" type="button" title="List view" aria-label="List view">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="7" height="7"></rect><rect x="14" y="4" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect></svg>
+    </button>
+    <button id="mapViewBtn" type="button" title="Map view" aria-label="Map view">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+    </button>
   </div>
 
   <div class="select-all-wrap">
@@ -294,6 +293,7 @@
 
 <main>
   <div class="grid" id="grid"></div>
+  <div id="mapContainer"><div id="mapView"></div></div>
   <div class="empty-state" id="emptyState" style="display:none;">No schools match your search.</div>
 </main>
 
@@ -361,8 +361,13 @@ const STATE_NAMES = {
 
 let DATA = [];
 let selected = new Set(); // set of internal ids
+let currentView = 'list'; // 'list' | 'map'
+let map = null;
+let markerCluster = null;
+let markerById = new Map();
 
 const grid = document.getElementById('grid');
+const mapContainer = document.getElementById('mapContainer');
 const searchInput = document.getElementById('searchInput');
 const versionFilter = document.getElementById('versionFilter');
 const conferenceFilter = document.getElementById('conferenceFilter');
@@ -373,9 +378,9 @@ const emptyState = document.getElementById('emptyState');
 const selectAllCheckbox = document.getElementById('selectAllCheckbox');
 const filterBtn = document.getElementById('filterBtn');
 const filterPanel = document.getElementById('filterPanel');
+const listViewBtn = document.getElementById('listViewBtn');
+const mapViewBtn = document.getElementById('mapViewBtn');
 
-// Cache-bust the data file so an updated master.json is never masked by a
-// stale cached copy (browsers and some static hosts cache fetch() requests).
 fetch('data/master.json?v=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
   .then(data => {
@@ -386,8 +391,7 @@ fetch('data/master.json?v=' + Date.now(), { cache: 'no-store' })
     )).sort();
     conferences.forEach(c => {
       const opt = document.createElement('option');
-      opt.value = c;
-      opt.textContent = c;
+      opt.value = c; opt.textContent = c;
       conferenceFilter.appendChild(opt);
     });
 
@@ -406,8 +410,6 @@ fetch('data/master.json?v=' + Date.now(), { cache: 'no-store' })
     grid.innerHTML = '<div class="empty-state">Could not load data/master.json. Make sure this page is served from the folder containing that file (not opened via double-click / file://).</div>';
   });
 
-// row.id should always be unique, but fall back to official_name defensively
-// so a bad/missing id in the data never causes every row to collapse into one.
 function keyOf(row) { return row.id || row.official_name; }
 
 function matchesSearch(row, q) {
@@ -425,16 +427,8 @@ function matchesVersion(row, v) {
   if (v === 'transparent') return !!row.logo_transparent;
   return true;
 }
-
-function matchesConference(row, c) {
-  if (!c) return true;
-  return row.conference === c;
-}
-
-function matchesState(row, s) {
-  if (!s) return true;
-  return (row.state || '').toUpperCase() === s;
-}
+function matchesConference(row, c) { return !c || row.conference === c; }
+function matchesState(row, s) { return !s || (row.state || '').toUpperCase() === s; }
 
 function visibleRows() {
   const q = searchInput.value.trim();
@@ -442,10 +436,7 @@ function visibleRows() {
   const c = conferenceFilter.value;
   const s = stateFilter.value;
   return DATA.filter(r => (r.logo_white || r.logo_transparent)
-    && matchesSearch(r, q)
-    && matchesVersion(r, v)
-    && matchesConference(r, c)
-    && matchesState(r, s));
+    && matchesSearch(r, q) && matchesVersion(r, v) && matchesConference(r, c) && matchesState(r, s));
 }
 
 function mailtoReportUrl(row) {
@@ -456,22 +447,14 @@ function mailtoReportUrl(row) {
     `Address on file: ${row.street ? row.street + ', ' : ''}${row.city || ''}${row.city && row.state ? ', ' : ''}${row.state || ''} ${row.zip || ''}`.trim(),
     `Federal school code on file: ${row.federal_id || '(none)'}`,
     `Conference on file: ${row.conference || '(none)'}`,
-    '',
-    'Please describe the issue or the correction needed:',
-    ''
+    '', 'Please describe the issue or the correction needed:', ''
   ].join('\n');
   return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 function mailtoRequestSchoolUrl() {
   const subject = `University Logo Finder - New school request`;
-  const body = [
-    'School name:',
-    'City / State:',
-    'Link to an official logo (or attach one to this email):',
-    'Any other notes:',
-    ''
-  ].join('\n');
+  const body = ['School name:', 'City / State:', 'Link to an official logo (or attach one to this email):', 'Any other notes:', ''].join('\n');
   return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
@@ -484,7 +467,6 @@ function refreshFilterActiveDot() {
   const active = versionFilter.value !== 'any' || !!conferenceFilter.value || !!stateFilter.value;
   filterBtn.classList.toggle('has-active', active);
 }
-
 filterBtn.addEventListener('click', (e) => {
   e.stopPropagation();
   const isOpen = filterPanel.classList.toggle('open');
@@ -497,14 +479,107 @@ document.addEventListener('click', (e) => {
   }
 });
 document.getElementById('clearFiltersBtn').addEventListener('click', () => {
-  versionFilter.value = 'any';
-  conferenceFilter.value = '';
-  stateFilter.value = '';
-  refreshFilterActiveDot();
-  render();
+  versionFilter.value = 'any'; conferenceFilter.value = ''; stateFilter.value = '';
+  refreshFilterActiveDot(); render();
 });
 
+// ---- View toggle ----
+function setView(view) {
+  currentView = view;
+  listViewBtn.classList.toggle('active', view === 'list');
+  mapViewBtn.classList.toggle('active', view === 'map');
+  grid.style.display = view === 'list' ? 'grid' : 'none';
+  mapContainer.style.display = view === 'map' ? 'block' : 'none';
+  if (view === 'map') {
+    ensureMapInitialized();
+    render();
+    setTimeout(() => map && map.invalidateSize(), 50);
+  } else {
+    render();
+  }
+}
+listViewBtn.addEventListener('click', () => setView('list'));
+mapViewBtn.addEventListener('click', () => setView('map'));
+
+function ensureMapInitialized() {
+  if (map) return;
+  map = L.map('mapView').setView([39.5, -98.35], 4);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap contributors',
+    maxZoom: 18
+  }).addTo(map);
+  markerCluster = L.markerClusterGroup({ iconCreateFunction: clusterIcon });
+  map.addLayer(markerCluster);
+}
+
+function clusterIcon(cluster) {
+  const count = cluster.getChildCount();
+  return L.divIcon({
+    html: `<div style="background:rgba(43,91,140,0.85);color:white;border-radius:50%;width:38px;height:38px;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:13px;border:2px solid white;">${count}</div>`,
+    className: 'marker-cluster-university',
+    iconSize: L.point(40, 40)
+  });
+}
+
+function pinIcon(isSelected) {
+  return L.divIcon({
+    className: '',
+    html: `<div class="marker-pin${isSelected ? ' is-selected' : ''}"></div>`,
+    iconSize: [26, 26],
+    iconAnchor: [13, 26],
+    popupAnchor: [0, -26]
+  });
+}
+
+function popupHtml(row) {
+  const thumbSrc = row.logo_transparent ? `logos/transparent/${encodeURIComponent(row.logo_transparent)}` :
+                   row.logo_white ? `logos/white/${encodeURIComponent(row.logo_white)}` : '';
+  const k = keyOf(row);
+  return `
+    <div class="map-popup">
+      <div class="thumb">${thumbSrc ? `<img src="${thumbSrc}" alt="${row.official_name} logo">` : 'No logo file'}</div>
+      <div class="school">${row.official_name}</div>
+      ${row.alias ? `<div class="alias">${row.alias}</div>` : ''}
+      <div class="meta">${row.city ? row.city + ', ' + row.state : ''}${row.federal_id ? ' &middot; ID ' + row.federal_id : ''}${row.conference && row.conference !== 'No football program' ? '<br>' + row.conference : ''}</div>
+      <label><input type="checkbox" class="map-select-cb" data-key="${encodeURIComponent(k)}" ${selected.has(k) ? 'checked' : ''}> Select this school</label>
+      <a class="report-link" href="${mailtoReportUrl(row)}">Report an error / request an edit</a>
+    </div>
+  `;
+}
+
+function renderMap() {
+  if (!map || !markerCluster) return;
+  markerCluster.clearLayers();
+  markerById.clear();
+  const rows = visibleRows().filter(r => typeof r.lat === 'number' && typeof r.lng === 'number');
+  rows.forEach(row => {
+    const k = keyOf(row);
+    const marker = L.marker([row.lat, row.lng], { icon: pinIcon(selected.has(k)) });
+    marker.bindPopup(popupHtml(row));
+    marker.on('popupopen', (e) => {
+      const cb = e.popup.getElement().querySelector('.map-select-cb');
+      if (cb) {
+        cb.addEventListener('change', () => {
+          if (cb.checked) selected.add(k); else selected.delete(k);
+          marker.setIcon(pinIcon(cb.checked));
+          updateCount();
+        });
+      }
+    });
+    markerCluster.addLayer(marker);
+    markerById.set(k, marker);
+  });
+}
+
 function render() {
+  if (currentView === 'map') {
+    renderMap();
+    const rows = visibleRows();
+    emptyState.style.display = rows.length ? 'none' : 'block';
+    updateCount();
+    return;
+  }
+
   const rows = visibleRows();
   grid.innerHTML = '';
   emptyState.style.display = rows.length ? 'none' : 'block';
@@ -512,10 +587,8 @@ function render() {
   rows.forEach(row => {
     const card = document.createElement('div');
     card.className = 'card' + (selected.has(keyOf(row)) ? ' selected' : '');
-
     const thumbSrc = row.logo_transparent ? `logos/transparent/${encodeURIComponent(row.logo_transparent)}` :
                      row.logo_white ? `logos/white/${encodeURIComponent(row.logo_white)}` : '';
-
     card.innerHTML = `
       <label class="select-box"><input type="checkbox" data-key="${encodeURIComponent(keyOf(row))}" ${selected.has(keyOf(row)) ? 'checked' : ''}></label>
       <div class="thumb ${thumbSrc ? '' : 'missing'}">
@@ -526,14 +599,12 @@ function render() {
       <div class="meta">${row.city ? row.city + ', ' + row.state : 'No address on file'}${row.federal_id ? ' &middot; ID ' + row.federal_id : ''}${row.conference && row.conference !== 'No football program' ? ' &middot; ' + row.conference : ''}</div>
       <a class="report-link" href="${mailtoReportUrl(row)}">Report an error / request an edit</a>
     `;
-
     card.querySelector('input[type="checkbox"]').addEventListener('change', (e) => {
       const k = decodeURIComponent(e.target.dataset.key);
       if (e.target.checked) selected.add(k); else selected.delete(k);
       card.classList.toggle('selected', e.target.checked);
       updateCount();
     });
-
     grid.appendChild(card);
   });
 
@@ -555,6 +626,11 @@ function updateCount() {
     selectAllCheckbox.checked = selectedInView === rows.length;
     selectAllCheckbox.indeterminate = selectedInView > 0 && selectedInView < rows.length;
   }
+
+  // Keep map pin colors in sync if the map is the active view.
+  if (currentView === 'map') {
+    markerById.forEach((marker, k) => marker.setIcon(pinIcon(selected.has(k))));
+  }
 }
 
 searchInput.addEventListener('input', render);
@@ -562,8 +638,6 @@ versionFilter.addEventListener('change', () => { refreshFilterActiveDot(); rende
 conferenceFilter.addEventListener('change', () => { refreshFilterActiveDot(); render(); });
 stateFilter.addEventListener('change', () => { refreshFilterActiveDot(); render(); });
 
-// Standard "select all" checkbox behavior: unchecked -> selects everything
-// currently visible; checked (or indeterminate) -> clears the selection.
 selectAllCheckbox.addEventListener('click', () => {
   const rows = visibleRows();
   const selectedInView = rows.filter(r => selected.has(keyOf(r))).length;
@@ -586,22 +660,18 @@ const customBaseSelect = document.getElementById('customBaseSelect');
 const prefixInput = document.getElementById('prefixInput');
 const suffixInput = document.getElementById('suffixInput');
 
-function sanitize(name) {
-  return name.replace(/[\/\\?%*:|"<>]/g, '-').trim();
-}
+function sanitize(name) { return name.replace(/[\/\\?%*:|"<>]/g, '-').trim(); }
 
 function baseValue(row, baseKind) {
   switch (baseKind) {
     case 'alias': return row.alias || row.official_name;
     case 'federal_id': return row.federal_id || row.official_name;
     case 'school_federal': return `${row.official_name}${row.federal_id ? ' - ' + row.federal_id : ''}`;
-    case 'school':
-    default: return row.official_name;
+    case 'school': default: return row.official_name;
   }
 }
-
 function buildFilename(row, convention, ext) {
-  if (convention === 'original') return null; // signal: use original filename
+  if (convention === 'original') return null;
   if (convention === 'custom') {
     const base = baseValue(row, customBaseSelect.value);
     const named = `${prefixInput.value || ''}${base}${suffixInput.value || ''}`;
@@ -609,14 +679,8 @@ function buildFilename(row, convention, ext) {
   }
   return sanitize(baseValue(row, convention)) + ext;
 }
-
-function currentSelectionRows() {
-  return DATA.filter(r => selected.has(keyOf(r)));
-}
-
-function updateCustomFieldsVisibility() {
-  customNamingFields.style.display = namingSelect.value === 'custom' ? 'block' : 'none';
-}
+function currentSelectionRows() { return DATA.filter(r => selected.has(keyOf(r))); }
+function updateCustomFieldsVisibility() { customNamingFields.style.display = namingSelect.value === 'custom' ? 'block' : 'none'; }
 
 function updatePreview() {
   const rows = currentSelectionRows();
@@ -630,9 +694,7 @@ function updatePreview() {
   }
   const ext = origFile.slice(origFile.lastIndexOf('.'));
   const name = buildFilename(sample, namingSelect.value, ext) || origFile;
-  namePreview.textContent = rows.length === 1
-    ? `Will download as: ${name}`
-    : `Example (1 of ${rows.length}): ${name}`;
+  namePreview.textContent = rows.length === 1 ? `Will download as: ${name}` : `Example (1 of ${rows.length}): ${name}`;
 }
 
 namingSelect.addEventListener('change', () => { updateCustomFieldsVisibility(); updatePreview(); });
@@ -648,7 +710,6 @@ downloadBtn.addEventListener('click', () => {
   updatePreview();
   dialog.showModal();
 });
-
 document.getElementById('cancelDownloadBtn').addEventListener('click', () => dialog.close());
 
 document.getElementById('confirmDownloadBtn').addEventListener('click', async () => {
@@ -661,7 +722,6 @@ document.getElementById('confirmDownloadBtn').addEventListener('click', async ()
     alert(`None of the selected schools have a ${ver === 'white' ? 'White Background' : 'Transparent Background'} logo available.`);
     return;
   }
-
   dialog.close();
 
   if (withLogo.length === 1) {
@@ -671,15 +731,11 @@ document.getElementById('confirmDownloadBtn').addEventListener('click', async ()
     const filename = buildFilename(row, convention, ext) || origFile;
     const url = `logos/${ver}/${encodeURIComponent(origFile)}`;
     const a = document.createElement('a');
-    a.href = url;
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
     return;
   }
 
-  // Multiple files -> zip
   const zip = new JSZip();
   const usedNames = new Set();
   await Promise.all(withLogo.map(async (row) => {
@@ -688,10 +744,7 @@ document.getElementById('confirmDownloadBtn').addEventListener('click', async ()
     let filename = buildFilename(row, convention, ext) || origFile;
     let finalName = filename;
     let n = 2;
-    while (usedNames.has(finalName)) {
-      finalName = filename.replace(ext, `-${n}${ext}`);
-      n++;
-    }
+    while (usedNames.has(finalName)) { finalName = filename.replace(ext, `-${n}${ext}`); n++; }
     usedNames.add(finalName);
     const resp = await fetch(`logos/${ver}/${encodeURIComponent(origFile)}`);
     const blob = await resp.blob();
@@ -701,11 +754,8 @@ document.getElementById('confirmDownloadBtn').addEventListener('click', async ()
   const content = await zip.generateAsync({ type: 'blob' });
   const url = URL.createObjectURL(content);
   const a = document.createElement('a');
-  a.href = url;
-  a.download = `university-logos-${ver}.zip`;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
+  a.href = url; a.download = `university-logos-${ver}.zip`;
+  document.body.appendChild(a); a.click(); a.remove();
   URL.revokeObjectURL(url);
 });
 </script>
