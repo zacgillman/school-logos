@@ -13,6 +13,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [],
     "id": "Alabama Alpha"
   },
   {
@@ -29,6 +30,7 @@
     "logo_white": "Alabama Beta - School Logo White BG.png",
     "logo_transparent": "Alabama Beta - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [],
     "id": "Alabama Beta"
   },
   {
@@ -41,10 +43,13 @@
     "state": "AL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "UAB"
+    ],
     "id": "Alabama Delta"
   },
   {
@@ -57,10 +62,11 @@
     "state": "AL",
     "zip": "36117",
     "country": "",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Alabama Epsilon"
   },
   {
@@ -73,10 +79,11 @@
     "state": "AL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Alabama Eta"
   },
   {
@@ -89,10 +96,11 @@
     "state": "AL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "nicknames": [],
     "id": "Alabama Gamma"
   },
   {
@@ -105,10 +113,11 @@
     "state": "AL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Conference USA",
+    "nicknames": [],
     "id": "Alabama Theta"
   },
   {
@@ -121,10 +130,11 @@
     "state": "AL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Alabama Zeta - School Logo White BG.png",
     "logo_transparent": "Alabama Zeta - School Logo Transparent BG.png",
     "conference": "USA South Athletic Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Alabama Zeta"
   },
   {
@@ -137,10 +147,11 @@
     "state": "AK",
     "zip": "99775",
     "country": "",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Alaska Alpha"
   },
   {
@@ -153,10 +164,11 @@
     "state": "AK",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Alaska Beta"
   },
   {
@@ -169,10 +181,13 @@
     "state": "AZ",
     "zip": "85287",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "ASU"
+    ],
     "id": "Arizona Alpha"
   },
   {
@@ -185,10 +200,11 @@
     "state": "AZ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Arizona Beta - School Logo White BG.png",
     "logo_transparent": "Arizona Beta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [],
     "id": "Arizona Beta"
   },
   {
@@ -201,10 +217,11 @@
     "state": "AZ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Arizona Gamma"
   },
   {
@@ -221,6 +238,7 @@
     "logo_white": "Arkansas Alpha - School Logo White BG.png",
     "logo_transparent": "Arkansas Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [],
     "id": "Arkansas Alpha"
   },
   {
@@ -233,10 +251,11 @@
     "state": "AR",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Great American Conference (GAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Arkansas Beta"
   },
   {
@@ -249,10 +268,11 @@
     "state": "AR",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Arkansas Delta"
   },
   {
@@ -265,10 +285,11 @@
     "state": "AR",
     "zip": "72801",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Arkansas Epsilon - School Logo White BG.png",
     "logo_transparent": "Arkansas Epsilon - School Logo Transparent BG.png",
     "conference": "Great American Conference (GAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Arkansas Epsilon"
   },
   {
@@ -281,10 +302,13 @@
     "state": "AR",
     "zip": "72401",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [
+      "A-State"
+    ],
     "id": "Arkansas Gamma"
   },
   {
@@ -297,10 +321,13 @@
     "state": "AR",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Arkansas Zeta - School Logo White BG.png",
     "logo_transparent": "Arkansas Zeta - School Logo Transparent BG.png",
     "conference": "United Athletic Conference (UAC) \u2014 FCS",
+    "nicknames": [
+      "UCA"
+    ],
     "id": "Arkansas Zeta"
   },
   {
@@ -313,10 +340,15 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "Cal",
+      "UC Berkeley",
+      "Berkeley"
+    ],
     "id": "California Alpha"
   },
   {
@@ -329,10 +361,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "USC"
+    ],
     "id": "California Beta"
   },
   {
@@ -345,10 +380,14 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Beta Alpha - School Logo White BG.png",
     "logo_transparent": "California Beta Alpha - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UC Irvine",
+      "UCI"
+    ],
     "id": "California Beta Alpha"
   },
   {
@@ -361,10 +400,11 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Beta Beta - School Logo White BG.png",
     "logo_transparent": "California Beta Beta - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "California Beta Beta"
   },
   {
@@ -377,10 +417,14 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Beta Gamma - School Logo White BG.png",
     "logo_transparent": "California Beta Gamma - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UC Riverside",
+      "UCR"
+    ],
     "id": "California Beta Gamma"
   },
   {
@@ -393,10 +437,11 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Chi - School Logo White BG.png",
     "logo_transparent": "California Chi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Chi"
   },
   {
@@ -409,10 +454,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Delta - School Logo White BG.png",
     "logo_transparent": "California Delta - School Logo Transparent BG.png",
-    "conference": "No football program",
+    "conference": "Mountain West Conference",
+    "nicknames": [
+      "SDSU"
+    ],
     "id": "California Delta"
   },
   {
@@ -425,10 +473,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "SJSU"
+    ],
     "id": "California Epsilon"
   },
   {
@@ -441,10 +492,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Eta - School Logo White BG.png",
     "logo_transparent": "California Eta - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [
+      "UC Davis"
+    ],
     "id": "California Eta"
   },
   {
@@ -457,10 +511,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Gamma - School Logo White BG.png",
     "logo_transparent": "California Gamma - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UCSB"
+    ],
     "id": "California Gamma"
   },
   {
@@ -473,10 +530,11 @@
     "state": "CA",
     "zip": "95929",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Iota"
   },
   {
@@ -492,6 +550,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Kappa"
   },
   {
@@ -504,10 +563,11 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Lambda"
   },
   {
@@ -520,10 +580,13 @@
     "state": "CA",
     "zip": "91768",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "California Mu - School Logo White BG.png",
     "logo_transparent": "California Mu - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "Cal Poly Pomona"
+    ],
     "id": "California Mu"
   },
   {
@@ -536,10 +599,11 @@
     "state": "CA",
     "zip": "92866",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "SCIAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "California Nu"
   },
   {
@@ -552,10 +616,14 @@
     "state": "CA",
     "zip": "92831",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "CSUF",
+      "Cal State Fullerton"
+    ],
     "id": "California Omega"
   },
   {
@@ -568,10 +636,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Omicron - School Logo White BG.png",
     "logo_transparent": "California Omicron - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "UCLA"
+    ],
     "id": "California Omicron"
   },
   {
@@ -584,10 +655,13 @@
     "state": "CA",
     "zip": "93740",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Phi - School Logo White BG.png",
     "logo_transparent": "California Phi - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "Fresno State"
+    ],
     "id": "California Phi"
   },
   {
@@ -600,10 +674,11 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Pi - School Logo White BG.png",
     "logo_transparent": "California Pi - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [],
     "id": "California Pi"
   },
   {
@@ -616,10 +691,11 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Psi - School Logo White BG.png",
     "logo_transparent": "California Psi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Psi"
   },
   {
@@ -632,10 +708,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Rho - School Logo White BG.png",
     "logo_transparent": "California Rho - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UCSD"
+    ],
     "id": "California Rho"
   },
   {
@@ -648,10 +727,13 @@
     "state": "CA",
     "zip": "91330",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Sigma - School Logo White BG.png",
     "logo_transparent": "California Sigma - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "CSUN"
+    ],
     "id": "California Sigma"
   },
   {
@@ -664,10 +746,11 @@
     "state": "CA",
     "zip": "93407",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Tau - School Logo White BG.png",
     "logo_transparent": "California Tau - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "California Tau"
   },
   {
@@ -680,10 +763,13 @@
     "state": "CA",
     "zip": "95819",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Theta - School Logo White BG.png",
     "logo_transparent": "California Theta - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [
+      "Sac State"
+    ],
     "id": "California Theta"
   },
   {
@@ -696,10 +782,11 @@
     "state": "CA",
     "zip": "92407",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "California Upsilon - School Logo White BG.png",
     "logo_transparent": "California Upsilon - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "California Upsilon"
   },
   {
@@ -712,10 +799,13 @@
     "state": "CA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "SFSU"
+    ],
     "id": "California Xi"
   },
   {
@@ -728,10 +818,13 @@
     "state": "CA",
     "zip": "90840",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "CSULB"
+    ],
     "id": "California Zeta"
   },
   {
@@ -744,10 +837,11 @@
     "state": "CO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Colorado Alpha - School Logo White BG.png",
     "logo_transparent": "Colorado Alpha - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [],
     "id": "Colorado Alpha"
   },
   {
@@ -760,10 +854,11 @@
     "state": "CO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Colorado Beta"
   },
   {
@@ -776,10 +871,11 @@
     "state": "CO",
     "zip": "80401",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Colorado Delta - School Logo White BG.png",
     "logo_transparent": "Colorado Delta - School Logo Transparent BG.png",
     "conference": "Rocky Mountain Athletic Conference (RMAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Colorado Delta"
   },
   {
@@ -792,10 +888,11 @@
     "state": "CO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Colorado Epsilon"
   },
   {
@@ -812,6 +909,7 @@
     "logo_white": "Colorado Gamma - School Logo White BG.png",
     "logo_transparent": "Colorado Gamma - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [],
     "id": "Colorado Gamma"
   },
   {
@@ -824,10 +922,13 @@
     "state": "CT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "Connecticut Alpha - School Logo White BG.png",
     "logo_transparent": "Connecticut Alpha - School Logo Transparent BG.png",
     "conference": "Independent (FBS)",
+    "nicknames": [
+      "UConn"
+    ],
     "id": "Connecticut Alpha"
   },
   {
@@ -840,10 +941,11 @@
     "state": "CT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Connecticut Beta"
   },
   {
@@ -856,10 +958,11 @@
     "state": "CT",
     "zip": "06520",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Connecticut Delta - School Logo White BG.png",
     "logo_transparent": "Connecticut Delta - School Logo Transparent BG.png",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "Connecticut Delta"
   },
   {
@@ -872,10 +975,11 @@
     "state": "CT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Connecticut Epsilon"
   },
   {
@@ -888,10 +992,11 @@
     "state": "CT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Connecticut Gamma"
   },
   {
@@ -904,10 +1009,14 @@
     "state": "DC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "GW",
+      "GWU"
+    ],
     "id": "D.C. Alpha"
   },
   {
@@ -920,10 +1029,11 @@
     "state": "DC",
     "zip": "20002",
     "country": "",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "D.C. Beta"
   },
   {
@@ -936,10 +1046,11 @@
     "state": "DC",
     "zip": "20016",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "D.C. Delta - School Logo White BG.png",
     "logo_transparent": "D.C. Delta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "D.C. Delta"
   },
   {
@@ -952,10 +1063,11 @@
     "state": "DC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "D.C. Gamma - School Logo White BG.png",
     "logo_transparent": "D.C. Gamma - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [],
     "id": "D.C. Gamma"
   },
   {
@@ -968,10 +1080,11 @@
     "state": "DE",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Delaware Alpha - School Logo White BG.png",
     "logo_transparent": "Delaware Alpha - School Logo Transparent BG.png",
     "conference": "Conference USA",
+    "nicknames": [],
     "id": "Delaware Alpha"
   },
   {
@@ -984,10 +1097,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Alpha - School Logo White BG.png",
     "logo_transparent": "Florida Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [],
     "id": "Florida Alpha"
   },
   {
@@ -1000,10 +1114,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Beta - School Logo White BG.png",
     "logo_transparent": "Florida Beta - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "Florida Beta"
   },
   {
@@ -1016,10 +1131,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Delta"
   },
   {
@@ -1032,10 +1148,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Epsilon - School Logo White BG.png",
     "logo_transparent": "Florida Epsilon - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "FSU"
+    ],
     "id": "Florida Epsilon"
   },
   {
@@ -1048,10 +1167,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Eta"
   },
   {
@@ -1064,10 +1184,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Gamma - School Logo White BG.png",
     "logo_transparent": "Florida Gamma - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "The U"
+    ],
     "id": "Florida Gamma"
   },
   {
@@ -1080,10 +1203,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Iota - School Logo White BG.png",
     "logo_transparent": "Florida Iota - School Logo Transparent BG.png",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "USF"
+    ],
     "id": "Florida Iota"
   },
   {
@@ -1099,6 +1225,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Kappa"
   },
   {
@@ -1111,10 +1238,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Lambda"
   },
   {
@@ -1127,10 +1255,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "UCF"
+    ],
     "id": "Florida Mu"
   },
   {
@@ -1143,10 +1274,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Nu - School Logo White BG.png",
     "logo_transparent": "Florida Nu - School Logo Transparent BG.png",
     "conference": "Conference USA",
+    "nicknames": [
+      "FIU"
+    ],
     "id": "Florida Nu"
   },
   {
@@ -1159,10 +1293,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Omicron - School Logo White BG.png",
     "logo_transparent": "Florida Omicron - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "FGCU"
+    ],
     "id": "Florida Omicron"
   },
   {
@@ -1175,10 +1312,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Theta"
   },
   {
@@ -1191,10 +1329,13 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Florida Xi - School Logo White BG.png",
     "logo_transparent": "Florida Xi - School Logo Transparent BG.png",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "FAU"
+    ],
     "id": "Florida Xi"
   },
   {
@@ -1207,10 +1348,11 @@
     "state": "FL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Florida Zeta"
   },
   {
@@ -1223,10 +1365,14 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Georgia Alpha - School Logo White BG.png",
     "logo_transparent": "Georgia Alpha - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "Georgia Tech",
+      "GT"
+    ],
     "id": "Georgia Alpha"
   },
   {
@@ -1239,10 +1385,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Georgia Beta"
   },
   {
@@ -1255,10 +1402,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Georgia Delta - School Logo White BG.png",
     "logo_transparent": "Georgia Delta - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [],
     "id": "Georgia Delta"
   },
   {
@@ -1275,6 +1423,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Georgia Epsilon"
   },
   {
@@ -1290,6 +1439,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Georgia Eta"
   },
   {
@@ -1302,10 +1452,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Gulf South Conference (GSC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Georgia Gamma"
   },
   {
@@ -1318,10 +1469,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Georgia Theta - School Logo White BG.png",
     "logo_transparent": "Georgia Theta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Georgia Theta"
   },
   {
@@ -1334,10 +1486,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Georgia Zeta"
   },
   {
@@ -1354,6 +1507,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mountain West Conference",
+    "nicknames": [],
     "id": "Hawaii Alpha"
   },
   {
@@ -1366,10 +1520,11 @@
     "state": "ID",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Idaho Alpha"
   },
   {
@@ -1382,10 +1537,11 @@
     "state": "ID",
     "zip": "83725",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Idaho Beta - School Logo White BG.png",
     "logo_transparent": "Idaho Beta - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [],
     "id": "Idaho Beta"
   },
   {
@@ -1398,10 +1554,11 @@
     "state": "ID",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Idaho Gamma"
   },
   {
@@ -1414,10 +1571,14 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Alpha - School Logo White BG.png",
     "logo_transparent": "Illinois Alpha - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "UIUC",
+      "Illinois"
+    ],
     "id": "Illinois Alpha"
   },
   {
@@ -1430,10 +1591,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Beta - School Logo White BG.png",
     "logo_transparent": "Illinois Beta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Illinois Beta"
   },
   {
@@ -1446,10 +1608,11 @@
     "state": "IL",
     "zip": "61625",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Delta - School Logo White BG.png",
     "logo_transparent": "Illinois Delta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Illinois Delta"
   },
   {
@@ -1462,10 +1625,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Epsilon - School Logo White BG.png",
     "logo_transparent": "Illinois Epsilon - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Illinois Epsilon"
   },
   {
@@ -1478,10 +1642,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Eta - School Logo White BG.png",
     "logo_transparent": "Illinois Eta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Illinois Eta"
   },
   {
@@ -1494,10 +1659,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Gamma - School Logo White BG.png",
     "logo_transparent": "Illinois Gamma - School Logo Transparent BG.png",
     "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Illinois Gamma"
   },
   {
@@ -1513,6 +1679,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Illinois Iota"
   },
   {
@@ -1525,10 +1692,13 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [
+      "SIU"
+    ],
     "id": "Illinois Kappa"
   },
   {
@@ -1541,10 +1711,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Lambda - School Logo White BG.png",
     "logo_transparent": "Illinois Lambda - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Illinois Lambda"
   },
   {
@@ -1557,10 +1728,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Illinois Mu"
   },
   {
@@ -1573,10 +1745,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Nu - School Logo White BG.png",
     "logo_transparent": "Illinois Nu - School Logo Transparent BG.png",
     "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "nicknames": [],
     "id": "Illinois Nu"
   },
   {
@@ -1589,10 +1762,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "nicknames": [],
     "id": "Illinois Theta"
   },
   {
@@ -1605,10 +1779,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Illinois Xi - School Logo White BG.png",
     "logo_transparent": "Illinois Xi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Illinois Xi"
   },
   {
@@ -1621,10 +1796,11 @@
     "state": "IL",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "Illinois Zeta"
   },
   {
@@ -1637,10 +1813,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Alpha - School Logo White BG.png",
     "logo_transparent": "Indiana Alpha - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Indiana Alpha"
   },
   {
@@ -1657,6 +1834,7 @@
     "logo_white": "Indiana Beta - School Logo White BG.png",
     "logo_transparent": "Indiana Beta - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Indiana Beta"
   },
   {
@@ -1669,10 +1847,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Delta - School Logo White BG.png",
     "logo_transparent": "Indiana Delta - School Logo Transparent BG.png",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "Indiana Delta"
   },
   {
@@ -1685,10 +1864,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Epsilon - School Logo White BG.png",
     "logo_transparent": "Indiana Epsilon - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Indiana Epsilon"
   },
   {
@@ -1701,10 +1881,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Eta - School Logo White BG.png",
     "logo_transparent": "Indiana Eta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Indiana Eta"
   },
   {
@@ -1717,10 +1898,11 @@
     "state": "IN",
     "zip": "47306",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Gamma - School Logo White BG.png",
     "logo_transparent": "Indiana Gamma - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Indiana Gamma"
   },
   {
@@ -1733,10 +1915,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Indiana Iota"
   },
   {
@@ -1749,10 +1932,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Indiana Kappa"
   },
   {
@@ -1765,10 +1949,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Theta - School Logo White BG.png",
     "logo_transparent": "Indiana Theta - School Logo Transparent BG.png",
     "conference": "MIAA (Michigan Intercollegiate Athletic Association) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Indiana Theta"
   },
   {
@@ -1781,10 +1966,11 @@
     "state": "IN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Indiana Zeta - School Logo White BG.png",
     "logo_transparent": "Indiana Zeta - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "Indiana Zeta"
   },
   {
@@ -1800,6 +1986,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Iowa Alpha"
   },
   {
@@ -1812,10 +1999,11 @@
     "state": "IA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Iowa Beta - School Logo White BG.png",
     "logo_transparent": "Iowa Beta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [],
     "id": "Iowa Beta"
   },
   {
@@ -1828,10 +2016,11 @@
     "state": "IA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Iowa Delta - School Logo White BG.png",
     "logo_transparent": "Iowa Delta - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "Iowa Delta"
   },
   {
@@ -1848,6 +2037,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Great Plains Athletic Conference (GPAC) \u2014 NAIA",
+    "nicknames": [],
     "id": "Iowa Epsilon"
   },
   {
@@ -1863,6 +2053,7 @@
     "logo_white": "Iowa Eta - School Logo White BG.png",
     "logo_transparent": "Iowa Eta - School Logo Transparent BG.png",
     "conference": "American Rivers Conference (ARC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Iowa Eta"
   },
   {
@@ -1875,10 +2066,11 @@
     "state": "IA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Iowa Gamma - School Logo White BG.png",
     "logo_transparent": "Iowa Gamma - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Iowa Gamma"
   },
   {
@@ -1891,10 +2083,11 @@
     "state": "IA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Iowa Theta - School Logo White BG.png",
     "logo_transparent": "Iowa Theta - School Logo Transparent BG.png",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "Iowa Theta"
   },
   {
@@ -1910,6 +2103,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Iowa Zeta"
   },
   {
@@ -1922,10 +2116,11 @@
     "state": "KS",
     "zip": "66006",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Alpha - School Logo White BG.png",
     "logo_transparent": "Kansas Alpha - School Logo Transparent BG.png",
     "conference": "Heart of America Athletic Conference \u2014 NAIA",
+    "nicknames": [],
     "id": "Kansas Alpha"
   },
   {
@@ -1938,10 +2133,13 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Beta - School Logo White BG.png",
     "logo_transparent": "Kansas Beta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "K-State"
+    ],
     "id": "Kansas Beta"
   },
   {
@@ -1954,10 +2152,11 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Delta - School Logo White BG.png",
     "logo_transparent": "Kansas Delta - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Kansas Delta"
   },
   {
@@ -1970,10 +2169,11 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Epsilon - School Logo White BG.png",
     "logo_transparent": "Kansas Epsilon - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Kansas Epsilon"
   },
   {
@@ -1986,10 +2186,11 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Eta - School Logo White BG.png",
     "logo_transparent": "Kansas Eta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Kansas Eta"
   },
   {
@@ -2002,10 +2203,13 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Gamma - School Logo White BG.png",
     "logo_transparent": "Kansas Gamma - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "KU"
+    ],
     "id": "Kansas Gamma"
   },
   {
@@ -2018,10 +2222,11 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Theta - School Logo White BG.png",
     "logo_transparent": "Kansas Theta - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Kansas Theta"
   },
   {
@@ -2034,10 +2239,11 @@
     "state": "KS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kansas Zeta - School Logo White BG.png",
     "logo_transparent": "Kansas Zeta - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Kansas Zeta"
   },
   {
@@ -2050,10 +2256,13 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Alpha - School Logo White BG.png",
     "logo_transparent": "Kentucky Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "UK"
+    ],
     "id": "Kentucky Alpha"
   },
   {
@@ -2066,10 +2275,13 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Beta - School Logo White BG.png",
     "logo_transparent": "Kentucky Beta - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "UofL"
+    ],
     "id": "Kentucky Beta"
   },
   {
@@ -2082,10 +2294,11 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Delta - School Logo White BG.png",
     "logo_transparent": "Kentucky Delta - School Logo Transparent BG.png",
     "conference": "Conference USA",
+    "nicknames": [],
     "id": "Kentucky Delta"
   },
   {
@@ -2098,10 +2311,11 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Epsilon - School Logo White BG.png",
     "logo_transparent": "Kentucky Epsilon - School Logo Transparent BG.png",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "Kentucky Epsilon"
   },
   {
@@ -2114,10 +2328,11 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Eta - School Logo White BG.png",
     "logo_transparent": "Kentucky Eta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Kentucky Eta"
   },
   {
@@ -2130,10 +2345,11 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Gamma - School Logo White BG.png",
     "logo_transparent": "Kentucky Gamma - School Logo Transparent BG.png",
     "conference": "Great Midwest Athletic Conference (G-MAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Kentucky Gamma"
   },
   {
@@ -2146,10 +2362,11 @@
     "state": "KY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Kentucky Zeta - School Logo White BG.png",
     "logo_transparent": "Kentucky Zeta - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "Kentucky Zeta"
   },
   {
@@ -2162,10 +2379,11 @@
     "state": "LA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [],
     "id": "Louisiana Alpha"
   },
   {
@@ -2182,6 +2400,9 @@
     "logo_white": "Louisiana Beta - School Logo White BG.png",
     "logo_transparent": "Louisiana Beta - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "LSU"
+    ],
     "id": "Louisiana Beta"
   },
   {
@@ -2194,10 +2415,11 @@
     "state": "LA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Louisiana Delta"
   },
   {
@@ -2210,10 +2432,11 @@
     "state": "LA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Louisiana Gamma"
   },
   {
@@ -2226,10 +2449,11 @@
     "state": "LA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Louisiana - University of New Orleans SEC"
   },
   {
@@ -2242,10 +2466,11 @@
     "state": "ME",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Maine Alpha - School Logo White BG.png",
     "logo_transparent": "Maine Alpha - School Logo Transparent BG.png",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "Maine Alpha"
   },
   {
@@ -2258,10 +2483,13 @@
     "state": "MD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Maryland Alpha - School Logo White BG.png",
     "logo_transparent": "Maryland Alpha - School Logo Transparent BG.png",
     "conference": "Centennial Conference \u2014 NCAA D3",
+    "nicknames": [
+      "JHU"
+    ],
     "id": "Maryland Alpha"
   },
   {
@@ -2274,10 +2502,11 @@
     "state": "MD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Maryland Beta - School Logo White BG.png",
     "logo_transparent": "Maryland Beta - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Maryland Beta"
   },
   {
@@ -2290,26 +2519,27 @@
     "state": "MD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Centennial Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Maryland Delta"
   },
   {
     "official_name": "University Of Maryland - Baltimore",
     "alias": "Maryland-Baltimore",
-    "name": "University of Maryland, Baltimore County",
-    "federal_id": "002105",
-    "street": "1000 Hilltop Circle",
-    "city": "Baltimore",
-    "state": "MD",
+    "federal_id": "",
+    "street": "",
+    "city": "",
+    "state": "",
     "zip": "",
-    "country": "United States",
-    "match_source": "auto",
+    "country": "",
+    "match_source": "none",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Maryland Epsilon"
   },
   {
@@ -2322,10 +2552,11 @@
     "state": "MD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "Maryland Gamma"
   },
   {
@@ -2338,10 +2569,11 @@
     "state": "MD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Maryland Zeta - School Logo White BG.png",
     "logo_transparent": "Maryland Zeta - School Logo Transparent BG.png",
     "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Maryland Zeta"
   },
   {
@@ -2354,10 +2586,13 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Alpha - School Logo White BG.png",
     "logo_transparent": "Massachusetts Alpha - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [
+      "UMass"
+    ],
     "id": "Massachusetts Alpha"
   },
   {
@@ -2370,10 +2605,11 @@
     "state": "MA",
     "zip": "01609",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Beta - School Logo White BG.png",
     "logo_transparent": "Massachusetts Beta - School Logo Transparent BG.png",
     "conference": "NEWMAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Massachusetts Beta"
   },
   {
@@ -2386,10 +2622,13 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Delta - School Logo White BG.png",
     "logo_transparent": "Massachusetts Delta - School Logo Transparent BG.png",
     "conference": "NEWMAC \u2014 NCAA D3",
+    "nicknames": [
+      "MIT"
+    ],
     "id": "Massachusetts Delta"
   },
   {
@@ -2402,10 +2641,11 @@
     "state": "MA",
     "zip": "02452",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Northeast-10 Conference (NE-10) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Massachusetts Epsilon"
   },
   {
@@ -2418,10 +2658,13 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Eta - School Logo White BG.png",
     "logo_transparent": "Massachusetts Eta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "NEU"
+    ],
     "id": "Massachusetts Eta"
   },
   {
@@ -2434,10 +2677,13 @@
     "state": "MA",
     "zip": "02215",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "BU"
+    ],
     "id": "Massachusetts Gamma"
   },
   {
@@ -2450,10 +2696,11 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "Massachusetts - Harvard University SEC"
   },
   {
@@ -2466,10 +2713,13 @@
     "state": "MA",
     "zip": "02467",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Iota - School Logo White BG.png",
     "logo_transparent": "Massachusetts Iota - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "BC"
+    ],
     "id": "Massachusetts Iota"
   },
   {
@@ -2482,10 +2732,11 @@
     "state": "MA",
     "zip": "02457",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Massachusetts Theta - School Logo White BG.png",
     "logo_transparent": "Massachusetts Theta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Massachusetts Theta"
   },
   {
@@ -2498,10 +2749,11 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Massachusetts - University of Massachusetts-Lowell SEC"
   },
   {
@@ -2514,10 +2766,11 @@
     "state": "MA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "NESCAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Massachusetts Zeta"
   },
   {
@@ -2530,10 +2783,14 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "Michigan Alpha - School Logo White BG.png",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "Michigan",
+      "UMich"
+    ],
     "id": "Michigan Alpha"
   },
   {
@@ -2546,10 +2803,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Michigan Beta"
   },
   {
@@ -2562,10 +2820,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Michigan Delta"
   },
   {
@@ -2578,10 +2837,14 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "MSU",
+      "Michigan State"
+    ],
     "id": "Michigan Epsilon"
   },
   {
@@ -2594,10 +2857,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Michigan Eta - School Logo White BG.png",
     "logo_transparent": "Michigan Eta - School Logo Transparent BG.png",
     "conference": "GLIAC \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Michigan Eta"
   },
   {
@@ -2610,10 +2874,11 @@
     "state": "MI",
     "zip": "48859",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Michigan Gamma"
   },
   {
@@ -2626,10 +2891,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Great Midwest Athletic Conference (G-MAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Michigan Iota"
   },
   {
@@ -2642,10 +2908,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "GLIAC \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Michigan Kappa"
   },
   {
@@ -2658,10 +2925,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Michigan Lambda"
   },
   {
@@ -2674,10 +2942,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Michigan Theta - School Logo White BG.png",
     "logo_transparent": "Michigan Theta - School Logo Transparent BG.png",
     "conference": "Wolverine-Hoosier Athletic Conference (WHAC) \u2014 NAIA",
+    "nicknames": [],
     "id": "Michigan Theta"
   },
   {
@@ -2690,10 +2959,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Michigan Zeta - School Logo White BG.png",
     "logo_transparent": "Michigan Zeta - School Logo Transparent BG.png",
     "conference": "GLIAC \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Michigan Zeta"
   },
   {
@@ -2710,6 +2980,10 @@
     "logo_white": "Minnesota Alpha - School Logo White BG.png",
     "logo_transparent": "Minnesota Alpha - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "UMN",
+      "the U"
+    ],
     "id": "Minnesota Alpha"
   },
   {
@@ -2722,10 +2996,11 @@
     "state": "MN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Northern Sun Intercollegiate Conference (NSIC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Minnesota-Mankato State University-SEC"
   },
   {
@@ -2738,10 +3013,13 @@
     "state": "MS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "Ole Miss"
+    ],
     "id": "Mississippi Alpha"
   },
   {
@@ -2754,10 +3032,13 @@
     "state": "MS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Mississippi Beta - School Logo White BG.png",
     "logo_transparent": "Mississippi Beta - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "Mississippi State"
+    ],
     "id": "Mississippi Beta"
   },
   {
@@ -2770,10 +3051,11 @@
     "state": "MS",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Mississippi Gamma - School Logo White BG.png",
     "logo_transparent": "Mississippi Gamma - School Logo Transparent BG.png",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Mississippi Gamma"
   },
   {
@@ -2790,6 +3072,9 @@
     "logo_white": "Missouri Alpha - School Logo White BG.png",
     "logo_transparent": "Missouri Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "Mizzou"
+    ],
     "id": "Missouri Alpha"
   },
   {
@@ -2802,10 +3087,13 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "Missouri Beta - School Logo White BG.png",
     "logo_transparent": "Missouri Beta - School Logo Transparent BG.png",
     "conference": "CCIW \u2014 NCAA D3",
+    "nicknames": [
+      "WashU"
+    ],
     "id": "Missouri Beta"
   },
   {
@@ -2818,10 +3106,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Missouri Delta"
   },
   {
@@ -2834,10 +3123,11 @@
     "state": "MO",
     "zip": "63435",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Heart of America Athletic Conference \u2014 NAIA",
+    "nicknames": [],
     "id": "Missouri Epsilon"
   },
   {
@@ -2850,10 +3140,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Eta - School Logo White BG.png",
     "logo_transparent": "Missouri Eta - School Logo Transparent BG.png",
     "conference": "Conference USA",
+    "nicknames": [],
     "id": "Missouri Eta"
   },
   {
@@ -2866,10 +3157,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Gamma - School Logo White BG.png",
     "logo_transparent": "Missouri Gamma - School Logo Transparent BG.png",
     "conference": "Great Lakes Valley Conference (GLVC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Missouri Gamma"
   },
   {
@@ -2882,10 +3174,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Missouri Iota"
   },
   {
@@ -2898,10 +3191,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Kappa - School Logo White BG.png",
     "logo_transparent": "Missouri Kappa - School Logo Transparent BG.png",
-    "conference": "Southeastern Conference (SEC)",
+    "conference": "No football program",
+    "nicknames": [],
     "id": "Missouri Kappa"
   },
   {
@@ -2914,10 +3208,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Lambda - School Logo White BG.png",
     "logo_transparent": "Missouri Lambda - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Missouri Lambda"
   },
   {
@@ -2930,10 +3225,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Mu - School Logo White BG.png",
     "logo_transparent": "Missouri Mu - School Logo Transparent BG.png",
     "conference": "Great Lakes Valley Conference (GLVC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Missouri Mu"
   },
   {
@@ -2946,10 +3242,13 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "SLU"
+    ],
     "id": "Missouri Nu"
   },
   {
@@ -2962,10 +3261,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Theta - School Logo White BG.png",
     "logo_transparent": "Missouri Theta - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Missouri Theta"
   },
   {
@@ -2978,10 +3278,11 @@
     "state": "MO",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Missouri Zeta - School Logo White BG.png",
     "logo_transparent": "Missouri Zeta - School Logo Transparent BG.png",
     "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "nicknames": [],
     "id": "Missouri Zeta"
   },
   {
@@ -2994,10 +3295,11 @@
     "state": "MT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Montana Alpha - School Logo White BG.png",
     "logo_transparent": "Montana Alpha - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Montana Alpha"
   },
   {
@@ -3010,10 +3312,11 @@
     "state": "MT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Montana Beta - School Logo White BG.png",
     "logo_transparent": "Montana Beta - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Montana Beta"
   },
   {
@@ -3026,10 +3329,11 @@
     "state": "NE",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Nebraksa Alpha - School Logo White BG.png",
     "logo_transparent": "Nebraksa Alpha - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Nebraska Alpha"
   },
   {
@@ -3042,10 +3346,11 @@
     "state": "NE",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Nebrasaka Beta - School Logo White BG.png",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Nebraska Beta"
   },
   {
@@ -3058,10 +3363,11 @@
     "state": "NE",
     "zip": "68178",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Nebraska Delta - School Logo White BG.png",
     "logo_transparent": "Nebraska Delta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Nebraska Delta"
   },
   {
@@ -3074,10 +3380,11 @@
     "state": "NE",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Nebrasaka Gamma - School Logo White BG.png",
     "logo_transparent": "Nebrasaka Gamma - School Logo Transparent BG.png",
     "conference": "MIAA (Mid-America Intercollegiate Athletics Association) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Nebraska Gamma"
   },
   {
@@ -3090,10 +3397,11 @@
     "state": "NV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Nevada Alpha - School Logo White BG.png",
     "logo_transparent": "Nevada Alpha - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [],
     "id": "Nevada Alpha"
   },
   {
@@ -3106,10 +3414,13 @@
     "state": "NV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "UNLV"
+    ],
     "id": "Nevada Beta"
   },
   {
@@ -3122,10 +3433,11 @@
     "state": "NH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "New Hampshire Alpha"
   },
   {
@@ -3141,6 +3453,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Conference of New England (CNE) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New Hampshire Beta"
   },
   {
@@ -3153,10 +3466,11 @@
     "state": "NH",
     "zip": "03264",
     "country": "",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "MASCAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New Hampshire Delta"
   },
   {
@@ -3169,10 +3483,11 @@
     "state": "NH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "New Hampshire Gamma"
   },
   {
@@ -3185,10 +3500,11 @@
     "state": "NJ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New Jersey Alpha - School Logo White BG.png",
     "logo_transparent": "New Jersey Alpha - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New Jersey Alpha"
   },
   {
@@ -3205,6 +3521,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "New Jersey Beta"
   },
   {
@@ -3217,10 +3534,11 @@
     "state": "NJ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Middle Atlantic Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New Jersey Delta"
   },
   {
@@ -3233,10 +3551,11 @@
     "state": "NJ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New Jersey Epsilon"
   },
   {
@@ -3249,10 +3568,11 @@
     "state": "NJ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New Jersey Gamma"
   },
   {
@@ -3265,10 +3585,11 @@
     "state": "NJ",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New Jersey Zeta - School Logo White BG.png",
     "logo_transparent": "New Jersey Zeta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New Jersey Zeta"
   },
   {
@@ -3281,10 +3602,13 @@
     "state": "NM",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New Mexico Alpha - School Logo White BG.png",
     "logo_transparent": "",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "UNM"
+    ],
     "id": "New Mexico Alpha"
   },
   {
@@ -3297,10 +3621,13 @@
     "state": "NM",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Conference USA",
+    "nicknames": [
+      "NMSU"
+    ],
     "id": "New Mexico Beta"
   },
   {
@@ -3313,10 +3640,14 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Alpha - School Logo White BG.png",
     "logo_transparent": "New York Alpha - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "Cuse",
+      "Syracuse"
+    ],
     "id": "New York Alpha"
   },
   {
@@ -3329,10 +3660,11 @@
     "state": "NY",
     "zip": "14853",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "New York Beta"
   },
   {
@@ -3345,10 +3677,11 @@
     "state": "NY",
     "zip": "13699",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Chi - School Logo White BG.png",
     "logo_transparent": "New York Chi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Chi"
   },
   {
@@ -3361,10 +3694,13 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Delta - School Logo White BG.png",
     "logo_transparent": "New York Delta - School Logo Transparent BG.png",
     "conference": "Liberty League \u2014 NCAA D3",
+    "nicknames": [
+      "RPI"
+    ],
     "id": "New York Delta"
   },
   {
@@ -3377,26 +3713,31 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [
+      "UB",
+      "University at Buffalo"
+    ],
     "id": "New York Epsilon"
   },
   {
     "official_name": "State University Of New York College At Buffalo",
     "alias": "Buffalo State",
-    "name": "State University of New York at Buffalo",
-    "federal_id": "002837",
-    "street": "520 Capen Hall, North Campus",
+    "name": "SUNY Buffalo State University",
+    "federal_id": "002842",
+    "street": "1300 Elmwood Avenue",
     "city": "Buffalo",
     "state": "NY",
-    "zip": "",
+    "zip": "14222",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "override",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Liberty League \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New York Eta"
   },
   {
@@ -3409,10 +3750,13 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Gamma - School Logo White BG.png",
     "logo_transparent": "New York Gamma - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "NYU"
+    ],
     "id": "New York Gamma"
   },
   {
@@ -3428,6 +3772,7 @@
     "logo_white": "New York Iota - School Logo White BG.png",
     "logo_transparent": "New York Iota - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Iota"
   },
   {
@@ -3443,6 +3788,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Kappa"
   },
   {
@@ -3455,10 +3801,11 @@
     "state": "NY",
     "zip": "14208",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Lambda - School Logo White BG.png",
     "logo_transparent": "New York Lambda - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Lambda"
   },
   {
@@ -3475,6 +3822,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Empire 8 \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New York Mu"
   },
   {
@@ -3491,6 +3839,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Nu"
   },
   {
@@ -3503,10 +3852,11 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "New York Omicron"
   },
   {
@@ -3519,10 +3869,11 @@
     "state": "NY",
     "zip": "10027",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Phi - School Logo White BG.png",
     "logo_transparent": "New York Phi - School Logo Transparent BG.png",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "New York Phi"
   },
   {
@@ -3539,6 +3890,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Pi"
   },
   {
@@ -3555,6 +3907,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Rho"
   },
   {
@@ -3570,6 +3923,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Liberty League \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New York Sigma"
   },
   {
@@ -3582,10 +3936,11 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Tau"
   },
   {
@@ -3602,6 +3957,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Theta"
   },
   {
@@ -3614,10 +3970,11 @@
     "state": "NY",
     "zip": "11530",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "New York Upsilon"
   },
   {
@@ -3630,10 +3987,11 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "New York Xi - School Logo White BG.png",
     "logo_transparent": "New York Xi - School Logo Transparent BG.png",
     "conference": "Liberty League \u2014 NCAA D3",
+    "nicknames": [],
     "id": "New York Xi"
   },
   {
@@ -3646,10 +4004,11 @@
     "state": "NY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "New York Zeta"
   },
   {
@@ -3662,10 +4021,14 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Beta - School Logo White BG.png",
     "logo_transparent": "North Carolina Beta - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "NC State",
+      "NCSU"
+    ],
     "id": "North Carolina Beta"
   },
   {
@@ -3678,10 +4041,13 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "UNC"
+    ],
     "id": "North Carolina Delta"
   },
   {
@@ -3694,10 +4060,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Epsilon - School Logo White BG.png",
     "logo_transparent": "North Carolina Epsilon - School Logo Transparent BG.png",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "North Carolina Epsilon"
   },
   {
@@ -3710,10 +4077,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "North Carolina Eta"
   },
   {
@@ -3726,10 +4094,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Gamma - School Logo White BG.png",
     "logo_transparent": "North Carolina Gamma - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [],
     "id": "North Carolina Gamma"
   },
   {
@@ -3742,10 +4111,11 @@
     "state": "NC",
     "zip": "27893",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Iota - School Logo White BG.png",
     "logo_transparent": "North Carolina Iota - School Logo Transparent BG.png",
     "conference": "Conference Carolinas \u2014 NCAA D2",
+    "nicknames": [],
     "id": "North Carolina Iota"
   },
   {
@@ -3758,10 +4128,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [],
     "id": "North Carolina Kappa"
   },
   {
@@ -3777,6 +4148,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "North Carolina Lambda"
   },
   {
@@ -3789,10 +4161,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Mu - School Logo White BG.png",
     "logo_transparent": "North Carolina Mu - School Logo Transparent BG.png",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "North Carolina Mu"
   },
   {
@@ -3805,10 +4178,14 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "UNC Charlotte",
+      "Charlotte 49ers"
+    ],
     "id": "North Carolina Nu"
   },
   {
@@ -3821,10 +4198,13 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Omicron - School Logo White BG.png",
     "logo_transparent": "North Carolina Omicron - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UNCG"
+    ],
     "id": "North Carolina Omicron"
   },
   {
@@ -3837,10 +4217,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Carolina Pi - School Logo White BG.png",
     "logo_transparent": "North Carolina Pi - School Logo Transparent BG.png",
     "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "nicknames": [],
     "id": "North Carolina Pi"
   },
   {
@@ -3853,10 +4234,13 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "UNCW"
+    ],
     "id": "North Carolina Rho"
   },
   {
@@ -3869,10 +4253,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "South Atlantic Conference (SAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "North Carolina Theta"
   },
   {
@@ -3885,10 +4270,13 @@
     "state": "NC",
     "zip": "28608",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [
+      "App State"
+    ],
     "id": "North Carolina Xi"
   },
   {
@@ -3901,10 +4289,11 @@
     "state": "NC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [],
     "id": "North Carolina Zeta"
   },
   {
@@ -3917,10 +4306,11 @@
     "state": "ND",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "North Dakota Alpha - School Logo White BG.png",
     "logo_transparent": "North Dakota Alpha - School Logo Transparent BG.png",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "North Dakota Alpha"
   },
   {
@@ -3933,10 +4323,11 @@
     "state": "NE",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Rivers Conference (ARC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Northeast Wesleyan University"
   },
   {
@@ -3949,10 +4340,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Alpha - School Logo White BG.png",
     "logo_transparent": "Ohio Alpha - School Logo Transparent BG.png",
     "conference": "Ohio Athletic Conference (OAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Alpha"
   },
   {
@@ -3965,10 +4357,11 @@
     "state": "OH",
     "zip": "45501",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Beta"
   },
   {
@@ -3984,6 +4377,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Delta"
   },
   {
@@ -3996,10 +4390,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Epsilon - School Logo White BG.png",
     "logo_transparent": "Ohio Epsilon - School Logo Transparent BG.png",
     "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Epsilon"
   },
   {
@@ -4012,10 +4407,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Eta - School Logo White BG.png",
     "logo_transparent": "Ohio Eta - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Ohio Eta"
   },
   {
@@ -4028,10 +4424,14 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Gamma - School Logo White BG.png",
     "logo_transparent": "Ohio Gamma - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "OSU",
+      "Ohio State"
+    ],
     "id": "Ohio Gamma"
   },
   {
@@ -4044,10 +4444,13 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Iota - School Logo White BG.png",
     "logo_transparent": "Ohio Iota - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [
+      "Toledo"
+    ],
     "id": "Ohio Iota"
   },
   {
@@ -4060,10 +4463,13 @@
     "state": "OH",
     "zip": "43403",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Kappa - School Logo White BG.png",
     "logo_transparent": "Ohio Kappa - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [
+      "BGSU"
+    ],
     "id": "Ohio Kappa"
   },
   {
@@ -4076,10 +4482,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Lambda - School Logo White BG.png",
     "logo_transparent": "Ohio Lambda - School Logo Transparent BG.png",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Ohio Lambda"
   },
   {
@@ -4092,10 +4499,13 @@
     "state": "OH",
     "zip": "44555",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [
+      "YSU"
+    ],
     "id": "Ohio Mu"
   },
   {
@@ -4108,10 +4518,11 @@
     "state": "OH",
     "zip": "44115",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Nu - School Logo White BG.png",
     "logo_transparent": "Ohio Nu - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Ohio Nu"
   },
   {
@@ -4127,6 +4538,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Wolverine-Hoosier Athletic Conference (WHAC) \u2014 NAIA",
+    "nicknames": [],
     "id": "Ohio Omicron"
   },
   {
@@ -4139,10 +4551,11 @@
     "state": "OH",
     "zip": "45435",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Pi - School Logo White BG.png",
     "logo_transparent": "Ohio Pi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Ohio Pi"
   },
   {
@@ -4155,10 +4568,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Pioneer Football League (PFL) \u2014 FCS",
+    "nicknames": [],
     "id": "Ohio Rho"
   },
   {
@@ -4171,10 +4585,11 @@
     "state": "OH",
     "zip": "44106",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Sigma - School Logo White BG.png",
     "logo_transparent": "Ohio Sigma - School Logo Transparent BG.png",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Sigma"
   },
   {
@@ -4187,10 +4602,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Tau"
   },
   {
@@ -4203,10 +4619,13 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Theta - School Logo White BG.png",
     "logo_transparent": "Ohio Theta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "UC"
+    ],
     "id": "Ohio Theta"
   },
   {
@@ -4219,10 +4638,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Upsilon - School Logo White BG.png",
     "logo_transparent": "Ohio Upsilon - School Logo Transparent BG.png",
     "conference": "North Coast Athletic Conference (NCAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Upsilon"
   },
   {
@@ -4235,10 +4655,11 @@
     "state": "OH",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mid-American Conference (MAC)",
+    "nicknames": [],
     "id": "Ohio Xi"
   },
   {
@@ -4251,10 +4672,11 @@
     "state": "OH",
     "zip": "44017",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Ohio Zeta - School Logo White BG.png",
     "logo_transparent": "Ohio Zeta - School Logo Transparent BG.png",
     "conference": "Ohio Athletic Conference (OAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Ohio Zeta"
   },
   {
@@ -4267,10 +4689,13 @@
     "state": "OK",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Oklahoma Alpha - School Logo White BG.png",
     "logo_transparent": "Oklahoma Alpha - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "OSU"
+    ],
     "id": "Oklahoma Alpha"
   },
   {
@@ -4283,10 +4708,13 @@
     "state": "OK",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Oklahoma Beta - School Logo White BG.png",
     "logo_transparent": "Oklahoma Beta - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "OU"
+    ],
     "id": "Oklahoma Beta"
   },
   {
@@ -4299,10 +4727,11 @@
     "state": "OK",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Oklahoma Delta"
   },
   {
@@ -4315,10 +4744,11 @@
     "state": "OK",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [],
     "id": "Oklahoma Gamma"
   },
   {
@@ -4331,10 +4761,13 @@
     "state": "OR",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Oregon Alpha - School Logo White BG.png",
     "logo_transparent": "Oregon Alpha - School Logo Transparent BG.png",
     "conference": "Pac-12 Conference",
+    "nicknames": [
+      "OSU"
+    ],
     "id": "Oregon Alpha"
   },
   {
@@ -4347,10 +4780,11 @@
     "state": "OR",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Oregon Beta"
   },
   {
@@ -4366,6 +4800,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Northwest Conference (NWC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Oregon Gamma"
   },
   {
@@ -4378,10 +4813,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Alpha"
   },
   {
@@ -4398,6 +4834,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Beta"
   },
   {
@@ -4410,10 +4847,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Beta Alpha - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Beta Alpha - School Logo Transparent BG.png",
     "conference": "Landmark Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Beta Alpha"
   },
   {
@@ -4426,10 +4864,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Beta Beta - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Beta Beta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Beta Beta"
   },
   {
@@ -4442,10 +4881,11 @@
     "state": "PA",
     "zip": "19612",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Middle Atlantic Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Chi"
   },
   {
@@ -4458,10 +4898,14 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Delta - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Delta - School Logo Transparent BG.png",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [
+      "UPenn",
+      "Penn"
+    ],
     "id": "Pennsylvania Delta"
   },
   {
@@ -4474,10 +4918,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Epsilon - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Epsilon - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [],
     "id": "Pennsylvania Epsilon"
   },
   {
@@ -4494,6 +4939,10 @@
     "logo_white": "Pennsylvania Eta - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Eta - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "Penn State",
+      "PSU"
+    ],
     "id": "Pennsylvania Eta"
   },
   {
@@ -4510,6 +4959,9 @@
     "logo_white": "Pennsylvania Gamma - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Gamma - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "Pitt"
+    ],
     "id": "Pennsylvania Gamma"
   },
   {
@@ -4522,10 +4974,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Centennial Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Iota"
   },
   {
@@ -4538,10 +4991,11 @@
     "state": "PA",
     "zip": "17837",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Kappa - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Kappa - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [],
     "id": "Pennsylvania Kappa"
   },
   {
@@ -4558,6 +5012,7 @@
     "logo_white": "Pennsylvania Lambda - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Lambda - School Logo Transparent BG.png",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Lambda"
   },
   {
@@ -4570,10 +5025,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [],
     "id": "Pennsylvania Mu"
   },
   {
@@ -4586,10 +5042,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Nu - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Nu - School Logo Transparent BG.png",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Nu"
   },
   {
@@ -4602,10 +5059,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Omega - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Omega - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Omega"
   },
   {
@@ -4621,6 +5079,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Omicron"
   },
   {
@@ -4633,10 +5092,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Landmark Conference \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Phi"
   },
   {
@@ -4649,10 +5109,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Northeast Conference (NEC) \u2014 FCS",
+    "nicknames": [],
     "id": "Pennsylvania Pi"
   },
   {
@@ -4665,10 +5126,11 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "Pennsylvania Psi - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Psi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Psi"
   },
   {
@@ -4681,10 +5143,14 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Rho - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Rho - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [
+      "Nova",
+      "Villanova"
+    ],
     "id": "Pennsylvania Rho"
   },
   {
@@ -4697,10 +5163,11 @@
     "state": "PA",
     "zip": "17405",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Pennsylvania Sigma"
   },
   {
@@ -4717,6 +5184,7 @@
     "logo_white": "Pennsylvania Tau - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Tau - School Logo Transparent BG.png",
     "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Pennsylvania Tau"
   },
   {
@@ -4729,10 +5197,13 @@
     "state": "PA",
     "zip": "15213",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Pennsylvania Theta - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Theta - School Logo Transparent BG.png",
     "conference": "Centennial Conference \u2014 NCAA D3",
+    "nicknames": [
+      "CMU"
+    ],
     "id": "Pennsylvania Theta"
   },
   {
@@ -4745,10 +5216,11 @@
     "state": "PA",
     "zip": "15419",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "Pennsylvania Upsilon - School Logo White BG.png",
     "logo_transparent": "Pennsylvania Upsilon - School Logo Transparent BG.png",
     "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Pennsylvania Upsilon"
   },
   {
@@ -4761,10 +5233,13 @@
     "state": "PA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Pennsylvania State Athletic Conference (PSAC) \u2014 NCAA D2",
+    "nicknames": [
+      "IUP"
+    ],
     "id": "Pennsylvania Xi"
   },
   {
@@ -4777,10 +5252,11 @@
     "state": "PA",
     "zip": "16335",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Pennsylvania Zeta"
   },
   {
@@ -4793,10 +5269,11 @@
     "state": "RI",
     "zip": "02912",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Ivy League \u2014 FCS",
+    "nicknames": [],
     "id": "Rhode Island Alpha"
   },
   {
@@ -4809,10 +5286,11 @@
     "state": "RI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "Rhode Island Beta"
   },
   {
@@ -4825,10 +5303,11 @@
     "state": "RI",
     "zip": "02917",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "Rhode Island Gamma"
   },
   {
@@ -4841,10 +5320,14 @@
     "state": "SC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "stripped",
     "logo_white": "South Carolina Alpha - School Logo White BG.png",
     "logo_transparent": "South Carolina Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "USC",
+      "Gamecocks"
+    ],
     "id": "South Carolina Alpha"
   },
   {
@@ -4857,10 +5340,11 @@
     "state": "SC",
     "zip": "29634",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [],
     "id": "South Carolina Beta"
   },
   {
@@ -4873,10 +5357,11 @@
     "state": "SC",
     "zip": "29733",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "South Carolina Delta"
   },
   {
@@ -4889,10 +5374,13 @@
     "state": "SC",
     "zip": "29526",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "South Carolina Epsilon - School Logo White BG.png",
     "logo_transparent": "South Carolina Epsilon - School Logo Transparent BG.png",
     "conference": "Sun Belt Conference",
+    "nicknames": [
+      "CCU"
+    ],
     "id": "South Carolina Epsilon"
   },
   {
@@ -4905,10 +5393,11 @@
     "state": "SC",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "South Carolina Gamma"
   },
   {
@@ -4921,10 +5410,11 @@
     "state": "SC",
     "zip": "29424",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "South Carolina Zeta"
   },
   {
@@ -4937,10 +5427,11 @@
     "state": "SD",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "South Dakota Alpha - School Logo White BG.png",
     "logo_transparent": "South Dakota Alpha - School Logo Transparent BG.png",
     "conference": "Missouri Valley Football Conference (MVFC) \u2014 FCS",
+    "nicknames": [],
     "id": "South Dakota Alpha"
   },
   {
@@ -4957,6 +5448,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CAA Football \u2014 FCS",
+    "nicknames": [],
     "id": "State University of New York-Stonybrook"
   },
   {
@@ -4973,6 +5465,10 @@
     "logo_white": "Tennessee Alpha - School Logo White BG.png",
     "logo_transparent": "Tennessee Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "UT",
+      "Vols"
+    ],
     "id": "Tennessee Alpha"
   },
   {
@@ -4985,10 +5481,13 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Tennessee Beta - School Logo White BG.png",
     "logo_transparent": "Tennessee Beta - School Logo Transparent BG.png",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "Memphis Tigers"
+    ],
     "id": "Tennessee Beta"
   },
   {
@@ -5004,6 +5503,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Appalachian Athletic Conference (AAC) \u2014 NAIA",
+    "nicknames": [],
     "id": "Tennessee Delta"
   },
   {
@@ -5016,10 +5516,11 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Tennessee Epsilon - School Logo White BG.png",
     "logo_transparent": "Tennessee Epsilon - School Logo Transparent BG.png",
     "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "nicknames": [],
     "id": "Tennessee Epsilon"
   },
   {
@@ -5032,10 +5533,11 @@
     "state": "TN",
     "zip": "37044",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Tennessee Eta - School Logo White BG.png",
     "logo_transparent": "Tennessee Eta - School Logo Transparent BG.png",
     "conference": "United Athletic Conference (UAC) \u2014 FCS",
+    "nicknames": [],
     "id": "Tennessee Eta"
   },
   {
@@ -5048,10 +5550,11 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Tennessee Gamma - School Logo White BG.png",
     "logo_transparent": "Tennessee Gamma - School Logo Transparent BG.png",
     "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "nicknames": [],
     "id": "Tennessee Gamma"
   },
   {
@@ -5067,6 +5570,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Tennessee Iota"
   },
   {
@@ -5079,10 +5583,11 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Tennessee Kappa - School Logo White BG.png",
     "logo_transparent": "Tennessee Kappa - School Logo Transparent BG.png",
     "conference": "Ohio Valley Conference\u2013Big South Football Association \u2014 FCS",
+    "nicknames": [],
     "id": "Tennessee Kappa"
   },
   {
@@ -5095,10 +5600,13 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Conference USA",
+    "nicknames": [
+      "MTSU"
+    ],
     "id": "Tennessee Theta"
   },
   {
@@ -5111,26 +5619,29 @@
     "state": "TN",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "Vandy"
+    ],
     "id": "Tennessee-Vanderbilt University SEC"
   },
   {
     "official_name": "The University Of Memphis- Lambuth",
     "alias": "Memphis-Lambuth",
-    "name": "University of Memphis",
-    "federal_id": "003509",
-    "street": "Southern Avenue",
-    "city": "Memphis",
-    "state": "TN",
+    "federal_id": "",
+    "street": "",
+    "city": "",
+    "state": "",
     "zip": "",
-    "country": "United States",
-    "match_source": "auto",
+    "country": "",
+    "match_source": "none",
     "logo_white": "",
     "logo_transparent": "",
-    "conference": "American Athletic Conference",
+    "conference": "",
+    "nicknames": [],
     "id": "Tennessee Zeta"
   },
   {
@@ -5143,10 +5654,15 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Alpha - School Logo White BG.png",
     "logo_transparent": "Texas Alpha - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "UT",
+      "UT Austin",
+      "Longhorns"
+    ],
     "id": "Texas Alpha"
   },
   {
@@ -5159,10 +5675,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Beta - School Logo White BG.png",
     "logo_transparent": "Texas Beta - School Logo Transparent BG.png",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "UNT"
+    ],
     "id": "Texas Beta"
   },
   {
@@ -5175,10 +5694,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Chi - School Logo White BG.png",
     "logo_transparent": "Texas Chi - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Texas Chi"
   },
   {
@@ -5191,10 +5711,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Delta - School Logo White BG.png",
     "logo_transparent": "Texas Delta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "UH"
+    ],
     "id": "Texas Delta"
   },
   {
@@ -5207,10 +5730,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southland Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Texas Epsilon"
   },
   {
@@ -5223,10 +5747,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Eta - School Logo White BG.png",
     "logo_transparent": "Texas Eta - School Logo Transparent BG.png",
     "conference": "Conference USA",
+    "nicknames": [],
     "id": "Texas Eta"
   },
   {
@@ -5239,10 +5764,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Gamma - School Logo White BG.png",
     "logo_transparent": "Texas Gamma - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "TCU"
+    ],
     "id": "Texas Gamma"
   },
   {
@@ -5255,10 +5783,14 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Iota - School Logo White BG.png",
     "logo_transparent": "Texas Iota - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "Texas Tech",
+      "TTU"
+    ],
     "id": "Texas Iota"
   },
   {
@@ -5271,10 +5803,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [
+      "UTA"
+    ],
     "id": "Texas Kappa"
   },
   {
@@ -5290,6 +5825,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "NJCAA",
+    "nicknames": [],
     "id": "Texas Lambda"
   },
   {
@@ -5302,10 +5838,15 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "Texas Mu - School Logo White BG.png",
     "logo_transparent": "Texas Mu - School Logo Transparent BG.png",
     "conference": "Southeastern Conference (SEC)",
+    "nicknames": [
+      "TAMU",
+      "A&M",
+      "Aggies"
+    ],
     "id": "Texas Mu"
   },
   {
@@ -5318,10 +5859,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sooner Athletic Conference \u2014 NAIA",
+    "nicknames": [],
     "id": "Texas Nu"
   },
   {
@@ -5334,10 +5876,11 @@
     "state": "TX",
     "zip": "76909",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Lone Star Conference (LSC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Texas Omicron"
   },
   {
@@ -5350,10 +5893,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Conference USA",
+    "nicknames": [
+      "UTEP"
+    ],
     "id": "Texas Phi"
   },
   {
@@ -5366,10 +5912,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southland Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Texas Pi"
   },
   {
@@ -5382,10 +5929,11 @@
     "state": "TX",
     "zip": "76798",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Rho - School Logo White BG.png",
     "logo_transparent": "Texas Rho - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [],
     "id": "Texas Rho"
   },
   {
@@ -5398,10 +5946,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "American Athletic Conference",
+    "nicknames": [
+      "UTSA"
+    ],
     "id": "Texas Sigma"
   },
   {
@@ -5414,10 +5965,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "Texas Tau"
   },
   {
@@ -5430,10 +5982,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Theta - School Logo White BG.png",
     "logo_transparent": "Texas Theta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Texas Theta"
   },
   {
@@ -5446,10 +5999,13 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Texas Upsilon - School Logo White BG.png",
     "logo_transparent": "Texas Upsilon - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "SMU"
+    ],
     "id": "Texas Upsilon"
   },
   {
@@ -5462,10 +6018,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Lone Star Conference (LSC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "Texas Xi"
   },
   {
@@ -5478,10 +6035,11 @@
     "state": "TX",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "fuzzy",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southland Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Texas Zeta"
   },
   {
@@ -5494,10 +6052,11 @@
     "state": "MI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "University of Michigan--Dearborn"
   },
   {
@@ -5510,10 +6069,13 @@
     "state": "UT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Utah Alpha - School Logo White BG.png",
     "logo_transparent": "Utah Alpha - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "USU"
+    ],
     "id": "Utah Alpha"
   },
   {
@@ -5526,10 +6088,11 @@
     "state": "UT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Utah Beta - School Logo White BG.png",
     "logo_transparent": "Utah Beta - School Logo Transparent BG.png",
     "conference": "Big 12 Conference",
+    "nicknames": [],
     "id": "Utah Beta"
   },
   {
@@ -5545,6 +6108,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Utah - Weber State University SEC"
   },
   {
@@ -5560,6 +6124,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "NEWMAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Vermont Alpha"
   },
   {
@@ -5575,6 +6140,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "NESCAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Vermont Beta"
   },
   {
@@ -5587,10 +6153,13 @@
     "state": "VT",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Vermont Gamma - School Logo White BG.png",
     "logo_transparent": "Vermont Gamma - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "UVM"
+    ],
     "id": "Vermont Gamma"
   },
   {
@@ -5603,10 +6172,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Alpha - School Logo White BG.png",
     "logo_transparent": "Virginia Alpha - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [],
     "id": "Virginia Alpha"
   },
   {
@@ -5619,10 +6189,13 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Beta - School Logo White BG.png",
     "logo_transparent": "Virginia Beta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "VCU"
+    ],
     "id": "Virginia Beta"
   },
   {
@@ -5639,6 +6212,10 @@
     "logo_white": "Virginia Delta - School Logo White BG.png",
     "logo_transparent": "Virginia Delta - School Logo Transparent BG.png",
     "conference": "Patriot League \u2014 FCS",
+    "nicknames": [
+      "W&M",
+      "William and Mary"
+    ],
     "id": "Virginia Delta"
   },
   {
@@ -5651,10 +6228,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Virginia Epsilon"
   },
   {
@@ -5667,10 +6245,13 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Eta - School Logo White BG.png",
     "logo_transparent": "Virginia Eta - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [
+      "UVA"
+    ],
     "id": "Virginia Eta"
   },
   {
@@ -5683,10 +6264,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Virginia Gamma"
   },
   {
@@ -5699,10 +6281,13 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Iota - School Logo White BG.png",
     "logo_transparent": "Virginia Iota - School Logo Transparent BG.png",
     "conference": "Sun Belt Conference",
+    "nicknames": [
+      "JMU"
+    ],
     "id": "Virginia Iota"
   },
   {
@@ -5719,6 +6304,7 @@
     "logo_white": "Virginia Kappa - School Logo White BG.png",
     "logo_transparent": "Virginia Kappa - School Logo Transparent BG.png",
     "conference": "Atlantic Coast Conference (ACC)",
+    "nicknames": [],
     "id": "Virginia Kappa"
   },
   {
@@ -5731,10 +6317,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Virginia Lambda"
   },
   {
@@ -5747,10 +6334,14 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Mu - School Logo White BG.png",
     "logo_transparent": "Virginia Mu - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [
+      "GMU",
+      "Mason"
+    ],
     "id": "Virginia Mu"
   },
   {
@@ -5763,10 +6354,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Nu - School Logo White BG.png",
     "logo_transparent": "Virginia Nu - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Virginia Nu"
   },
   {
@@ -5779,10 +6371,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Omicron - School Logo White BG.png",
     "logo_transparent": "Virginia Omicron - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Virginia Omicron"
   },
   {
@@ -5795,10 +6388,11 @@
     "state": "VA",
     "zip": "23606",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Pi - School Logo White BG.png",
     "logo_transparent": "Virginia Pi - School Logo Transparent BG.png",
     "conference": "New Jersey Athletic Conference (NJAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Virginia Pi"
   },
   {
@@ -5814,6 +6408,9 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Southern Conference (SoCon) \u2014 FCS",
+    "nicknames": [
+      "VMI"
+    ],
     "id": "Virginia Theta"
   },
   {
@@ -5826,10 +6423,13 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Xi - School Logo White BG.png",
     "logo_transparent": "Virginia Xi - School Logo Transparent BG.png",
     "conference": "Sun Belt Conference",
+    "nicknames": [
+      "ODU"
+    ],
     "id": "Virginia Xi"
   },
   {
@@ -5842,10 +6442,11 @@
     "state": "VA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Virginia Zeta - School Logo White BG.png",
     "logo_transparent": "Virginia Zeta - School Logo Transparent BG.png",
     "conference": "Old Dominion Athletic Conference (ODAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Virginia Zeta"
   },
   {
@@ -5858,10 +6459,11 @@
     "state": "WA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Washingon - Gonzaga University SEC"
   },
   {
@@ -5874,10 +6476,14 @@
     "state": "WA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Washington Alpha - School Logo White BG.png",
     "logo_transparent": "Washington Alpha - School Logo Transparent BG.png",
     "conference": "Pac-12 Conference",
+    "nicknames": [
+      "WSU",
+      "Wazzu"
+    ],
     "id": "Washington Alpha"
   },
   {
@@ -5890,10 +6496,14 @@
     "state": "WA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Washington Beta - School Logo White BG.png",
     "logo_transparent": "Washington Beta - School Logo Transparent BG.png",
     "conference": "Big Ten Conference",
+    "nicknames": [
+      "UW",
+      "Huskies"
+    ],
     "id": "Washington Beta"
   },
   {
@@ -5906,10 +6516,11 @@
     "state": "WA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Washington Gamma - School Logo White BG.png",
     "logo_transparent": "Washington Gamma - School Logo Transparent BG.png",
     "conference": "Big Sky Conference \u2014 FCS",
+    "nicknames": [],
     "id": "Washington Gamma"
   },
   {
@@ -5922,10 +6533,11 @@
     "state": "GA",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "West Georgia College"
   },
   {
@@ -5938,10 +6550,11 @@
     "state": "WV",
     "zip": "26032",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Presidents' Athletic Conference (PAC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "West Virginia Alpha"
   },
   {
@@ -5954,10 +6567,13 @@
     "state": "WV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big 12 Conference",
+    "nicknames": [
+      "WVU"
+    ],
     "id": "West Virginia Beta"
   },
   {
@@ -5970,10 +6586,11 @@
     "state": "WV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "West Virginia Delta - School Logo White BG.png",
     "logo_transparent": "West Virginia Delta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "West Virginia Delta"
   },
   {
@@ -5989,6 +6606,7 @@
     "logo_white": "",
     "logo_transparent": "",
     "conference": "No football program",
+    "nicknames": [],
     "id": "West Virginia Epsilon"
   },
   {
@@ -6001,10 +6619,11 @@
     "state": "WV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "West Virginia Gamma - School Logo White BG.png",
     "logo_transparent": "West Virginia Gamma - School Logo Transparent BG.png",
     "conference": "Sun Belt Conference",
+    "nicknames": [],
     "id": "West Virginia Gamma"
   },
   {
@@ -6017,10 +6636,11 @@
     "state": "WV",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Mountain East Conference (MEC) \u2014 NCAA D2",
+    "nicknames": [],
     "id": "West Virginia Zeta"
   },
   {
@@ -6033,10 +6653,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Wisconsin Alpha - School Logo White BG.png",
     "logo_transparent": "Wisconsin Alpha - School Logo Transparent BG.png",
     "conference": "Midwest Conference (MWC) \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Alpha"
   },
   {
@@ -6049,10 +6670,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "Big Ten Conference",
+    "nicknames": [],
     "id": "Wisconsin Beta"
   },
   {
@@ -6065,10 +6687,11 @@
     "state": "WI",
     "zip": "54481",
     "country": "",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "WIAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Delta"
   },
   {
@@ -6081,10 +6704,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "WIAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Epsilon"
   },
   {
@@ -6097,10 +6721,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "WIAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Eta"
   },
   {
@@ -6113,10 +6738,11 @@
     "state": "WI",
     "zip": "53186",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "",
     "logo_transparent": "",
     "conference": "CCIW \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Gamma"
   },
   {
@@ -6129,10 +6755,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Wisconsin Theta - School Logo White BG.png",
     "logo_transparent": "Wisconsin Theta - School Logo Transparent BG.png",
     "conference": "WIAC \u2014 NCAA D3",
+    "nicknames": [],
     "id": "Wisconsin Theta"
   },
   {
@@ -6145,10 +6772,11 @@
     "state": "WI",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Wisconsin Zeta - School Logo White BG.png",
     "logo_transparent": "Wisconsin Zeta - School Logo Transparent BG.png",
     "conference": "No football program",
+    "nicknames": [],
     "id": "Wisconsin Zeta"
   },
   {
@@ -6161,10 +6789,13 @@
     "state": "WY",
     "zip": "",
     "country": "United States",
-    "match_source": "auto",
+    "match_source": "exact",
     "logo_white": "Wyoming Alpha - School Logo White BG.png",
     "logo_transparent": "Wyoming Alpha - School Logo Transparent BG.png",
     "conference": "Mountain West Conference",
+    "nicknames": [
+      "Wyoming"
+    ],
     "id": "Wyoming Alpha"
   }
 ]

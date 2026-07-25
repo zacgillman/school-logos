@@ -32,10 +32,7 @@
   }
   header h1 { margin: 0 0 4px; font-size: 22px; }
   header p { margin: 0; opacity: 0.85; font-size: 14px; }
-  header .header-actions {
-    display: flex;
-    gap: 10px;
-  }
+  header .header-actions { display: flex; gap: 10px; }
   header .header-actions button {
     background: rgba(255,255,255,0.12);
     color: white;
@@ -67,7 +64,7 @@
     border-radius: 8px;
     font-size: 14px;
   }
-  .toolbar select, .toolbar button {
+  .toolbar button, .toolbar select {
     padding: 9px 12px;
     border: 1px solid var(--border);
     border-radius: 8px;
@@ -86,14 +83,76 @@
     border-color: #a9bccf;
     cursor: not-allowed;
   }
-  .toolbar button.secondary {
+
+  /* Filter (funnel) button + popover */
+  .filter-wrap { position: relative; }
+  #filterBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     cursor: pointer;
+    position: relative;
   }
-  .count-pill {
-    font-size: 13px;
+  #filterBtn svg { width: 16px; height: 16px; }
+  #filterBtn .active-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: none;
+  }
+  #filterBtn.has-active .active-dot { display: inline-block; }
+  #filterPanel {
+    display: none;
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    padding: 16px;
+    width: 280px;
+    z-index: 20;
+  }
+  #filterPanel.open { display: block; }
+  #filterPanel label {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
     color: #555;
+    margin: 12px 0 5px;
+  }
+  #filterPanel label:first-child { margin-top: 0; }
+  #filterPanel select {
+    width: 100%;
+  }
+  #filterPanel .panel-footer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #filterPanel .clear-filters-link {
+    font-size: 12px;
+    color: var(--accent);
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  .select-all-wrap {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    color: #333;
     white-space: nowrap;
   }
+  .select-all-wrap input[type="checkbox"] { width: 16px; height: 16px; }
+
+  .count-pill { font-size: 13px; color: #555; white-space: nowrap; }
 
   main { padding: 20px 28px 60px; }
 
@@ -126,38 +185,17 @@
     border-radius: 6px;
     overflow: hidden;
   }
-  .card .thumb img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  .card .thumb.missing {
-    color: #999;
-    font-size: 12px;
-    text-align: center;
-    padding: 8px;
-  }
+  .card .thumb img { max-width: 100%; max-height: 100%; }
+  .card .thumb.missing { color: #999; font-size: 12px; text-align: center; padding: 8px; }
   .card .school { font-weight: 700; font-size: 13px; line-height: 1.3; color: var(--accent-dark); }
   .card .alias { font-size: 12px; color: #555; }
   .card .meta { font-size: 11px; color: #777; line-height: 1.4; }
-  .card label.select-box {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
+  .card label.select-box { position: absolute; top: 10px; right: 10px; }
   .card input[type="checkbox"] { width: 18px; height: 18px; }
-  .card .report-link {
-    font-size: 11px;
-    color: var(--accent);
-    text-decoration: none;
-    align-self: flex-start;
-  }
+  .card .report-link { font-size: 11px; color: var(--accent); text-decoration: none; align-self: flex-start; }
   .card .report-link:hover { text-decoration: underline; }
 
-  .empty-state {
-    text-align: center;
-    color: #777;
-    padding: 60px 20px;
-  }
+  .empty-state { text-align: center; color: #777; padding: 60px 20px; }
 
   dialog {
     border: none;
@@ -177,11 +215,7 @@
     border-radius: 8px;
     font-size: 14px;
   }
-  .dialog-inner .hint {
-    font-size: 11px;
-    color: #888;
-    margin-top: 4px;
-  }
+  .dialog-inner .hint { font-size: 11px; color: #888; margin-top: 4px; }
   .dialog-inner .preview {
     margin-top: 8px;
     font-size: 12px;
@@ -191,17 +225,8 @@
     border-radius: 6px;
     word-break: break-all;
   }
-  #customNamingFields {
-    border-left: 3px solid var(--border);
-    padding-left: 12px;
-    margin-top: 10px;
-  }
-  .dialog-actions {
-    margin-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-  }
+  #customNamingFields { border-left: 3px solid var(--border); padding-left: 12px; margin-top: 10px; }
+  .dialog-actions { margin-top: 20px; display: flex; justify-content: flex-end; gap: 10px; }
   .dialog-actions button {
     padding: 9px 16px;
     border-radius: 8px;
@@ -210,11 +235,7 @@
     border: 1px solid var(--border);
     background: white;
   }
-  .dialog-actions button.primary {
-    background: var(--accent);
-    color: white;
-    border-color: var(--accent);
-  }
+  .dialog-actions button.primary { background: var(--accent); color: white; border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -230,17 +251,43 @@
 </header>
 
 <div class="toolbar">
-  <input type="text" id="searchInput" placeholder="Search school name, alias, city, state, conference, or federal ID...">
-  <select id="versionFilter">
-    <option value="any">Any logo version</option>
-    <option value="white">White Background</option>
-    <option value="transparent">Transparent Background</option>
-  </select>
-  <select id="conferenceFilter">
-    <option value="">Any football conference</option>
-  </select>
-  <button class="secondary" id="selectAllBtn">Select all filtered</button>
-  <button class="secondary" id="clearBtn">Clear selection</button>
+  <input type="text" id="searchInput" placeholder="Search school name, nickname, city, state, conference, or federal ID...">
+
+  <div class="filter-wrap">
+    <button id="filterBtn" type="button" aria-haspopup="true" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg>
+      Filters
+      <span class="active-dot"></span>
+    </button>
+    <div id="filterPanel">
+      <label for="versionFilter">Logo version</label>
+      <select id="versionFilter">
+        <option value="any">Any logo version</option>
+        <option value="white">White Background</option>
+        <option value="transparent">Transparent Background</option>
+      </select>
+
+      <label for="stateFilter">State</label>
+      <select id="stateFilter">
+        <option value="">Any state</option>
+      </select>
+
+      <label for="conferenceFilter">Football conference</label>
+      <select id="conferenceFilter">
+        <option value="">Any football conference</option>
+      </select>
+
+      <div class="panel-footer">
+        <button type="button" class="clear-filters-link" id="clearFiltersBtn">Clear all filters</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="select-all-wrap">
+    <input type="checkbox" id="selectAllCheckbox">
+    <label for="selectAllCheckbox">Select all</label>
+  </div>
+
   <span class="count-pill" id="countPill">0 shown &middot; 0 selected</span>
   <button class="primary" id="downloadBtn" disabled>Download selected</button>
 </div>
@@ -319,9 +366,13 @@ const grid = document.getElementById('grid');
 const searchInput = document.getElementById('searchInput');
 const versionFilter = document.getElementById('versionFilter');
 const conferenceFilter = document.getElementById('conferenceFilter');
+const stateFilter = document.getElementById('stateFilter');
 const countPill = document.getElementById('countPill');
 const downloadBtn = document.getElementById('downloadBtn');
 const emptyState = document.getElementById('emptyState');
+const selectAllCheckbox = document.getElementById('selectAllCheckbox');
+const filterBtn = document.getElementById('filterBtn');
+const filterPanel = document.getElementById('filterPanel');
 
 // Cache-bust the data file so an updated master.json is never masked by a
 // stale cached copy (browsers and some static hosts cache fetch() requests).
@@ -340,6 +391,14 @@ fetch('data/master.json?v=' + Date.now(), { cache: 'no-store' })
       conferenceFilter.appendChild(opt);
     });
 
+    const states = Array.from(new Set(DATA.map(r => (r.state || '').toUpperCase()).filter(Boolean))).sort();
+    states.forEach(abbr => {
+      const opt = document.createElement('option');
+      opt.value = abbr;
+      opt.textContent = STATE_NAMES[abbr] ? `${STATE_NAMES[abbr]} (${abbr})` : abbr;
+      stateFilter.appendChild(opt);
+    });
+
     render();
   })
   .catch(err => {
@@ -355,7 +414,8 @@ function matchesSearch(row, q) {
   if (!q) return true;
   const stateAbbrev = (row.state || '').toUpperCase();
   const stateFullName = STATE_NAMES[stateAbbrev] || '';
-  const hay = [row.official_name, row.alias, row.city, row.state, stateFullName, row.federal_id, row.conference]
+  const nicknames = (row.nicknames || []).join(' ');
+  const hay = [row.official_name, row.alias, nicknames, row.city, row.state, stateFullName, row.federal_id, row.conference]
     .join(' ').toLowerCase();
   return hay.includes(q.toLowerCase());
 }
@@ -371,11 +431,21 @@ function matchesConference(row, c) {
   return row.conference === c;
 }
 
+function matchesState(row, s) {
+  if (!s) return true;
+  return (row.state || '').toUpperCase() === s;
+}
+
 function visibleRows() {
   const q = searchInput.value.trim();
   const v = versionFilter.value;
   const c = conferenceFilter.value;
-  return DATA.filter(r => (r.logo_white || r.logo_transparent) && matchesSearch(r, q) && matchesVersion(r, v) && matchesConference(r, c));
+  const s = stateFilter.value;
+  return DATA.filter(r => (r.logo_white || r.logo_transparent)
+    && matchesSearch(r, q)
+    && matchesVersion(r, v)
+    && matchesConference(r, c)
+    && matchesState(r, s));
 }
 
 function mailtoReportUrl(row) {
@@ -407,6 +477,31 @@ function mailtoRequestSchoolUrl() {
 
 document.getElementById('requestSchoolBtn').addEventListener('click', () => {
   window.location.href = mailtoRequestSchoolUrl();
+});
+
+// ---- Filter popover ----
+function refreshFilterActiveDot() {
+  const active = versionFilter.value !== 'any' || !!conferenceFilter.value || !!stateFilter.value;
+  filterBtn.classList.toggle('has-active', active);
+}
+
+filterBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  const isOpen = filterPanel.classList.toggle('open');
+  filterBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+});
+document.addEventListener('click', (e) => {
+  if (!filterPanel.contains(e.target) && e.target !== filterBtn) {
+    filterPanel.classList.remove('open');
+    filterBtn.setAttribute('aria-expanded', 'false');
+  }
+});
+document.getElementById('clearFiltersBtn').addEventListener('click', () => {
+  versionFilter.value = 'any';
+  conferenceFilter.value = '';
+  stateFilter.value = '';
+  refreshFilterActiveDot();
+  render();
 });
 
 function render() {
@@ -447,20 +542,36 @@ function render() {
 
 function updateCount() {
   const rows = visibleRows();
+  const selectedInView = rows.filter(r => selected.has(keyOf(r))).length;
   countPill.textContent = `${rows.length} shown · ${selected.size} selected`;
   downloadBtn.disabled = selected.size === 0;
+
+  if (rows.length === 0) {
+    selectAllCheckbox.checked = false;
+    selectAllCheckbox.indeterminate = false;
+    selectAllCheckbox.disabled = true;
+  } else {
+    selectAllCheckbox.disabled = false;
+    selectAllCheckbox.checked = selectedInView === rows.length;
+    selectAllCheckbox.indeterminate = selectedInView > 0 && selectedInView < rows.length;
+  }
 }
 
 searchInput.addEventListener('input', render);
-versionFilter.addEventListener('change', render);
-conferenceFilter.addEventListener('change', render);
+versionFilter.addEventListener('change', () => { refreshFilterActiveDot(); render(); });
+conferenceFilter.addEventListener('change', () => { refreshFilterActiveDot(); render(); });
+stateFilter.addEventListener('change', () => { refreshFilterActiveDot(); render(); });
 
-document.getElementById('selectAllBtn').addEventListener('click', () => {
-  visibleRows().forEach(r => selected.add(keyOf(r)));
-  render();
-});
-document.getElementById('clearBtn').addEventListener('click', () => {
-  selected.clear();
+// Standard "select all" checkbox behavior: unchecked -> selects everything
+// currently visible; checked (or indeterminate) -> clears the selection.
+selectAllCheckbox.addEventListener('click', () => {
+  const rows = visibleRows();
+  const selectedInView = rows.filter(r => selected.has(keyOf(r))).length;
+  if (selectedInView === rows.length) {
+    rows.forEach(r => selected.delete(keyOf(r)));
+  } else {
+    rows.forEach(r => selected.add(keyOf(r)));
+  }
   render();
 });
 
